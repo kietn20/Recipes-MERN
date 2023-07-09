@@ -25,20 +25,24 @@ export const SavedRecipes = () => {
 	return (
 		<div>
 			<h1>Saved Recipes</h1>
-			<ul>
-				{savedRecipes.map((recipe) => (
-					<li key={recipe._id}>
-						<div>
-							<h2>{recipe.name}</h2>
-						</div>
-						<div>
-							<p>{recipe.instructions}</p>
-						</div>
-						<img src={recipe.imageUrl} alt={recipe.name} />
-						<p>Cooking Time: {recipe.cookingTime} (minutes)</p>
-					</li>
-				))}
-			</ul>
+			{!savedRecipes ? (
+				<ul>
+					{savedRecipes.map((recipe) => (
+						<li key={recipe._id}>
+							<div>
+								<h2>{recipe.name}</h2>
+							</div>
+							<div>
+								<p>{recipe.instructions}</p>
+							</div>
+							<img src={recipe.imageUrl} alt={recipe.name} />
+							<p>Cooking Time: {recipe.cookingTime} (minutes)</p>
+						</li>
+					))}
+				</ul>
+			) : (
+				<h1>No current saved recipes</h1>
+			)}
 		</div>
 	);
 };
