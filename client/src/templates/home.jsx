@@ -26,7 +26,7 @@ export const Home = () => {
 		const fetchSavedRecipe = async () => {
 			try {
 				const response = await axios.get(
-					`${url}/recipes/savedRecipes/ids/${userID}`
+					`https://recipes-mern-frontend.vercel.app/recipes/savedRecipes/ids/${userID}`
 				);
 				setSavedRecipes(response.data.savedRecipes);
 			} catch (err) {
@@ -41,7 +41,7 @@ export const Home = () => {
 	const saveRecipe = async (recipeID) => {
 		try {
 			const response = await axios.put(
-				`${url}/recipes`,
+				`https://recipes-mern-frontend.vercel.app/recipes`,
 				{
 					recipeID,
 					userID,
