@@ -34,6 +34,7 @@ router.put("/", verifyToken, async (req, res) => {
         res.json({ savedRecipes: user.savedRecipes });
     } catch (err) {
         res.json(err);
+        res.json("router error from backend")
     }
 });
 
