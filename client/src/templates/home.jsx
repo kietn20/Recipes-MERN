@@ -15,7 +15,7 @@ export const Home = () => {
 		const fetchRecipe = async () => {
 			try {
 				const response = await axios.get(
-					`https://recipes-mern-frontend.vercel.app/recipes`
+					`https://recipe-mern-server.onrender.com/recipes`
 				);
 				setRecipes(response.data);
 			} catch (err) {
@@ -26,7 +26,7 @@ export const Home = () => {
 		const fetchSavedRecipe = async () => {
 			try {
 				const response = await axios.get(
-					`https://recipes-mern-frontend.vercel.app/recipes/savedRecipes/ids/${userID}`
+					`https://recipe-mern-server.onrender.com/recipes/savedRecipes/ids/${userID}`
 				);
 				setSavedRecipes(response.data.savedRecipes);
 			} catch (err) {
@@ -41,7 +41,7 @@ export const Home = () => {
 	const saveRecipe = async (recipeID) => {
 		try {
 			const response = await axios.put(
-				`https://recipes-mern-frontend.vercel.app/recipes`,
+				`https://recipe-mern-server.onrender.com/recipes`,
 				{
 					recipeID,
 					userID,
