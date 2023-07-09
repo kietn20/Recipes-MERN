@@ -20,6 +20,7 @@ export const Home = () => {
 				setRecipes(response.data);
 			} catch (err) {
 				console.err(err);
+				console.err('useEffect error')
 			}
 		};
 
@@ -31,6 +32,7 @@ export const Home = () => {
 				setSavedRecipes(response.data.savedRecipes);
 			} catch (err) {
 				console.err(err);
+				console.err('fetchSavedRecipe error')
 			}
 		};
 
@@ -51,6 +53,7 @@ export const Home = () => {
 			setSavedRecipes(response.data.savedRecipes);
 		} catch (err) {
 			console.err(err);
+			console.err('saveRecipe error')
 		}
 	};
 
