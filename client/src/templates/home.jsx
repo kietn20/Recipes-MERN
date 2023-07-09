@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import axios from "axios";
 import { useGetUserID } from "../hooks/useGetUserID";
 import { useCookies } from "react-cookie";
-import { url } from "../App";
+import { APIurl } from "../App";
 
 export const Home = () => {
 	const [recipes, setRecipes] = useState([]);
@@ -15,7 +15,7 @@ export const Home = () => {
 		const fetchRecipe = async () => {
 			try {
 				const response = await axios.get(
-					`https://recipe-mern-server.onrender.com/recipes`
+					`${APIurl}/recipes`
 				);
 				setRecipes(response.data);
 			} catch (err) {
@@ -27,7 +27,7 @@ export const Home = () => {
 		const fetchSavedRecipe = async () => {
 			try {
 				const response = await axios.get(
-					`https://recipe-mern-server.onrender.com/recipes/savedRecipes/ids/${userID}`
+					`${APIurl}/recipes/savedRecipes/ids/${userID}`
 				);
 				setSavedRecipes(response.data.savedRecipes);
 			} catch (err) {
@@ -43,7 +43,7 @@ export const Home = () => {
 	const saveRecipe = async (recipeID) => {
 		try {
 			const response = await axios.put(
-				`https://recipe-mern-server.onrender.com/recipes`,
+				`${APIurl}/recipes`,
 				{
 					recipeID,
 					userID,

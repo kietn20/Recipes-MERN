@@ -2,6 +2,7 @@ import { useState } from "react";
 import axios from "axios";
 import { useCookies } from "react-cookie";
 import { useNavigate } from "react-router-dom";
+import { APIurl } from "../App";
 
 export const Auth = () => {
 	return (
@@ -24,7 +25,7 @@ const Login = () => {
 		event.preventDefault();
 		try {
 			const response = await axios.post(
-				"http://localhost:3001/auth/login",
+				`${APIurl}/auth/login`,
 				{ username, password }
 			);
 
@@ -55,7 +56,7 @@ const Register = () => {
 	const onSubmit = async (event) => {
 		event.preventDefault();
 		try {
-			await axios.post("http://localhost:3001/auth/register", {
+			await axios.post(`${APIurl}/auth/register`, {
 				username,
 				password,
 			});

@@ -6,7 +6,7 @@ import { CreateRecipes } from "./templates/create-recipes";
 import { SavedRecipes } from "./templates/saved-recipes";
 import { Navbar } from "./components/navbar";
 
-export const url = "https://recipes-mern-frontend.vercel.app"
+export const APIurl = "https://recipe-mern-server.onrender.com"
 
 function App() {
 	return (
