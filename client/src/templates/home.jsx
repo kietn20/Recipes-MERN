@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import axios from "axios";
 import { useGetUserID } from "../hooks/useGetUserID";
 import { useCookies } from "react-cookie";
+import { url } from "../App";
 
 export const Home = () => {
 	const [recipes, setRecipes] = useState([]);
@@ -14,7 +15,7 @@ export const Home = () => {
 		const fetchRecipe = async () => {
 			try {
 				const response = await axios.get(
-					"http://localhost:3001/recipes"
+					`https://recipes-mern-frontend.vercel.app/recipes`
 				);
 				setRecipes(response.data);
 			} catch (err) {
@@ -25,7 +26,7 @@ export const Home = () => {
 		const fetchSavedRecipe = async () => {
 			try {
 				const response = await axios.get(
-					`http://localhost:3001/recipes/savedRecipes/ids/${userID}`
+					`${url}/recipes/savedRecipes/ids/${userID}`
 				);
 				setSavedRecipes(response.data.savedRecipes);
 			} catch (err) {
@@ -40,7 +41,7 @@ export const Home = () => {
 	const saveRecipe = async (recipeID) => {
 		try {
 			const response = await axios.put(
-				"http://localhost:3001/recipes",
+				`${url}/recipes`,
 				{
 					recipeID,
 					userID,
