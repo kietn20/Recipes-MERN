@@ -14,7 +14,7 @@ const app = express();
 app.use(express.json());
 app.use(cors(
     {
-        origin: ["https://recipes-mern.vercel.app/"],
+        origin: ["https://vercel.com/kietn20/recipes-mern-frontend"],
         methods: ["POST", "GET", "PUT"],
         credentials: true
     }
@@ -27,4 +27,4 @@ mongoose.connect(
     `mongodb+srv://${mongoUsername}:${mongoPassword}@recipes.gtceo5q.mongodb.net/recipes?retryWrites=true&w=majority`
 );
 
-app.listen(3001, () => console.log("SERVER STARTED"));
+app.listen("https://vercel.com/kietn20/recipes-mern-frontend", () => console.log("SERVER STARTED"));
