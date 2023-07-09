@@ -14,7 +14,7 @@ const app = express();
 app.use(express.json());
 app.use(cors(
     {
-        origin: ["https://vercel.com/kietn20/recipes-mern-frontend"],
+        origin: ["https://recipe-mern-server.onrender.com/"],
         methods: ["POST", "GET", "PUT"],
         credentials: true
     }
