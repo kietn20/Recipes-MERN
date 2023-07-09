@@ -27,4 +27,4 @@ mongoose.connect(
     `mongodb+srv://${mongoUsername}:${mongoPassword}@recipes.gtceo5q.mongodb.net/recipes?retryWrites=true&w=majority`
 );
 
-app.listen("https://vercel.com/kietn20/recipes-mern-frontend", () => console.log("SERVER STARTED"));
+app.listen("3001", () => console.log("SERVER STARTED"));
