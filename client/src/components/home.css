@@ -1,3 +1,24 @@
 .home {
-    /* border: 1px solid red; */
+    border: 1px solid red;
+}
+
+.home h1 {
+    text-align: center;
+}
+
+.home ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.recipeItem {
+    border: 1px solid black;
+    padding: 10px;
+    margin-bottom: 10px;
+    width: fit-content;
+
+}
+
+.recipeItem img {
 }
