@@ -3,7 +3,9 @@ import axios from "axios";
 import { useGetUserID } from "../hooks/useGetUserID";
 import { useCookies } from "react-cookie";
 import { APIurl } from "../App";
-import "./home.css"
+import "./home.css";
+
+const APIkey = process.env.REACT_APP_SPOONKEY;
 
 export const Home = () => {
 	const [recipes, setRecipes] = useState([]);
@@ -60,9 +62,28 @@ export const Home = () => {
 
 	const isRecipeSaved = (id) => savedRecipes.includes(id);
 
+	const randomRecipes = async () => {
+		try {
+			const response = await axios.get(
+				"https://api.spoonacular.com/recipes/random"
+			);
+		} catch (err) {}
+	};
+
 	return (
 		<div className="home">
-			<h1>Recipes</h1>
+			<div className="popularDiv">
+				<h1>Popular Recipes</h1>
+				<div>
+					<div className="popular-big">Pho</div>
+					<div className="popular-side">
+						<img src="" alt="side1" />
+						<img src="" alt="side2" />
+						<img src="" alt="side3" />
+						<img src="" alt="side4" />
+					</div>
+				</div>
+			</div>
 			<ul>
 				{recipes.map((recipe) => (
 					<li className="recipeItem" key={recipe._id}>
