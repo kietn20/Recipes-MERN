@@ -1,0 +1,16 @@
+.register-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 1px 7px rgba(0, 0, 0, 0.3);
+    margin: 10rem auto;
+    width: 400px;
+}
+
+.register-container h1 {
+    font-size: 2rem;
+}

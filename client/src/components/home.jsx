@@ -3,6 +3,7 @@ import axios from "axios";
 import { useGetUserID } from "../hooks/useGetUserID";
 import { useCookies } from "react-cookie";
 import { APIurl } from "../App";
+import "./home.css"
 
 export const Home = () => {
 	const [recipes, setRecipes] = useState([]);
@@ -14,13 +15,11 @@ export const Home = () => {
 	useEffect(() => {
 		const fetchRecipe = async () => {
 			try {
-				const response = await axios.get(
-					`${APIurl}/recipes`
-				);
+				const response = await axios.get(`${APIurl}/recipes`);
 				setRecipes(response.data);
 			} catch (err) {
 				console.err(err);
-				console.err('useEffect error')
+				console.err("useEffect error");
 			}
 		};
 
@@ -32,7 +31,7 @@ export const Home = () => {
 				setSavedRecipes(response.data.savedRecipes);
 			} catch (err) {
 				console.err(err);
-				console.err('fetchSavedRecipe error')
+				console.err("fetchSavedRecipe error");
 			}
 		};
 
@@ -50,19 +49,19 @@ export const Home = () => {
 				},
 				{ headers: { authorization: cookies.access_token } }
 			);
-			console.log(response)
-			console.log(response.data)
+			console.log(response);
+			console.log(response.data);
 			setSavedRecipes(response.data.savedRecipes);
 		} catch (err) {
 			console.err(err);
-			console.err('!!!!!!!!!!!!!!!saveRecipe error')
+			console.err("!!!!!!!!!!!!!!!saveRecipe error");
 		}
 	};
 
 	const isRecipeSaved = (id) => savedRecipes.includes(id);
 
 	return (
-		<div>
+		<div className="home">
 			<h1>Recipes</h1>
 			<ul>
 				{recipes.map((recipe) => (

@@ -1,5 +1,6 @@
 import { Link, useNavigate } from "react-router-dom";
 import { useCookies } from "react-cookie";
+import "./navbar.css";
 
 export const Navbar = () => {
 	const [cookies, setCookies] = useCookies(["access_token"]);
@@ -8,20 +9,28 @@ export const Navbar = () => {
 	const logout = () => {
 		setCookies("access_token", "");
 		window.localStorage.removeItem("userID");
-		navigate("/auth");
+		navigate("/");
 	};
 	return (
 		<div className="navbar">
-			<Link to="/">Home</Link>
-			<Link to="/create-recipes">Create Recipes</Link>
-			{!cookies.access_token ? (
-				<Link to="/auth">Login/Register</Link>
-			) : (
-				<>
-					<Link to="/saved-recipes">Saved Recipes</Link>
-					<button onClick={logout}>Logout</button>
-				</>
-			)}
+			<Link to="/">
+				<img src="./src/assets/cooked-logo.png" alt="logo" />
+			</Link>
+			<div className="navlinks">
+				<Link to="/create-recipes">Create Recipes</Link>
+				{!cookies.access_token ? (
+					<div>
+						{/* <Link to="/auth">Login/Register</Link> */}
+						<Link to="/login">Login</Link>
+						<Link to="/register">Register</Link>
+					</div>
+				) : (
+					<>
+						<Link to="/saved-recipes">Saved Recipes</Link>
+						<a className="logout" onClick={logout}>Logout</a>
+					</>
+				)}
+			</div>
 		</div>
 	);
 };
