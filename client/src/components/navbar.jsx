@@ -14,7 +14,7 @@ export const Navbar = () => {
 	return (
 		<div className="navbar">
 			<Link to="/">
-				<img src="/src/assets/cooked-logo.png" alt="logo" />
+				<img src="../assets/cooked-logo.png" alt="logo" />
 			</Link>
 			<div className="navlinks">
 				<Link to="/create-recipes">Create Recipes</Link>
@@ -27,7 +27,9 @@ export const Navbar = () => {
 				) : (
 					<>
 						<Link to="/saved-recipes">Saved Recipes</Link>
-						<a className="logout" onClick={logout}>Logout</a>
+						<a className="logout" onClick={logout}>
+							Logout
+						</a>
 					</>
 				)}
 			</div>
