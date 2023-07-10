@@ -15,10 +15,6 @@ export const Navbar = () => {
 		<div className="navbar">
 			<Link to="/">
 				<img src="./cooked-logo.png" alt="logo1" />
-				<img src="../public/cooked-logo.png" alt="logo2" />
-				<img src="/cooked-logo.png" alt="logo3" />
-				<img src="/dist/assets/cooked-logo.png" alt="logo4" />
-				<img src="/dist/cooked-logo.png" alt="logo5" />
 			</Link>
 			<div className="navlinks">
 				<Link to="/create-recipes">Create Recipes</Link>
