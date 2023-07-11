@@ -1,9 +1,7 @@
 .home {
     border: 1px solid red;
-}
-
-.home h1 {
-    text-align: center;
+    /* font-family: 'DM Sans', sans-serif; */
+    font-family: 'Poppins', sans-serif;
 }
 
 .home ul {
@@ -21,4 +19,56 @@
 }
 
 .recipeItem img {
+}
+
+.popularDiv {
+    margin-top: 5rem;
+    background-color: rgb(215, 231, 215);
+    padding: 20px;
+}
+
+.popular-title {
+    text-align: center;
+}
+
+.popular-recipes {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+}
+
+.popular-big {
+    border: 1px solid pink;
+    display: flex;
+    flex-direction: column;
+}
+
+.popular-big img {
+    width: 50rem;
+}
+
+.popular-side {
+    padding: 0 3rem;
+    border: 2px dotted rgb(255, 0, 0);
+    display: flex;
+    flex-direction: column;
+}
+
+.popular-side img {
+    max-width: 8rem;
+
+}
+
+.popular-side div {
+    border: 2px solid rgb(247, 162, 247);
+    display: flex;
+    margin-bottom: 1rem;
+}
+
+.popular-side div h1 {
+    padding: 0px 2rem;
+}
+
+.popular-side img {
+    width: 10rem;
 }

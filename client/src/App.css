@@ -50,11 +50,11 @@ input {
     border-radius: 5px;
 }
 
-a {
+/* a {
     text-decoration: none;
     margin: 10px;
     font-size: 25px;
-}
+} */
 
 .create-recipe {
     display: flex;
@@ -84,19 +84,19 @@ ul {
     margin-bottom: 10px;
 } */
 
-h2 {
+/* h2 {
     margin-top: 0;
-}
+} */
 
-img {
+/* img {
     max-width: 100%;
     height: auto;
     margin-bottom: 10px;
-}
+} */
 
-img {
+/* img {
     width: 400px;
-}
+} */
 
 p {
     max-width: 400px;

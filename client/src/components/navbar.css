@@ -12,11 +12,10 @@
 }
 
 .navbar img {
-    max-width: 100%;
-    height: auto;
     scale: 0.7;
     padding-top: 1rem;
     margin: 2px 0;
+    width: 400px;
 }
 
 .navbar a {
@@ -30,7 +29,7 @@
 .navbar a:hover:not(.logout){
     transition: 0.8s;
     text-decoration: underline;
-    text-decoration-color: orange;
+    text-decoration-color: rgb(255, 123, 0);
 }
 
 .navlinks {

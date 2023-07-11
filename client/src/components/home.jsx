@@ -5,12 +5,15 @@ import { useCookies } from "react-cookie";
 import { APIurl } from "../App";
 import "./home.css";
 
-const APIkey = process.env.REACT_APP_SPOONKEY;
+const APIkey = import.meta.env.VITE_SPOONKEY;
 
 export const Home = () => {
 	const [recipes, setRecipes] = useState([]);
 	const [savedRecipes, setSavedRecipes] = useState([]);
 	const [cookies, _] = useCookies(["access_token"]);
+	const [apiRecipes, setApiRecipes] = useState([]);
+	const [recipesIDs, setRecipesIDs] = useState([])
+	const [recipesInfo, setRecipesInfo] = useState([])
 
 	const userID = useGetUserID();
 
@@ -62,25 +65,72 @@ export const Home = () => {
 
 	const isRecipeSaved = (id) => savedRecipes.includes(id);
 
-	const randomRecipes = async () => {
+	const popularRecipes = async () => {
 		try {
 			const response = await axios.get(
-				"https://api.spoonacular.com/recipes/random"
+				`https://api.spoonacular.com/recipes/complexSearch?apiKey=${APIkey}&sort=popularity&number=4`
 			);
-		} catch (err) {}
+			console.log("Returning: popularRecipes")
+			console.log(response.data.results);
+			setApiRecipes(response.data.results);
+		} catch (err) {
+			console.error(err);
+			console.error("randomRecipes ERROR");
+		}
 	};
+
+	const getPopularRecipesInfo = async (id) => {
+		try {
+			const response = await axios.get(`https://api.spoonacular.com/recipes/${id}/information?apiKey=${APIkey}`)
+			console.log('Returning: individual recipe info')
+			setRecipesInfo([...recipesInfo, response.data])
+		} catch (err) {
+			console.error(err)
+			console.error("from getPopularRecipesInfo function")
+		}
+	}
+
+	// popularRecipes();
+	console.log(apiRecipes);
+
+	apiRecipes.map((recipe) => {
+		console.log(recipe.title);
+		console.log(recipe.id);
+		setRecipesIDs([...recipesIDs, recipe.id]);
+	})
+
+	recipesIDs.map((id) => {
+		getPopularRecipesInfo(id);
+		// console.log("new info" + newInfo)
+		// setRecipesInfo([...recipesInfo, newInfo]
+	})
 
 	return (
 		<div className="home">
 			<div className="popularDiv">
-				<h1>Popular Recipes</h1>
-				<div>
-					<div className="popular-big">Pho</div>
+				<h1 className="popular-title">Popular Recipes</h1>
+				<div className="popular-recipes">
+					<div className="popular-big">
+						<a href="">
+							<img
+								src="https://hips.hearstapps.com/hmg-prod/images/instant-pot-pho-1-1649171262.jpg?crop=0.888888888888889xw:1xh;center,top&resize=1200:*"
+								alt=""
+							/>
+							<h1>Pho Bo (Vietnamese Beef Noodle Soup) </h1>
+						</a>
+					</div>
 					<div className="popular-side">
-						<img src="" alt="side1" />
-						<img src="" alt="side2" />
-						<img src="" alt="side3" />
-						<img src="" alt="side4" />
+						{recipesInfo.map((info) => (
+							<a href={info.spoonacularSourceUrl}>
+								<div>
+									<img
+										src={info.image}
+										alt={info.title}
+									/>
+									<h1>{info.title}</h1>
+								</div>
+							</a>
+						))}
 					</div>
 				</div>
 			</div>
