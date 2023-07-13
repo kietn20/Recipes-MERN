@@ -4,16 +4,19 @@ import { useGetUserID } from "../hooks/useGetUserID";
 import { useCookies } from "react-cookie";
 import { APIurl } from "../App";
 import "./home.css";
+import { spoonRecipes } from "./featuredRecipes";
+import { BiLike } from "react-icons/bi";
+import popularRecipes from "./data.json";
 
 const APIkey = import.meta.env.VITE_SPOONKEY;
+// const recipesInfo = await spoonRecipes();
+const recipesInfo = popularRecipes;
+console.log(recipesInfo)
 
 export const Home = () => {
 	const [recipes, setRecipes] = useState([]);
 	const [savedRecipes, setSavedRecipes] = useState([]);
 	const [cookies, _] = useCookies(["access_token"]);
-	const [apiRecipes, setApiRecipes] = useState([]);
-	const [recipesIDs, setRecipesIDs] = useState([])
-	const [recipesInfo, setRecipesInfo] = useState([])
 
 	const userID = useGetUserID();
 
@@ -65,69 +68,58 @@ export const Home = () => {
 
 	const isRecipeSaved = (id) => savedRecipes.includes(id);
 
-	const popularRecipes = async () => {
-		try {
-			const response = await axios.get(
-				`https://api.spoonacular.com/recipes/complexSearch?apiKey=${APIkey}&sort=popularity&number=4`
-			);
-			console.log("Returning: popularRecipes")
-			console.log(response.data.results);
-			setApiRecipes(response.data.results);
-		} catch (err) {
-			console.error(err);
-			console.error("randomRecipes ERROR");
-		}
-	};
-
-	const getPopularRecipesInfo = async (id) => {
-		try {
-			const response = await axios.get(`https://api.spoonacular.com/recipes/${id}/information?apiKey=${APIkey}`)
-			console.log('Returning: individual recipe info')
-			setRecipesInfo([...recipesInfo, response.data])
-		} catch (err) {
-			console.error(err)
-			console.error("from getPopularRecipesInfo function")
-		}
-	}
-
-	// popularRecipes();
-	console.log(apiRecipes);
-
-	apiRecipes.map((recipe) => {
-		console.log(recipe.title);
-		console.log(recipe.id);
-		setRecipesIDs([...recipesIDs, recipe.id]);
-	})
-
-	recipesIDs.map((id) => {
-		getPopularRecipesInfo(id);
-		// console.log("new info" + newInfo)
-		// setRecipesInfo([...recipesInfo, newInfo]
-	})
-
 	return (
 		<div className="home">
 			<div className="popularDiv">
 				<h1 className="popular-title">Popular Recipes</h1>
 				<div className="popular-recipes">
 					<div className="popular-big">
-						<a href="">
+						<a
+							href="https://www.vickypham.com/blog/vietnamese-beef-noodle-soup-pho-bo"
+							target="_blank"
+						>
 							<img
 								src="https://hips.hearstapps.com/hmg-prod/images/instant-pot-pho-1-1649171262.jpg?crop=0.888888888888889xw:1xh;center,top&resize=1200:*"
-								alt=""
+								alt="pho bo"
 							/>
-							<h1>Pho Bo (Vietnamese Beef Noodle Soup) </h1>
+							<h1>Phở Bò (Vietnamese Beef Noodle Soup) </h1>
 						</a>
 					</div>
 					<div className="popular-side">
-						{recipesInfo.map((info) => (
-							<a href={info.spoonacularSourceUrl}>
+						{Object.keys(recipesInfo).map((key, i) => (
+							<a
+								href={recipesInfo[key].sourceUrl}
+								key={i}
+								target="_blank"
+							>
 								<div>
 									<img
-										src={info.image}
-										alt={info.title}
+										src={recipesInfo[key].image}
+										alt={recipesInfo[key].title}
 									/>
-									<h1>{info.title}</h1>
+									<div className="popular-side-description">
+										<h1>{recipesInfo[key].title}</h1>
+										<div className="popular-side-facts">
+											<div className="popular-side-likes">
+												<BiLike />
+												<h5>
+													&nbsp;
+													{
+														recipesInfo[key]
+															.aggregateLikes.toLocaleString("en-US")
+													}
+												</h5>
+											</div>
+											<h5>
+												Ready in&nbsp;
+												{
+													recipesInfo[key]
+														.readyInMinutes
+												}
+												&nbsp;minutes
+											</h5>
+										</div>
+									</div>
 								</div>
 							</a>
 						))}

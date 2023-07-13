@@ -1,7 +1,19 @@
 .home {
-    border: 1px solid red;
+    /* border: 1px solid red; */
     /* font-family: 'DM Sans', sans-serif; */
     font-family: 'Poppins', sans-serif;
+}
+
+.home a {
+    color: black;
+    text-decoration: none;
+    border: 1px solid transparent;
+}
+
+.home a:hover {
+    transition: 0.8s;
+    /* border: 1px solid rgb(243, 205, 133); */
+    border-radius: 10px;
 }
 
 .home ul {
@@ -19,12 +31,12 @@
 }
 
 .recipeItem img {
+    border-radius: 10px;
 }
 
 .popularDiv {
-    margin-top: 5rem;
-    background-color: rgb(215, 231, 215);
-    padding: 20px;
+    background-color: rgb(240, 227, 210);
+    padding: 20px 0px 30px 0px;
 }
 
 .popular-title {
@@ -37,38 +49,82 @@
     align-items: start;
 }
 
+.popular-recipes img {
+    border-radius: 10px;
+}
+
 .popular-big {
-    border: 1px solid pink;
     display: flex;
     flex-direction: column;
+}
+
+.popular-big h1 {
+    margin: 0;
+    font-size: 25px;
+    text-align: center;
+}
+
+.popular-big h1:hover {
+    text-decoration: underline;
 }
 
 .popular-big img {
-    width: 50rem;
+    width: 40rem;
 }
 
 .popular-side {
-    padding: 0 3rem;
-    border: 2px dotted rgb(255, 0, 0);
+    padding: 0 0 0 2rem;
     display: flex;
     flex-direction: column;
+    /* width: 450px; */
+    gap: 1rem;
+}
+
+.popular-side a {
+    /* border: 1px solid rgb(10, 255, 35); */
 }
 
 .popular-side img {
     max-width: 8rem;
-
 }
 
-.popular-side div {
-    border: 2px solid rgb(247, 162, 247);
+.popular-side a div {
     display: flex;
-    margin-bottom: 1rem;
 }
 
 .popular-side div h1 {
-    padding: 0px 2rem;
+    padding: 0px 1rem;
+    font-size: 1rem;
+    margin: 0;
+}
+
+.popular-side div h1:hover {
+    text-decoration: underline;
 }
 
 .popular-side img {
     width: 10rem;
+}
+
+.popular-side-description {
+    display: flex;
+    flex-direction: column;
+}
+
+.popular-side-facts {
+    display: flex;
+    flex-direction: column;
+    padding: 0px 0rem;
+    margin: 0;
+    padding: 0px 1rem;
+}
+
+.popular-side-facts h5 {
+    /* border: 1px solid lightgreen; */
+    margin: 0;
+    font-weight: 300;
+}
+
+.popular-side-likes {
+    display: flex;
 }
