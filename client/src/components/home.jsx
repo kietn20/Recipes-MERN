@@ -6,12 +6,16 @@ import { APIurl } from "../App";
 import "./home.css";
 import { spoonRecipes } from "./featuredRecipes";
 import { BiLike } from "react-icons/bi";
+import { Breakfast } from "./breakfast";
 import popularRecipes from "./data.json";
+import breakfastRecipes from "./breakfast.json";
 
 const APIkey = import.meta.env.VITE_SPOONKEY;
 // const recipesInfo = await spoonRecipes();
 const recipesInfo = popularRecipes;
-console.log(recipesInfo)
+// console.log(recipesInfo)
+
+// const breakfastRecipes = await Breakfast();
 
 export const Home = () => {
 	const [recipes, setRecipes] = useState([]);
@@ -104,10 +108,11 @@ export const Home = () => {
 												<BiLike />
 												<h5>
 													&nbsp;
-													{
-														recipesInfo[key]
-															.aggregateLikes.toLocaleString("en-US")
-													}
+													{recipesInfo[
+														key
+													].aggregateLikes.toLocaleString(
+														"en-US"
+													)}
 												</h5>
 											</div>
 											<h5>
@@ -126,26 +131,65 @@ export const Home = () => {
 					</div>
 				</div>
 			</div>
-			<ul>
-				{recipes.map((recipe) => (
-					<li className="recipeItem" key={recipe._id}>
-						<div>
-							<h2>{recipe.name}</h2>
-							<button
-								onClick={() => saveRecipe(recipe._id)}
-								disabled={isRecipeSaved(recipe._id)}
-							>
-								{isRecipeSaved(recipe._id) ? "Saved" : "Save"}
-							</button>
-						</div>
-						<div>
-							<p>{recipe.instructions}</p>
-						</div>
-						<img src={recipe.imageUrl} alt={recipe.name} />
-						<p>Cooking Time: {recipe.cookingTime} (minutes)</p>
-					</li>
-				))}
-			</ul>
+			<div className="breakfast">
+				<h1 className="title">Breakfast</h1>
+				<div className="breakfast-display">
+					{Object.keys(breakfastRecipes).map((key, i) => (
+						<a
+							href={breakfastRecipes[key].sourceUrl}
+							key={i}
+							target="_blank"
+						>
+							<div className="breakfast-item">
+								<img
+									src={breakfastRecipes[key].image}
+									alt={breakfastRecipes[key].title}
+								/>
+								<div className="breakfast-description">
+									<h4>{breakfastRecipes[key].title}</h4>
+										<h5>
+											Ready in&nbsp;
+											{
+												breakfastRecipes[key]
+													.readyInMinutes
+											}
+											&nbsp;minutes
+										</h5>
+								</div>
+							</div>
+						</a>
+					))}
+				</div>
+			</div>
+			<div className="usersRecipes">
+				<h1>User Created Recipes</h1>
+				<ul>
+					{recipes.map((recipe) => (
+						<li className="recipeItem" key={recipe._id}>
+							<div>
+								<h2>
+									<a href="#" className="underline">
+										{recipe.name}
+									</a>
+								</h2>
+								<button
+									onClick={() => saveRecipe(recipe._id)}
+									disabled={isRecipeSaved(recipe._id)}
+								>
+									{isRecipeSaved(recipe._id)
+										? "Saved"
+										: "Save"}
+								</button>
+							</div>
+							<div>
+								<p>{recipe.instructions}</p>
+							</div>
+							<img src={recipe.imageUrl} alt={recipe.name} />
+							<p>Cooking Time: {recipe.cookingTime} (minutes)</p>
+						</li>
+					))}
+				</ul>
+			</div>
 		</div>
 	);
 };
