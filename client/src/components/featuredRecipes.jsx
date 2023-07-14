@@ -1,5 +1,4 @@
 import axios from "axios";
-import * as fs from "fs";
 
 const APIkey = import.meta.env.VITE_SPOONKEY;
 

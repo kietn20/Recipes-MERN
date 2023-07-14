@@ -1,5 +1,4 @@
 import axios from "axios";
-import * as fs from 'fs';
 
 const APIkey = import.meta.env.VITE_SPOONKEY;
 
@@ -24,4 +23,4 @@ export const Breakfast = async () => {
 	}
 };
 
-console.log(await Breakfast());
+// console.log(await Breakfast());
