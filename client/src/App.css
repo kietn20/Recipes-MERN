@@ -7,6 +7,10 @@
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }   */
 
+html {
+    height: 100%;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -78,27 +82,16 @@ ul {
     margin: 0;
 }
 
-/* li {
-    border: 1px solid black;
-    padding: 10px;
-    margin-bottom: 10px;
-} */
-
-/* h2 {
-    margin-top: 0;
-} */
-
-/* img {
-    max-width: 100%;
-    height: auto;
-    margin-bottom: 10px;
-} */
-
-/* img {
-    width: 400px;
-} */
-
 p {
     max-width: 400px;
     font-size: 12px;
+}
+
+footer {
+    margin-top: 6rem;
+    text-align: center;
+    min-height: auto;
+    background-color: #ff9c88;
+    display: flex;
+    justify-content: space-evenly;
 }

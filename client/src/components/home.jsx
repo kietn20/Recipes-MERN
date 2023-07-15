@@ -9,6 +9,9 @@ import { BiLike } from "react-icons/bi";
 import { Breakfast } from "./breakfast";
 import popularRecipes from "./data.json";
 import breakfastRecipes from "./breakfast.json";
+import mainCourse from "./mainCourse.json";
+import desserts from "./dessert.json";
+import Contact from "./Contact";
 
 const APIkey = import.meta.env.VITE_SPOONKEY;
 // const recipesInfo = await spoonRecipes();
@@ -16,6 +19,8 @@ const recipesInfo = popularRecipes;
 // console.log(recipesInfo)
 
 // const breakfastRecipes = await Breakfast();
+const mainCourseRecipes = mainCourse.results;
+const dessertRecipes = desserts.results;
 
 export const Home = () => {
 	const [recipes, setRecipes] = useState([]);
@@ -147,14 +152,70 @@ export const Home = () => {
 								/>
 								<div className="breakfast-description">
 									<h4>{breakfastRecipes[key].title}</h4>
+									<h5>
+										Ready in&nbsp;
+										{breakfastRecipes[key].readyInMinutes}
+										&nbsp;minutes
+									</h5>
+								</div>
+							</div>
+						</a>
+					))}
+				</div>
+			</div>
+			<div className="breakfast">
+				<h1 className="title">Meals</h1>
+				<div className="breakfast-display">
+					{Object.keys(mainCourseRecipes.slice(0, 6)).map(
+						(key, i) => (
+							<a
+								href={mainCourseRecipes[key].sourceUrl}
+								key={i}
+								target="_blank"
+							>
+								<div className="breakfast-item">
+									<img
+										src={mainCourseRecipes[key].image}
+										alt={mainCourseRecipes[key].title}
+									/>
+									<div className="breakfast-description">
+										<h4>{mainCourseRecipes[key].title}</h4>
 										<h5>
 											Ready in&nbsp;
 											{
-												breakfastRecipes[key]
+												mainCourseRecipes[key]
 													.readyInMinutes
 											}
 											&nbsp;minutes
 										</h5>
+									</div>
+								</div>
+							</a>
+						)
+					)}
+				</div>
+			</div>
+			<div className="breakfast">
+				<h1 className="title">Desserts</h1>
+				<div className="breakfast-display">
+					{Object.keys(dessertRecipes.slice(0, 6)).map((key, i) => (
+						<a
+							href={dessertRecipes[key].sourceUrl}
+							key={i}
+							target="_blank"
+						>
+							<div className="breakfast-item">
+								<img
+									src={dessertRecipes[key].image}
+									alt={dessertRecipes[key].title}
+								/>
+								<div className="breakfast-description">
+									<h4>{dessertRecipes[key].title}</h4>
+									<h5>
+										Ready in&nbsp;
+										{dessertRecipes[key].readyInMinutes}
+										&nbsp;minutes
+									</h5>
 								</div>
 							</div>
 						</a>
@@ -190,6 +251,20 @@ export const Home = () => {
 					))}
 				</ul>
 			</div>
+			<footer>
+				<div>
+					<h1>About</h1>
+					<p>
+						Lorem ipsum dolor sit amet consectetur, adipisicing
+						elit. Dolores facere minima ut. Illo praesentium at quo
+						minima deleniti dolorum eos, ut ipsum esse possimus
+						culpa animi ab sapiente nesciunt et!
+					</p>
+				</div>
+				<div>
+					<Contact />
+				</div>
+			</footer>
 		</div>
 	);
 };

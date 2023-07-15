@@ -1,0 +1,80 @@
+.Contact-div {
+    width: 35vw;
+    height: auto;
+	margin: auto;
+    font-family: 'Roboto', sans-serif;
+    background-color: #ff9c88;
+    border-radius: 30px;
+}
+
+.Contact-card {
+    display: flex;
+    justify-content: center;
+    align-items:end;
+}
+
+.Contact-card img {
+    width: 250px;
+    height: 250px;
+}
+
+.Contact-card form {
+    width: 350px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.Contact-card form h1 {
+    font-style: italic;
+    font-size: 1rem;
+}
+
+.Contact-card form label {
+    border: 1px transparent solid;
+    transition: 0.8s;
+    text-align: left;
+    font-size: 0.8rem;
+}
+
+.Contact-card form input:not(.form-send, .form-sent), .Contact-card form textarea:not(.form-send, .form-sent){
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid white;
+    padding: 1px 0 1px 0;
+    font-size: 15px;
+    color: rgb(134, 37, 180);
+    outline-width: 0;
+    margin-bottom: 5px;
+}
+
+.Contact-card form textarea {
+    height: 20px;
+}
+
+.form-send {
+    margin: 5px auto;
+    padding: 0.5rem;
+    background-color: orange;
+    border: 1px solid #8d4e07;
+    color: rgb(245, 245, 204);
+    border-radius: 10px;
+    font-size: 1rem;
+}
+
+.form-send:hover {
+    transition: 0.8s;
+    color: white;
+    border: 1px solid #764408;
+    background-color: orangered;
+}
+
+.form-sent {
+    margin: auto;
+    /* padding: 0.5rem; */
+    font-size: 1rem;
+    transition: 0.8s;
+    color: orangered;
+    background-color: transparent;
+    border: none;
+}
