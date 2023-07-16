@@ -90,7 +90,7 @@ p {
 footer {
     margin-top: 6rem;
     text-align: center;
-    min-height: auto;
+    min-height: 100%;
     background-color: #ff9c88;
     display: flex;
     justify-content: space-evenly;

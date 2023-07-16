@@ -11,7 +11,7 @@ import popularRecipes from "./data.json";
 import breakfastRecipes from "./breakfast.json";
 import mainCourse from "./mainCourse.json";
 import desserts from "./dessert.json";
-import Contact from "./Contact";
+import { Footer } from "./footer";
 
 const APIkey = import.meta.env.VITE_SPOONKEY;
 // const recipesInfo = await spoonRecipes();
@@ -251,20 +251,7 @@ export const Home = () => {
 					))}
 				</ul>
 			</div>
-			<footer>
-				<div>
-					<h1>About</h1>
-					<p>
-						Lorem ipsum dolor sit amet consectetur, adipisicing
-						elit. Dolores facere minima ut. Illo praesentium at quo
-						minima deleniti dolorum eos, ut ipsum esse possimus
-						culpa animi ab sapiente nesciunt et!
-					</p>
-				</div>
-				<div>
-					<Contact />
-				</div>
-			</footer>
+			<Footer />
 		</div>
 	);
 };

@@ -7,8 +7,9 @@ import { Register } from "./components/register";
 import { CreateRecipes } from "./components/create-recipes";
 import { SavedRecipes } from "./components/saved-recipes";
 import { Navbar } from "./components/navbar";
+import { RecipesTemplate } from "./components/recipesTemplate";
 
-export const APIurl = "https://recipe-mern-server.onrender.com"
+export const APIurl = "https://recipe-mern-server.onrender.com";
 
 function App() {
 	return (
@@ -20,6 +21,10 @@ function App() {
 					<Route path="/auth" element={<Auth />}></Route>
 					<Route path="/login" element={<Login />}></Route>
 					<Route path="/register" element={<Register />}></Route>
+					<Route
+						path="/recipes"
+						element={<RecipesTemplate />}
+					></Route>
 					<Route
 						path="/create-recipes"
 						element={<CreateRecipes />}
