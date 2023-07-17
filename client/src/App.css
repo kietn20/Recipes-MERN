@@ -87,6 +87,12 @@ p {
     font-size: 12px;
 }
 
+.title {
+    text-decoration: underline;
+    text-decoration-color: orangered;
+    text-underline-offset: 6px;
+}
+
 footer {
     margin-top: 6rem;
     text-align: center;

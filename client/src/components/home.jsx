@@ -6,19 +6,16 @@ import { APIurl } from "../App";
 import "./home.css";
 import { spoonRecipes } from "./featuredRecipes";
 import { BiLike } from "react-icons/bi";
-import { Breakfast } from "./breakfast";
-import popularRecipes from "./data.json";
-import breakfastRecipes from "./breakfast.json";
-import mainCourse from "./mainCourse.json";
-import desserts from "./dessert.json";
+import popularRecipes from "../api/popular.json";
+import breakfast from "../api/breakfast.json";
+import mainCourse from "../api/mainCourse.json";
+import desserts from "../api/dessert.json";
 import { Footer } from "./footer";
 
 const APIkey = import.meta.env.VITE_SPOONKEY;
-// const recipesInfo = await spoonRecipes();
-const recipesInfo = popularRecipes;
-// console.log(recipesInfo)
 
-// const breakfastRecipes = await Breakfast();
+const recipesInfo = popularRecipes;
+const breakfastRecipes = breakfast.results;
 const mainCourseRecipes = mainCourse.results;
 const dessertRecipes = desserts.results;
 
@@ -139,7 +136,7 @@ export const Home = () => {
 			<div className="breakfast">
 				<h1 className="title">Breakfast</h1>
 				<div className="breakfast-display">
-					{Object.keys(breakfastRecipes).map((key, i) => (
+					{Object.keys(breakfastRecipes.slice(0,6)).map((key, i) => (
 						<a
 							href={breakfastRecipes[key].sourceUrl}
 							key={i}

@@ -1,31 +1,31 @@
-import { Navbar } from "./navbar";
 import { Footer } from "./footer";
 import { useLocation } from "react-router-dom";
+import "./recipesTemplate.css";
 
 export const RecipesTemplate = () => {
-    const location = useLocation()
-    const obj = location.state.dessertRecipes
-    console.log(obj);
+	const location = useLocation();
+	const obj = location.state[0].results;
+	console.log(location.state[0]);
 	return (
-		<div>
-			{Object.keys(obj).map((key, i) => (
-				<a href={dessertRecipes[key].sourceUrl} key={i} target="_blank">
-					<div className="breakfast-item">
-						<img
-							src={dessertRecipes[key].image}
-							alt={dessertRecipes[key].title}
-						/>
-						<div className="breakfast-description">
-							<h4>{dessertRecipes[key].title}</h4>
-							<h5>
-								Ready in&nbsp;
-								{dessertRecipes[key].readyInMinutes}
-								&nbsp;minutes
-							</h5>
+		<div className="wrapper">
+			<h1 className="title">{location.state[1]}</h1>
+			<div className="wrapper-display">
+				{Object.keys(obj).map((key, i) => (
+					<a href={obj[key].sourceUrl} key={i} target="_blank">
+						<div className="wrapper-item">
+							<img src={obj[key].image} alt={obj[key].title} />
+							<div className="wrapper-description">
+								<h4>{obj[key].title}</h4>
+								<h5>
+									Ready in&nbsp;
+									{obj[key].readyInMinutes}
+									&nbsp;minutes
+								</h5>
+							</div>
 						</div>
-					</div>
-				</a>
-			))}
+					</a>
+				))}
+			</div>
 			<Footer />
 		</div>
 	);

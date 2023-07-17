@@ -1,9 +1,3 @@
-.title {
-    text-decoration: underline;
-    text-decoration-color: orangered;
-    text-underline-offset: 6px;
-}
-
 .home {
     /* border: 1px solid red; */
     /* font-family: 'DM Sans', sans-serif; */
@@ -229,8 +223,8 @@
     display: inline;
     position: relative;
     overflow: hidden;
-  }
-  .underline:after {
+}
+.underline:after {
     content: "";
     position: absolute;
     z-index: -1;
@@ -242,11 +236,11 @@
     transition-property: width;
     transition-duration: 0.3s;
     transition-timing-function: ease-out;
-  }
-  .underline:hover:after,
-  .underline:focus:after,
-  .underline:active:after {
+}
+.underline:hover:after,
+.underline:focus:after,
+.underline:active:after {
     left: 0;
     right: auto;
     width: 100%;
-  }
+}
