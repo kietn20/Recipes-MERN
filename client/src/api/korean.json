@@ -1,0 +1,5235 @@
+{
+	"results": [
+		{
+			"vegetarian": false,
+			"vegan": false,
+			"glutenFree": false,
+			"dairyFree": false,
+			"veryHealthy": false,
+			"cheap": false,
+			"veryPopular": false,
+			"sustainable": false,
+			"lowFodmap": false,
+			"weightWatcherSmartPoints": 20,
+			"gaps": "no",
+			"preparationMinutes": -1,
+			"cookingMinutes": -1,
+			"aggregateLikes": 58,
+			"healthScore": 1,
+			"creditsText": "Foodista.com – The Cooking Encyclopedia Everyone Can Edit",
+			"license": "CC BY 3.0",
+			"sourceName": "Foodista",
+			"pricePerServing": 122.14,
+			"id": 649056,
+			"title": "Korean Honey Citron Tea Cheesecake",
+			"readyInMinutes": 45,
+			"servings": 8,
+			"sourceUrl": "http://www.foodista.com/recipe/PB5GFPYT/yuja-korean-honey-citron-tea-cheesecake",
+			"image": "https://spoonacular.com/recipeImages/649056-312x231.jpg",
+			"imageType": "jpg",
+			"summary": "Korean Honey Citron Tea Cheesecake requires roughly <b>45 minutes</b> from start to finish. One portion of this dish contains approximately <b>6g of protein</b>, <b>27g of fat</b>, and a total of <b>454 calories</b>. For <b>$1.22 per serving</b>, this recipe <b>covers 7%</b> of your daily requirements of vitamins and minerals. This recipe serves 8. This recipe from Foodista requires water, cream cheese, lemon juice, and sugar. It works well as an affordable dessert. 58 people were impressed by this recipe. This recipe is typical of Korean cuisine. With a spoonacular <b>score of 26%</b>, this dish is not so tremendous. If you like this recipe, you might also like recipes such as <a href=\"https://spoonacular.com/recipes/a-visit-to-the-charleston-tea-plantation-iced-tea-with-honey-lemon-ginger-ice-cubes-495571\">A Visit to the Charleston Tea Plantation + Iced Tea with Honey Lemon Ginger Ice Cubes</a>, <a href=\"https://spoonacular.com/recipes/korean-chilli-sesame-honey-chicken-1089523\">Korean chilli, sesame & honey chicken</a>, and <a href=\"https://spoonacular.com/recipes/tartelettes-au-citron-53422\">Tartelettes Au Citron</a>.",
+			"cuisines": ["Korean", "Asian"],
+			"dishTypes": ["dessert"],
+			"diets": [],
+			"occasions": [],
+			"analyzedInstructions": [
+				{
+					"name": "",
+					"steps": [
+						{
+							"number": 1,
+							"step": "Line a 23cm round pan (with removable base) set aside.",
+							"ingredients": [
+								{
+									"id": 0,
+									"name": "base",
+									"localizedName": "base",
+									"image": ""
+								}
+							],
+							"equipment": [
+								{
+									"id": 404645,
+									"name": "frying pan",
+									"localizedName": "frying pan",
+									"image": "pan.png"
+								}
+							]
+						},
+						{
+							"number": 2,
+							"step": "Combine crushed digestive biscuit crumbs and melted butter together in a mixing bowl.Press the biscuit crumbs onto the base of the prepared pan and put it in the refrigerator for later use.Measure water into a bowl and sprinkle in the gelatin (without stirring with a spoon). Set aside to allow the gelatin to swell (few mins) before setting the bowl over a pot of simmering hot water. Stir with a spoon and once  the gelatin melts, remove the bowl from the pot and set aside to cool to room temperature.",
+							"ingredients": [
+								{
+									"id": 18617,
+									"name": "graham crackers",
+									"localizedName": "graham crackers",
+									"image": "graham-crackers.jpg"
+								},
+								{
+									"id": 18009,
+									"name": "biscuits",
+									"localizedName": "biscuits",
+									"image": "buttermilk-biscuits.jpg"
+								},
+								{
+									"id": 19177,
+									"name": "gelatin",
+									"localizedName": "gelatin",
+									"image": "gelatin-powder.jpg"
+								},
+								{
+									"id": 1001,
+									"name": "butter",
+									"localizedName": "butter",
+									"image": "butter-sliced.jpg"
+								},
+								{
+									"id": 14412,
+									"name": "water",
+									"localizedName": "water",
+									"image": "water.png"
+								},
+								{
+									"id": 0,
+									"name": "base",
+									"localizedName": "base",
+									"image": ""
+								}
+							],
+							"equipment": [
+								{
+									"id": 405907,
+									"name": "mixing bowl",
+									"localizedName": "mixing bowl",
+									"image": "mixing-bowl.jpg"
+								},
+								{
+									"id": 404645,
+									"name": "frying pan",
+									"localizedName": "frying pan",
+									"image": "pan.png"
+								},
+								{
+									"id": 404752,
+									"name": "pot",
+									"localizedName": "pot",
+									"image": "stock-pot.jpg"
+								}
+							]
+						},
+						{
+							"number": 3,
+							"step": "Whisk non-dairy topping cream until peak form (not too stiff), set aside.In another mixing bowl, beat cream cheese and sugar until smooth, then gradually add in milk until combined.",
+							"ingredients": [
+								{
+									"id": 1017,
+									"name": "cream cheese",
+									"localizedName": "cream cheese",
+									"image": "cream-cheese.jpg"
+								},
+								{
+									"id": 1053,
+									"name": "cream",
+									"localizedName": "cream",
+									"image": "fluid-cream.jpg"
+								},
+								{
+									"id": 19335,
+									"name": "sugar",
+									"localizedName": "sugar",
+									"image": "sugar-in-bowl.png"
+								},
+								{
+									"id": 1077,
+									"name": "milk",
+									"localizedName": "milk",
+									"image": "milk.png"
+								}
+							],
+							"equipment": [
+								{
+									"id": 405907,
+									"name": "mixing bowl",
+									"localizedName": "mixing bowl",
+									"image": "mixing-bowl.jpg"
+								},
+								{
+									"id": 404661,
+									"name": "whisk",
+									"localizedName": "whisk",
+									"image": "whisk.png"
+								}
+							]
+						},
+						{
+							"number": 4,
+							"step": "Add lemon juice, honey citron tea paste, mix to combine and add gelatin solution, mix well.Fold in whipped non-dairy topping cream, with a hand whisk.",
+							"ingredients": [
+								{
+									"id": 9152,
+									"name": "lemon juice",
+									"localizedName": "lemon juice",
+									"image": "lemon-juice.jpg"
+								},
+								{
+									"id": 19177,
+									"name": "gelatin",
+									"localizedName": "gelatin",
+									"image": "gelatin-powder.jpg"
+								},
+								{
+									"id": 10093702,
+									"name": "citron",
+									"localizedName": "citron",
+									"image": "yuzu.png"
+								},
+								{
+									"id": 1053,
+									"name": "cream",
+									"localizedName": "cream",
+									"image": "fluid-cream.jpg"
+								},
+								{
+									"id": 19296,
+									"name": "honey",
+									"localizedName": "honey",
+									"image": "honey.png"
+								},
+								{
+									"id": 14355,
+									"name": "tea",
+									"localizedName": "tea",
+									"image": "tea-bags.jpg"
+								}
+							],
+							"equipment": [
+								{
+									"id": 404661,
+									"name": "whisk",
+									"localizedName": "whisk",
+									"image": "whisk.png"
+								}
+							]
+						},
+						{
+							"number": 5,
+							"step": "Pour cream cheese mixture on the prepared cake tin and refrigerate for at least 4 hours until set.To make the topping, heat the gelatin (method same as above) and stir in honey citron tea paste, mix well and leave to cool.",
+							"ingredients": [
+								{
+									"id": 1017,
+									"name": "cream cheese",
+									"localizedName": "cream cheese",
+									"image": "cream-cheese.jpg"
+								},
+								{
+									"id": 19177,
+									"name": "gelatin",
+									"localizedName": "gelatin",
+									"image": "gelatin-powder.jpg"
+								},
+								{
+									"id": 10093702,
+									"name": "citron",
+									"localizedName": "citron",
+									"image": "yuzu.png"
+								},
+								{
+									"id": 19296,
+									"name": "honey",
+									"localizedName": "honey",
+									"image": "honey.png"
+								},
+								{
+									"id": 14355,
+									"name": "tea",
+									"localizedName": "tea",
+									"image": "tea-bags.jpg"
+								}
+							],
+							"equipment": [
+								{
+									"id": 404747,
+									"name": "cake form",
+									"localizedName": "cake form",
+									"image": "cake-pan.png"
+								}
+							],
+							"length": {
+								"number": 240,
+								"unit": "minutes"
+							}
+						},
+						{
+							"number": 6,
+							"step": "Spread the honey citron tea paste thinly and evenly on top of the cheesecake.Refrigerate the cheese cake until it is ready to serve.",
+							"ingredients": [
+								{
+									"id": 1041009,
+									"name": "cheese",
+									"localizedName": "cheese",
+									"image": "cheddar-cheese.png"
+								},
+								{
+									"id": 10093702,
+									"name": "citron",
+									"localizedName": "citron",
+									"image": "yuzu.png"
+								},
+								{
+									"id": 0,
+									"name": "spread",
+									"localizedName": "spread",
+									"image": ""
+								},
+								{
+									"id": 19296,
+									"name": "honey",
+									"localizedName": "honey",
+									"image": "honey.png"
+								},
+								{
+									"id": 14355,
+									"name": "tea",
+									"localizedName": "tea",
+									"image": "tea-bags.jpg"
+								}
+							],
+							"equipment": []
+						}
+					]
+				}
+			],
+			"spoonacularSourceUrl": "https://spoonacular.com/korean-honey-citron-tea-cheesecake-649056"
+		},
+		{
+			"vegetarian": true,
+			"vegan": true,
+			"glutenFree": false,
+			"dairyFree": true,
+			"veryHealthy": false,
+			"cheap": false,
+			"veryPopular": false,
+			"sustainable": false,
+			"lowFodmap": false,
+			"weightWatcherSmartPoints": 12,
+			"gaps": "no",
+			"preparationMinutes": -1,
+			"cookingMinutes": -1,
+			"aggregateLikes": 40,
+			"healthScore": 38,
+			"creditsText": "Foodista.com – The Cooking Encyclopedia Everyone Can Edit",
+			"license": "CC BY 3.0",
+			"sourceName": "Foodista",
+			"pricePerServing": 208.61,
+			"id": 637440,
+			"title": "Chapchae (Korean Stir-Fried Noodles)",
+			"readyInMinutes": 45,
+			"servings": 4,
+			"sourceUrl": "https://www.foodista.com/recipe/RSDBG48H/chapchae-korean-stir-fried-noodles",
+			"image": "https://spoonacular.com/recipeImages/637440-312x231.jpg",
+			"imageType": "jpg",
+			"summary": "Chapchae (Korean Stir-Fried Noodles) is a <b>dairy free, lacto ovo vegetarian, and vegan</b> recipe with 4 servings. This side dish has <b>397 calories</b>, <b>5g of protein</b>, and <b>15g of fat</b> per serving. For <b>$2.09 per serving</b>, this recipe <b>covers 21%</b> of your daily requirements of vitamins and minerals. 40 people have made this recipe and would make it again. It is brought to you by Foodista. From preparation to the plate, this recipe takes approximately <b>45 minutes</b>. A few people really liked this Korean dish. A mixture of soy sauce, salt, baby spinach, and a handful of other ingredients are all it takes to make this recipe so scrumptious. All things considered, we decided this recipe <b>deserves a spoonacular score of 91%</b>. This score is spectacular. Similar recipes include <a href=\"https://spoonacular.com/recipes/chapchae-korean-stir-fried-noodles-1569447\">Chapchae (Korean Stir-Fried Noodles)</a>, <a href=\"https://spoonacular.com/recipes/chapchae-korean-stir-fried-noodles-1250231\">Chapchae (Korean Stir-Fried Noodles)</a>, and <a href=\"https://spoonacular.com/recipes/korean-stir-fried-noodles-chapchae-604806\">Korean Stir-Fried Noodles (Chapchae)</a>.",
+			"cuisines": ["Korean", "Asian"],
+			"dishTypes": ["side dish"],
+			"diets": ["dairy free", "lacto ovo vegetarian", "vegan"],
+			"occasions": [],
+			"analyzedInstructions": [
+				{
+					"name": "",
+					"steps": [
+						{
+							"number": 1,
+							"step": "Cook noodles according to package directions",
+							"ingredients": [
+								{
+									"id": 20420,
+									"name": "pasta",
+									"localizedName": "pasta",
+									"image": "fusilli.jpg"
+								}
+							],
+							"equipment": []
+						},
+						{
+							"number": 2,
+							"step": "In a large pan or wok over medium heat, heat olive oil and 1 Tbsp sesame oil",
+							"ingredients": [
+								{
+									"id": 4058,
+									"name": "sesame oil",
+									"localizedName": "sesame oil",
+									"image": "sesame-oil.png"
+								},
+								{
+									"id": 4053,
+									"name": "olive oil",
+									"localizedName": "olive oil",
+									"image": "olive-oil.jpg"
+								}
+							],
+							"equipment": [
+								{
+									"id": 404645,
+									"name": "frying pan",
+									"localizedName": "frying pan",
+									"image": "pan.png"
+								},
+								{
+									"id": 404666,
+									"name": "wok",
+									"localizedName": "wok",
+									"image": "wok.png"
+								}
+							]
+						},
+						{
+							"number": 3,
+							"step": "Add onion slices and garlic and saut for about 1 min",
+							"ingredients": [
+								{
+									"id": 11215,
+									"name": "garlic",
+									"localizedName": "garlic",
+									"image": "garlic.png"
+								},
+								{
+									"id": 11282,
+									"name": "onion",
+									"localizedName": "onion",
+									"image": "brown-onion.png"
+								}
+							],
+							"equipment": []
+						},
+						{
+							"number": 4,
+							"step": "Add rest of vegetables and cook for 4-5 min, until the vegetables are half-cooked and still a bit crispy",
+							"ingredients": [
+								{
+									"id": 11583,
+									"name": "vegetable",
+									"localizedName": "vegetable",
+									"image": "mixed-vegetables.png"
+								}
+							],
+							"equipment": [],
+							"length": {
+								"number": 5,
+								"unit": "minutes"
+							}
+						},
+						{
+							"number": 5,
+							"step": "Turn heat to low and add cooked noodles, soy sauce, sugar, and the remaining sesame oil",
+							"ingredients": [
+								{
+									"id": 20421,
+									"name": "cooked pasta",
+									"localizedName": "cooked pasta",
+									"image": "fusilli.jpg"
+								},
+								{
+									"id": 4058,
+									"name": "sesame oil",
+									"localizedName": "sesame oil",
+									"image": "sesame-oil.png"
+								},
+								{
+									"id": 16124,
+									"name": "soy sauce",
+									"localizedName": "soy sauce",
+									"image": "soy-sauce.jpg"
+								},
+								{
+									"id": 19335,
+									"name": "sugar",
+									"localizedName": "sugar",
+									"image": "sugar-in-bowl.png"
+								}
+							],
+							"equipment": []
+						},
+						{
+							"number": 6,
+							"step": "Mix to combine and cook for another 2 min",
+							"ingredients": [],
+							"equipment": []
+						},
+						{
+							"number": 7,
+							"step": "Add salt or more soy sauce if needed (or if you want it a bit sweeter, add a touch more sugar)",
+							"ingredients": [
+								{
+									"id": 16124,
+									"name": "soy sauce",
+									"localizedName": "soy sauce",
+									"image": "soy-sauce.jpg"
+								},
+								{
+									"id": 19335,
+									"name": "sugar",
+									"localizedName": "sugar",
+									"image": "sugar-in-bowl.png"
+								},
+								{
+									"id": 2047,
+									"name": "salt",
+									"localizedName": "salt",
+									"image": "salt.jpg"
+								}
+							],
+							"equipment": []
+						},
+						{
+							"number": 8,
+							"step": "If using sesame seeds, add them at finish",
+							"ingredients": [
+								{
+									"id": 12023,
+									"name": "sesame seeds",
+									"localizedName": "sesame seeds",
+									"image": "sesame-seeds.png"
+								}
+							],
+							"equipment": []
+						}
+					]
+				}
+			],
+			"spoonacularSourceUrl": "https://spoonacular.com/chapchae-korean-stir-fried-noodles-637440"
+		},
+		{
+			"vegetarian": true,
+			"vegan": true,
+			"glutenFree": true,
+			"dairyFree": true,
+			"veryHealthy": false,
+			"cheap": false,
+			"veryPopular": false,
+			"sustainable": false,
+			"lowFodmap": false,
+			"weightWatcherSmartPoints": 3,
+			"gaps": "no",
+			"preparationMinutes": -1,
+			"cookingMinutes": -1,
+			"aggregateLikes": 5,
+			"healthScore": 8,
+			"creditsText": "Foodista.com – The Cooking Encyclopedia Everyone Can Edit",
+			"license": "CC BY 3.0",
+			"sourceName": "Foodista",
+			"pricePerServing": 74.48,
+			"id": 649062,
+			"title": "Korean Perilla Pesto",
+			"readyInMinutes": 45,
+			"servings": 8,
+			"sourceUrl": "https://www.foodista.com/recipe/BRFS7BMZ/korean-perilla-pesto",
+			"image": "https://spoonacular.com/recipeImages/649062-312x231.jpg",
+			"imageType": "jpg",
+			"summary": "Korean Perilla Pesto is a <b>gluten free, dairy free, paleolithic, and lacto ovo vegetarian</b> condiment. This recipe serves 8. One portion of this dish contains approximately <b>1g of protein</b>, <b>10g of fat</b>, and a total of <b>96 calories</b>. For <b>74 cents per serving</b>, this recipe <b>covers 4%</b> of your daily requirements of vitamins and minerals. From preparation to the plate, this recipe takes approximately <b>45 minutes</b>. 5 people found this recipe to be tasty and satisfying. This recipe is typical of Korean cuisine. This recipe from Foodista requires pepper, pine nuts, garlic, and extra virgin olive oil—the best you can afford. Overall, this recipe earns a <b>pretty good spoonacular score of 45%</b>. Similar recipes include <a href=\"https://spoonacular.com/recipes/kkaetnip-jangajji-korean-pickled-perilla-leaves-648975\">Kkaetnip Jangajji (Korean Pickled Perilla Leaves)</a>, <a href=\"https://spoonacular.com/recipes/marinated-perilla-leaves-200127\">Marinated Perilla Leaves</a>, and <a href=\"https://spoonacular.com/recipes/crab-and-perilla-summer-rolls-493014\">Crab-and-Perilla Summer Rolls</a>.",
+			"cuisines": ["Korean", "Asian"],
+			"dishTypes": ["condiment", "dip", "sauce", "spread"],
+			"diets": [
+				"gluten free",
+				"dairy free",
+				"paleolithic",
+				"lacto ovo vegetarian",
+				"primal",
+				"whole 30",
+				"vegan"
+			],
+			"occasions": [],
+			"analyzedInstructions": [
+				{
+					"name": "",
+					"steps": [
+						{
+							"number": 1,
+							"step": "Put all the ingredients into a food processor and blend everything until it is a smooth paste.",
+							"ingredients": [],
+							"equipment": [
+								{
+									"id": 404771,
+									"name": "food processor",
+									"localizedName": "food processor",
+									"image": "food-processor.png"
+								}
+							]
+						},
+						{
+							"number": 2,
+							"step": "Toss it in a bowl with some freshly cooked pasta of your choice and serve, garnishing with some leftover pine nuts.",
+							"ingredients": [
+								{
+									"id": 20421,
+									"name": "cooked pasta",
+									"localizedName": "cooked pasta",
+									"image": "fusilli.jpg"
+								},
+								{
+									"id": 12147,
+									"name": "pine nuts",
+									"localizedName": "pine nuts",
+									"image": "pine-nuts.png"
+								}
+							],
+							"equipment": [
+								{
+									"id": 404783,
+									"name": "bowl",
+									"localizedName": "bowl",
+									"image": "bowl.jpg"
+								}
+							]
+						}
+					]
+				}
+			],
+			"spoonacularSourceUrl": "https://spoonacular.com/korean-perilla-pesto-649062"
+		},
+		{
+			"vegetarian": false,
+			"vegan": false,
+			"glutenFree": true,
+			"dairyFree": true,
+			"veryHealthy": false,
+			"cheap": false,
+			"veryPopular": false,
+			"sustainable": false,
+			"lowFodmap": false,
+			"weightWatcherSmartPoints": 3,
+			"gaps": "no",
+			"preparationMinutes": -1,
+			"cookingMinutes": -1,
+			"aggregateLikes": 4,
+			"healthScore": 16,
+			"creditsText": "foodista.com",
+			"sourceName": "foodista.com",
+			"pricePerServing": 116.83,
+			"id": 661117,
+			"title": "Spicy Korean Bbq Pork",
+			"readyInMinutes": 45,
+			"servings": 10,
+			"sourceUrl": "http://www.foodista.com/recipe/6C67RJHP/spicy-korean-bbq-pork",
+			"image": "https://spoonacular.com/recipeImages/661117-312x231.jpg",
+			"imageType": "jpg",
+			"summary": "The recipe Spicy Korean Bbq Pork is ready <b>in roughly 45 minutes</b> and is definitely a spectacular <b>gluten free and dairy free</b> option for lovers of Korean food. For <b>$1.17 per serving</b>, you get a main course that serves 10. One serving contains <b>157 calories</b>, <b>21g of protein</b>, and <b>5g of fat</b>. This recipe from Foodista requires rice vinegar, garlic cloves, chili garlic sauce, and soy sauce. This recipe is liked by 4 foodies and cooks. All things considered, we decided this recipe <b>deserves a spoonacular score of 63%</b>. This score is pretty good. Try <a href=\"https://spoonacular.com/recipes/spicy-korean-bbq-pork-1527885\">Spicy Korean Bbq Pork</a>, <a href=\"https://spoonacular.com/recipes/daeji-bulgogi-korean-spicy-bbq-pork-249076\">Daeji Bulgogi (Korean Spicy BBQ Pork)</a>, and <a href=\"https://spoonacular.com/recipes/grilled-korean-bbq-short-rib-dogs-with-sweet-peach-relish-spicy-korean-slaw-549399\">Grilled Korean BBQ Short Rib Dogs with Sweet Peach Relish + Spicy Korean Slaw</a> for similar recipes.",
+			"cuisines": ["Korean", "Asian"],
+			"dishTypes": ["lunch", "main course", "main dish", "dinner"],
+			"diets": ["gluten free", "dairy free"],
+			"occasions": [],
+			"analyzedInstructions": [
+				{
+					"name": "",
+					"steps": [
+						{
+							"number": 1,
+							"step": "Mix the marinade ingredients (brown sugar, soy sauce, ginger, sesame oil, chili garlic sauce, and ginger).",
+							"ingredients": [
+								{
+									"id": 93749,
+									"name": "chili garlic sauce",
+									"localizedName": "chili garlic sauce",
+									"image": "chili-garlic-sauce.jpg"
+								},
+								{
+									"id": 19334,
+									"name": "brown sugar",
+									"localizedName": "brown sugar",
+									"image": "dark-brown-sugar.png"
+								},
+								{
+									"id": 4058,
+									"name": "sesame oil",
+									"localizedName": "sesame oil",
+									"image": "sesame-oil.png"
+								},
+								{
+									"id": 16124,
+									"name": "soy sauce",
+									"localizedName": "soy sauce",
+									"image": "soy-sauce.jpg"
+								},
+								{
+									"id": 0,
+									"name": "marinade",
+									"localizedName": "marinade",
+									"image": "seasoning.png"
+								},
+								{
+									"id": 11216,
+									"name": "ginger",
+									"localizedName": "ginger",
+									"image": "ginger.png"
+								}
+							],
+							"equipment": []
+						},
+						{
+							"number": 2,
+							"step": "Pour over your sliced pork.Marinate no less then 4 hours; overnight is recommended.Preheat your grill to high.",
+							"ingredients": [
+								{
+									"id": 10010219,
+									"name": "pork",
+									"localizedName": "pork",
+									"image": "pork-tenderloin-raw.png"
+								}
+							],
+							"equipment": [
+								{
+									"id": 404706,
+									"name": "grill",
+									"localizedName": "grill",
+									"image": "grill.jpg"
+								}
+							],
+							"length": {
+								"number": 240,
+								"unit": "minutes"
+							}
+						},
+						{
+							"number": 3,
+							"step": "Place pork on grill and grill each side 3 minutes or until cooked through.If you want a sauce to pour over your meat, boil your leftover marinade in a sauce pan for a few minutes until it boils down and thickens. You can then add rice vinegar to taste to thin it and decrease the sweetness.",
+							"ingredients": [
+								{
+									"id": 1022053,
+									"name": "rice vinegar",
+									"localizedName": "rice vinegar",
+									"image": "rice-vinegar.png"
+								},
+								{
+									"id": 0,
+									"name": "marinade",
+									"localizedName": "marinade",
+									"image": "seasoning.png"
+								},
+								{
+									"id": 0,
+									"name": "sauce",
+									"localizedName": "sauce",
+									"image": ""
+								},
+								{
+									"id": 1065062,
+									"name": "meat",
+									"localizedName": "meat",
+									"image": "whole-chicken.jpg"
+								},
+								{
+									"id": 10010219,
+									"name": "pork",
+									"localizedName": "pork",
+									"image": "pork-tenderloin-raw.png"
+								}
+							],
+							"equipment": [
+								{
+									"id": 404669,
+									"name": "sauce pan",
+									"localizedName": "sauce pan",
+									"image": "sauce-pan.jpg"
+								},
+								{
+									"id": 404706,
+									"name": "grill",
+									"localizedName": "grill",
+									"image": "grill.jpg"
+								}
+							],
+							"length": {
+								"number": 3,
+								"unit": "minutes"
+							}
+						},
+						{
+							"number": 4,
+							"step": "Pour sauce over meat.",
+							"ingredients": [
+								{
+									"id": 0,
+									"name": "sauce",
+									"localizedName": "sauce",
+									"image": ""
+								},
+								{
+									"id": 1065062,
+									"name": "meat",
+									"localizedName": "meat",
+									"image": "whole-chicken.jpg"
+								}
+							],
+							"equipment": []
+						}
+					]
+				}
+			],
+			"spoonacularSourceUrl": "https://spoonacular.com/spicy-korean-bbq-pork-661117"
+		},
+		{
+			"vegetarian": true,
+			"vegan": true,
+			"glutenFree": true,
+			"dairyFree": true,
+			"veryHealthy": true,
+			"cheap": false,
+			"veryPopular": false,
+			"sustainable": false,
+			"lowFodmap": false,
+			"weightWatcherSmartPoints": 1,
+			"gaps": "no",
+			"preparationMinutes": -1,
+			"cookingMinutes": -1,
+			"aggregateLikes": 4,
+			"healthScore": 60,
+			"creditsText": "Foodista.com – The Cooking Encyclopedia Everyone Can Edit",
+			"license": "CC BY 3.0",
+			"sourceName": "Foodista",
+			"pricePerServing": 219.13,
+			"id": 648910,
+			"title": "Kimchi",
+			"readyInMinutes": 45,
+			"servings": 6,
+			"sourceUrl": "https://www.foodista.com/recipe/KPSCVHD5/kimchi",
+			"image": "https://spoonacular.com/recipeImages/648910-312x231.jpg",
+			"imageType": "jpg",
+			"summary": "If you have about <b>45 minutes</b> to spend in the kitchen, Kimchi might be an amazing <b>gluten free, dairy free, lacto ovo vegetarian, and vegan</b> recipe to try. One serving contains <b>119 calories</b>, <b>7g of protein</b>, and <b>2g of fat</b>. For <b>$2.19 per serving</b>, this recipe <b>covers 31%</b> of your daily requirements of vitamins and minerals. This recipe serves 6. 4 people were impressed by this recipe. If you have napa cabbage, ginger root, scallions, and a few other ingredients on hand, you can make it. This recipe is typical of Korean cuisine. It works well as an affordable side dish. It is brought to you by Foodista. Taking all factors into account, this recipe <b>earns a spoonacular score of 90%</b>, which is spectacular. Try <a href=\"https://spoonacular.com/recipes/red-curry-mussels-with-kimchi-puree-from-the-kimchi-cookbook-202500\">Red Curry Mussels with Kimchi Puree from 'The Kimchi Cookbook</a>, <a href=\"https://spoonacular.com/recipes/kimchi-stew-with-pork-belly-and-tofu-kimchi-jjigae-1679959\">Kimchi Stew with Pork Belly and Tofu (Kimchi-jjigae)</a>, and <a href=\"https://spoonacular.com/recipes/steamed-kimchi-dumplings-jjin-kimchi-mandu-567494\">Steamed Kimchi Dumplings (Jjin Kimchi Mandu)</a> for similar recipes.",
+			"cuisines": ["Korean", "Asian"],
+			"dishTypes": ["side dish"],
+			"diets": [
+				"gluten free",
+				"dairy free",
+				"lacto ovo vegetarian",
+				"vegan"
+			],
+			"occasions": [],
+			"analyzedInstructions": [
+				{
+					"name": "",
+					"steps": [
+						{
+							"number": 1,
+							"step": "Shred cabbage in 2 inch strips.",
+							"ingredients": [
+								{
+									"id": 11109,
+									"name": "cabbage",
+									"localizedName": "cabbage",
+									"image": "cabbage.jpg"
+								}
+							],
+							"equipment": []
+						},
+						{
+							"number": 2,
+							"step": "Mix with half the salt.",
+							"ingredients": [
+								{
+									"id": 2047,
+									"name": "salt",
+									"localizedName": "salt",
+									"image": "salt.jpg"
+								}
+							],
+							"equipment": []
+						},
+						{
+							"number": 3,
+							"step": "Let stand 30 minutes. Wash and drain.",
+							"ingredients": [],
+							"equipment": [],
+							"length": {
+								"number": 30,
+								"unit": "minutes"
+							}
+						},
+						{
+							"number": 4,
+							"step": "Mix the scallions, garlic, ginger, chili pepper, cabbage and the rest of salt. Pack into a crock or glass jar.",
+							"ingredients": [
+								{
+									"id": 11819,
+									"name": "chili pepper",
+									"localizedName": "chili pepper",
+									"image": "red-chili.jpg"
+								},
+								{
+									"id": 11291,
+									"name": "green onions",
+									"localizedName": "green onions",
+									"image": "spring-onions.jpg"
+								},
+								{
+									"id": 11109,
+									"name": "cabbage",
+									"localizedName": "cabbage",
+									"image": "cabbage.jpg"
+								},
+								{
+									"id": 11215,
+									"name": "garlic",
+									"localizedName": "garlic",
+									"image": "garlic.png"
+								},
+								{
+									"id": 11216,
+									"name": "ginger",
+									"localizedName": "ginger",
+									"image": "ginger.png"
+								},
+								{
+									"id": 2047,
+									"name": "salt",
+									"localizedName": "salt",
+									"image": "salt.jpg"
+								}
+							],
+							"equipment": []
+						},
+						{
+							"number": 5,
+							"step": "Put the containers aside for three or four days in a cool location. After that, store it in the refrigerator.",
+							"ingredients": [],
+							"equipment": []
+						}
+					]
+				}
+			],
+			"spoonacularSourceUrl": "https://spoonacular.com/kimchi-648910"
+		},
+		{
+			"vegetarian": false,
+			"vegan": false,
+			"glutenFree": true,
+			"dairyFree": true,
+			"veryHealthy": true,
+			"cheap": false,
+			"veryPopular": false,
+			"sustainable": false,
+			"lowFodmap": false,
+			"weightWatcherSmartPoints": 6,
+			"gaps": "no",
+			"preparationMinutes": -1,
+			"cookingMinutes": -1,
+			"aggregateLikes": 4,
+			"healthScore": 100,
+			"creditsText": "Foodista.com – The Cooking Encyclopedia Everyone Can Edit",
+			"license": "CC BY 3.0",
+			"sourceName": "Foodista",
+			"pricePerServing": 1050.81,
+			"id": 665379,
+			"title": "Winter Kimchi",
+			"readyInMinutes": 45,
+			"servings": 1,
+			"sourceUrl": "https://www.foodista.com/recipe/DPZ3FLTW/winter-kimchi",
+			"image": "https://spoonacular.com/recipeImages/665379-312x231.jpg",
+			"imageType": "jpg",
+			"summary": "Need a <b>gluten free, dairy free, and pescatarian side dish</b>? Winter Kimchi could be a spectacular recipe to try. This recipe makes 1 servings with <b>365 calories</b>, <b>23g of protein</b>, and <b>3g of fat</b> each. For <b>$10.51 per serving</b>, this recipe <b>covers 54%</b> of your daily requirements of vitamins and minerals. Not a lot of people really liked this Korean dish. It will be a hit at your <b>Winter</b> event. If you have fish sauce, brine solution, garlic bulb, and a few other ingredients on hand, you can make it. 4 people found this recipe to be delicious and satisfying. It is brought to you by Foodista. From preparation to the plate, this recipe takes approximately <b>45 minutes</b>. With a spoonacular <b>score of 92%</b>, this dish is amazing. <a href=\"https://spoonacular.com/recipes/winter-kimchi-1404513\">Winter Kimchi</a>, <a href=\"https://spoonacular.com/recipes/kimchi-stew-with-pork-belly-and-tofu-kimchi-jjigae-1679959\">Kimchi Stew with Pork Belly and Tofu (Kimchi-jjigae)</a>, and <a href=\"https://spoonacular.com/recipes/red-curry-mussels-with-kimchi-puree-from-the-kimchi-cookbook-202500\">Red Curry Mussels with Kimchi Puree from 'The Kimchi Cookbook</a> are very similar to this recipe.",
+			"cuisines": ["Korean", "Asian"],
+			"dishTypes": ["side dish"],
+			"diets": ["gluten free", "dairy free", "pescatarian"],
+			"occasions": ["winter"],
+			"analyzedInstructions": [
+				{
+					"name": "",
+					"steps": [
+						{
+							"number": 1,
+							"step": "Soak the quartered cabbage in the brine solution for 4 hours, weighing the cabbage down with a heavy plate.",
+							"ingredients": [
+								{
+									"id": 11109,
+									"name": "cabbage",
+									"localizedName": "cabbage",
+									"image": "cabbage.jpg"
+								},
+								{
+									"id": 93798,
+									"name": "brine",
+									"localizedName": "brine",
+									"image": ""
+								}
+							],
+							"equipment": [],
+							"length": {
+								"number": 240,
+								"unit": "minutes"
+							}
+						},
+						{
+							"number": 2,
+							"step": "Remove and drain.",
+							"ingredients": [],
+							"equipment": []
+						},
+						{
+							"number": 3,
+							"step": "Place garlic cloves, rice, fermented shrimp, fish sauce, sugar, chilly paste and chilly flakes in a food processor and zap to a smooth paste. Stir in spring onions.",
+							"ingredients": [
+								{
+									"id": 10211215,
+									"name": "whole garlic cloves",
+									"localizedName": "whole garlic cloves",
+									"image": "garlic.jpg"
+								},
+								{
+									"id": 11291,
+									"name": "spring onions",
+									"localizedName": "spring onions",
+									"image": "spring-onions.jpg"
+								},
+								{
+									"id": 6179,
+									"name": "fish sauce",
+									"localizedName": "fish sauce",
+									"image": "asian-fish-sauce.jpg"
+								},
+								{
+									"id": 15270,
+									"name": "shrimp",
+									"localizedName": "shrimp",
+									"image": "shrimp.png"
+								},
+								{
+									"id": 19335,
+									"name": "sugar",
+									"localizedName": "sugar",
+									"image": "sugar-in-bowl.png"
+								},
+								{
+									"id": 20444,
+									"name": "rice",
+									"localizedName": "rice",
+									"image": "uncooked-white-rice.png"
+								}
+							],
+							"equipment": [
+								{
+									"id": 404771,
+									"name": "food processor",
+									"localizedName": "food processor",
+									"image": "food-processor.png"
+								}
+							]
+						},
+						{
+							"number": 4,
+							"step": "Stuff the cabbage with the paste, making sure to stuff in between the individual leaves and coating every inch of it.",
+							"ingredients": [
+								{
+									"id": 11109,
+									"name": "cabbage",
+									"localizedName": "cabbage",
+									"image": "cabbage.jpg"
+								}
+							],
+							"equipment": []
+						},
+						{
+							"number": 5,
+							"step": "Place kimchi into an airtight container and leave at room temperature for a day before leaving it to ferment further in the fridge for at least another week before consuming. I left mine for about 3 weeks.",
+							"ingredients": [
+								{
+									"id": 98860,
+									"name": "kimchi",
+									"localizedName": "kimchi",
+									"image": "kimchi.png"
+								}
+							],
+							"equipment": []
+						}
+					]
+				}
+			],
+			"spoonacularSourceUrl": "https://spoonacular.com/winter-kimchi-665379"
+		},
+		{
+			"vegetarian": false,
+			"vegan": false,
+			"glutenFree": false,
+			"dairyFree": true,
+			"veryHealthy": false,
+			"cheap": false,
+			"veryPopular": false,
+			"sustainable": false,
+			"lowFodmap": false,
+			"weightWatcherSmartPoints": 14,
+			"gaps": "no",
+			"preparationMinutes": -1,
+			"cookingMinutes": -1,
+			"aggregateLikes": 2,
+			"healthScore": 33,
+			"creditsText": "foodista.com",
+			"sourceName": "foodista.com",
+			"pricePerServing": 208.15,
+			"id": 641565,
+			"title": "Donkatsu - Korean Breaded Pork Cutlet",
+			"readyInMinutes": 30,
+			"servings": 4,
+			"sourceUrl": "http://www.foodista.com/recipe/BC6ZTT5G/donkatsu-korean-breaded-pork-cutlet",
+			"image": "https://spoonacular.com/recipeImages/641565-312x231.jpg",
+			"imageType": "jpg",
+			"summary": "Donkatsu - Korean Breaded Pork Cutlet is a Korean recipe that serves 4. Watching your figure? This dairy free recipe has <b>557 calories</b>, <b>38g of protein</b>, and <b>27g of fat</b> per serving. For <b>$2.08 per serving</b>, this recipe <b>covers 32%</b> of your daily requirements of vitamins and minerals. This recipe is liked by 2 foodies and cooks. It works best as a main course, and is done in about <b>30 minutes</b>. This recipe from Foodista requires pork chops, carrot, panko bread crumbs, and flour. Taking all factors into account, this recipe <b>earns a spoonacular score of 69%</b>, which is solid. If you like this recipe, you might also like recipes such as <a href=\"https://spoonacular.com/recipes/donkatsu-korean-breaded-pork-cutlet-1525683\">Donkatsu - Korean Breaded Pork Cutlet</a>, <a href=\"https://spoonacular.com/recipes/donkatsu-korean-breaded-pork-cutlet-1405557\">Donkatsu - Korean Breaded Pork Cutlet</a>, and <a href=\"https://spoonacular.com/recipes/breaded-chicken-cutlet-with-ham-triple-creme-cheese-and-baby-arugula-407470\">Breaded Chicken Cutlet with Ham, Triple Creme Cheese and Baby Arugula</a>.",
+			"cuisines": ["Korean", "Asian"],
+			"dishTypes": ["lunch", "main course", "main dish", "dinner"],
+			"diets": ["dairy free"],
+			"occasions": [],
+			"analyzedInstructions": [
+				{
+					"name": "",
+					"steps": [
+						{
+							"number": 1,
+							"step": "Trim off fat from pork chops (usually on the sides), then pound into thin pieces with tenderizer. Season with salt and pepper.Coat pork with flour, then beaten egg, and lastly panko bread crumbs.",
+							"ingredients": [
+								{
+									"id": 10018079,
+									"name": "panko",
+									"localizedName": "panko",
+									"image": "panko.jpg"
+								},
+								{
+									"id": 1102047,
+									"name": "salt and pepper",
+									"localizedName": "salt and pepper",
+									"image": "salt-and-pepper.jpg"
+								},
+								{
+									"id": 10010062,
+									"name": "pork chops",
+									"localizedName": "pork chops",
+									"image": "pork-chops.jpg"
+								},
+								{
+									"id": 20081,
+									"name": "all purpose flour",
+									"localizedName": "all purpose flour",
+									"image": "flour.png"
+								},
+								{
+									"id": 10010219,
+									"name": "pork",
+									"localizedName": "pork",
+									"image": "pork-tenderloin-raw.png"
+								},
+								{
+									"id": 1123,
+									"name": "egg",
+									"localizedName": "egg",
+									"image": "egg.png"
+								}
+							],
+							"equipment": []
+						},
+						{
+							"number": 2,
+							"step": "Heat vegetable oil in pan or skillet on medium heat.Fry until golden brown and cooked through (you can cut to check insides). Usually takes about 8-10 minutes total if fully submerged in oil.",
+							"ingredients": [
+								{
+									"id": 4669,
+									"name": "vegetable oil",
+									"localizedName": "vegetable oil",
+									"image": "vegetable-oil.jpg"
+								},
+								{
+									"id": 4582,
+									"name": "cooking oil",
+									"localizedName": "cooking oil",
+									"image": "vegetable-oil.jpg"
+								}
+							],
+							"equipment": [
+								{
+									"id": 404645,
+									"name": "frying pan",
+									"localizedName": "frying pan",
+									"image": "pan.png"
+								}
+							],
+							"length": {
+								"number": 10,
+								"unit": "minutes"
+							}
+						},
+						{
+							"number": 3,
+							"step": "Remove cutlets from the oil and drain on paper towel to remove excess oil and cool.",
+							"ingredients": [
+								{
+									"id": 4582,
+									"name": "cooking oil",
+									"localizedName": "cooking oil",
+									"image": "vegetable-oil.jpg"
+								}
+							],
+							"equipment": [
+								{
+									"id": 405895,
+									"name": "paper towels",
+									"localizedName": "paper towels",
+									"image": "paper-towels.jpg"
+								}
+							]
+						},
+						{
+							"number": 4,
+							"step": "Drain shredded cabbage well.",
+							"ingredients": [
+								{
+									"id": 11109,
+									"name": "cabbage",
+									"localizedName": "cabbage",
+									"image": "cabbage.jpg"
+								}
+							],
+							"equipment": []
+						},
+						{
+							"number": 5,
+							"step": "Cut each cutlet into small pieces and serve on plate with cabbage slaw.",
+							"ingredients": [
+								{
+									"id": 11109,
+									"name": "cabbage",
+									"localizedName": "cabbage",
+									"image": "cabbage.jpg"
+								}
+							],
+							"equipment": []
+						},
+						{
+							"number": 6,
+							"step": "Serve with katsu sauce for dipping and serve with rice.",
+							"ingredients": [
+								{
+									"id": 98997,
+									"name": "katsu sauce",
+									"localizedName": "katsu sauce",
+									"image": "dark-sauce.jpg"
+								},
+								{
+									"id": 20444,
+									"name": "rice",
+									"localizedName": "rice",
+									"image": "uncooked-white-rice.png"
+								}
+							],
+							"equipment": []
+						}
+					]
+				}
+			],
+			"spoonacularSourceUrl": "https://spoonacular.com/donkatsu-korean-breaded-pork-cutlet-641565"
+		},
+		{
+			"vegetarian": false,
+			"vegan": false,
+			"glutenFree": true,
+			"dairyFree": true,
+			"veryHealthy": false,
+			"cheap": false,
+			"veryPopular": false,
+			"sustainable": false,
+			"lowFodmap": false,
+			"weightWatcherSmartPoints": 15,
+			"gaps": "no",
+			"preparationMinutes": -1,
+			"cookingMinutes": -1,
+			"aggregateLikes": 2,
+			"healthScore": 10,
+			"creditsText": "foodista.com",
+			"sourceName": "foodista.com",
+			"pricePerServing": 160.26,
+			"id": 641208,
+			"title": "Dak Bulgogi - Korean BBQ Chicken",
+			"readyInMinutes": 400,
+			"servings": 4,
+			"sourceUrl": "http://www.foodista.com/recipe/QNLYWCMG/dak-bulgogi-korean-bbq-chicken",
+			"image": "https://spoonacular.com/recipeImages/641208-312x231.jpg",
+			"imageType": "jpg",
+			"summary": "If you have around <b>6 hours and 40 minutes</b> to spend in the kitchen, Dak Bulgogi - Korean BBQ Chicken might be an amazing <b>gluten free and dairy free</b> recipe to try. This main course has <b>557 calories</b>, <b>40g of protein</b>, and <b>39g of fat</b> per serving. This recipe serves 4. For <b>$1.6 per serving</b>, this recipe <b>covers 20%</b> of your daily requirements of vitamins and minerals. 2 people have made this recipe and would make it again. Only a few people really liked this Korean dish. Head to the store and pick up chicken thighs, boston bibb lettuce, brown sugar, and a few other things to make it today. It is brought to you by Foodista. Overall, this recipe earns a <b>pretty good spoonacular score of 47%</b>. Users who liked this recipe also liked <a href=\"https://spoonacular.com/recipes/dak-bulgogi-korean-bbq-chicken-248907\">Dak Bulgogi (Korean BBQ Chicken)</a>, <a href=\"https://spoonacular.com/recipes/dak-bulgogi-korean-bbq-chicken-1248345\">Dak Bulgogi - Korean BBQ Chicken</a>, and <a href=\"https://spoonacular.com/recipes/dak-bulgogi-korean-bbq-chicken-1566187\">Dak Bulgogi (Korean BBQ Chicken)</a>.",
+			"cuisines": ["Korean", "Asian"],
+			"dishTypes": ["lunch", "main course", "main dish", "dinner"],
+			"diets": ["gluten free", "dairy free"],
+			"occasions": [],
+			"analyzedInstructions": [
+				{
+					"name": "",
+					"steps": [
+						{
+							"number": 1,
+							"step": "Peel off thigh skins with a paring knife. Trim off excess fat.",
+							"ingredients": [],
+							"equipment": [
+								{
+									"id": 404745,
+									"name": "knife",
+									"localizedName": "knife",
+									"image": "chefs-knife.jpg"
+								}
+							]
+						},
+						{
+							"number": 2,
+							"step": "Cut into one single \"steak\" piece working around the bone. Save smaller pieces for cooking as well. Set aside in a large mixing bowl.Pulse the marinade ingredients in a food processor until smooth.Coat the chicken pieces with the marinade. Marinate overnight in the refrigerator or a minimum of 6-12 hours. With a skewer or toothpick, piercing the thighs for extra marinade absorption is optional.Preheat a skillet or non stick pan over medium heat.",
+							"ingredients": [
+								{
+									"id": 1005006,
+									"name": "chicken pieces",
+									"localizedName": "chicken pieces",
+									"image": "chicken-parts.jpg"
+								},
+								{
+									"id": 0,
+									"name": "marinade",
+									"localizedName": "marinade",
+									"image": "seasoning.png"
+								},
+								{
+									"id": 23232,
+									"name": "steak",
+									"localizedName": "steak",
+									"image": "ribeye-raw.jpg"
+								},
+								{
+									"id": 0,
+									"name": "bone",
+									"localizedName": "bone",
+									"image": ""
+								}
+							],
+							"equipment": [
+								{
+									"id": 404771,
+									"name": "food processor",
+									"localizedName": "food processor",
+									"image": "food-processor.png"
+								},
+								{
+									"id": 405907,
+									"name": "mixing bowl",
+									"localizedName": "mixing bowl",
+									"image": "mixing-bowl.jpg"
+								},
+								{
+									"id": 404644,
+									"name": "toothpicks",
+									"localizedName": "toothpicks",
+									"image": "toothpicks.jpg"
+								},
+								{
+									"id": 404645,
+									"name": "frying pan",
+									"localizedName": "frying pan",
+									"image": "pan.png"
+								},
+								{
+									"id": 3065,
+									"name": "skewers",
+									"localizedName": "skewers",
+									"image": "wooden-skewers.jpg"
+								}
+							],
+							"length": {
+								"number": 720,
+								"unit": "minutes"
+							}
+						},
+						{
+							"number": 3,
+							"step": "Add the chicken thighs and cook for about 15-20 minutes or until cooked through. To ensure fully cooked thighs, use a meat thermometer and check for a reading of 165-170F.",
+							"ingredients": [
+								{
+									"id": 5091,
+									"name": "chicken thighs",
+									"localizedName": "chicken thighs",
+									"image": "chicken-thigh.jpg"
+								},
+								{
+									"id": 1065062,
+									"name": "meat",
+									"localizedName": "meat",
+									"image": "whole-chicken.jpg"
+								}
+							],
+							"equipment": [
+								{
+									"id": 404789,
+									"name": "kitchen thermometer",
+									"localizedName": "kitchen thermometer",
+									"image": "food-thermometer.jpg"
+								}
+							],
+							"length": {
+								"number": 20,
+								"unit": "minutes"
+							}
+						},
+						{
+							"number": 4,
+							"step": "Transfer to a serving plate and garnish with scallion.",
+							"ingredients": [
+								{
+									"id": 11291,
+									"name": "green onions",
+									"localizedName": "green onions",
+									"image": "spring-onions.jpg"
+								}
+							],
+							"equipment": []
+						},
+						{
+							"number": 5,
+							"step": "Serve with lettuce leaves. Enjoy!",
+							"ingredients": [
+								{
+									"id": 93623,
+									"name": "lettuce leaf",
+									"localizedName": "lettuce leaf",
+									"image": "iceberg-lettuce"
+								}
+							],
+							"equipment": []
+						}
+					]
+				}
+			],
+			"spoonacularSourceUrl": "https://spoonacular.com/dak-bulgogi-korean-bbq-chicken-641208"
+		},
+		{
+			"vegetarian": false,
+			"vegan": false,
+			"glutenFree": false,
+			"dairyFree": true,
+			"veryHealthy": false,
+			"cheap": false,
+			"veryPopular": false,
+			"sustainable": false,
+			"lowFodmap": false,
+			"weightWatcherSmartPoints": 18,
+			"gaps": "no",
+			"preparationMinutes": -1,
+			"cookingMinutes": -1,
+			"aggregateLikes": 2,
+			"healthScore": 32,
+			"creditsText": "foodista.com",
+			"sourceName": "foodista.com",
+			"pricePerServing": 345.7,
+			"id": 649030,
+			"title": "Korean Beef Rice Bowl",
+			"readyInMinutes": 45,
+			"servings": 4,
+			"sourceUrl": "https://www.foodista.com/recipe/7LRXNC6T/korean-beef-rice-bowl",
+			"image": "https://spoonacular.com/recipeImages/649030-312x231.jpg",
+			"imageType": "jpg",
+			"summary": "The recipe Korean Beef Rice Bowl can be made <b>in around 45 minutes</b>. For <b>$3.46 per serving</b>, this recipe <b>covers 30%</b> of your daily requirements of vitamins and minerals. One serving contains <b>669 calories</b>, <b>32g of protein</b>, and <b>25g of fat</b>. This recipe serves 4. It works well as a rather pricey main course. 2 people have made this recipe and would make it again. This recipe is typical of Korean cuisine. If you have fat-skimmed beef broth, sugar, sesame seed, and a few other ingredients on hand, you can make it. It is a good option if you're following a <b>dairy free</b> diet. It is brought to you by Foodista. Overall, this recipe earns a <b>pretty good spoonacular score of 72%</b>. Similar recipes include <a href=\"https://spoonacular.com/recipes/korean-beef-rice-bowl-1371713\">Korean Beef Rice Bowl</a>, <a href=\"https://spoonacular.com/recipes/korean-beef-rice-bowl-35916\">Korean Beef Rice Bowl</a>, and <a href=\"https://spoonacular.com/recipes/bibimbap-korean-beef-rice-bowl-with-tanimura-antle-artisan-lettuce-1795107\">Bibimbap – Korean Beef Rice Bowl with Tanimura & Antle Artisan® Lettuce</a>.",
+			"cuisines": ["Korean", "Asian"],
+			"dishTypes": ["lunch", "main course", "main dish", "dinner"],
+			"diets": ["dairy free"],
+			"occasions": [],
+			"analyzedInstructions": [
+				{
+					"name": "",
+					"steps": [
+						{
+							"number": 1,
+							"step": "Rinse beef, pat dry, and cut across the grain into 1/8-inch-thick slices about 3 inches long. In a small bowl, mix beef with 1/4 cup Korean Marinade.",
+							"ingredients": [
+								{
+									"id": 99000,
+									"name": "korean bbq marinade",
+									"localizedName": "korean bbq marinade",
+									"image": "dark-sauce.jpg"
+								},
+								{
+									"id": 0,
+									"name": "grains",
+									"localizedName": "grains",
+									"image": ""
+								},
+								{
+									"id": 23572,
+									"name": "beef",
+									"localizedName": "beef",
+									"image": "beef-cubes-raw.png"
+								}
+							],
+							"equipment": [
+								{
+									"id": 404783,
+									"name": "bowl",
+									"localizedName": "bowl",
+									"image": "bowl.jpg"
+								}
+							]
+						},
+						{
+							"number": 2,
+							"step": "Remove and discard bean stem ends and strings.",
+							"ingredients": [],
+							"equipment": []
+						},
+						{
+							"number": 3,
+							"step": "Cut beans diagonally in 3-inch lengths.",
+							"ingredients": [
+								{
+									"id": 0,
+									"name": "beans",
+									"localizedName": "beans",
+									"image": "kidney-beans.jpg"
+								}
+							],
+							"equipment": []
+						},
+						{
+							"number": 4,
+							"step": "Cut carrot into matchstick-size pieces about 3 inches long.",
+							"ingredients": [
+								{
+									"id": 11124,
+									"name": "carrot",
+									"localizedName": "carrot",
+									"image": "sliced-carrot.png"
+								}
+							],
+							"equipment": []
+						},
+						{
+							"number": 5,
+							"step": "In a 14-inch wok or 12-inch frying pan over high heat, mix 1/2 cup water, beans, and carrot. Cover and stir occasionally just until tender to bite, about 3 minutes.",
+							"ingredients": [
+								{
+									"id": 11124,
+									"name": "carrot",
+									"localizedName": "carrot",
+									"image": "sliced-carrot.png"
+								},
+								{
+									"id": 0,
+									"name": "beans",
+									"localizedName": "beans",
+									"image": "kidney-beans.jpg"
+								},
+								{
+									"id": 14412,
+									"name": "water",
+									"localizedName": "water",
+									"image": "water.png"
+								}
+							],
+							"equipment": [
+								{
+									"id": 404645,
+									"name": "frying pan",
+									"localizedName": "frying pan",
+									"image": "pan.png"
+								},
+								{
+									"id": 404666,
+									"name": "wok",
+									"localizedName": "wok",
+									"image": "wok.png"
+								}
+							],
+							"length": {
+								"number": 3,
+								"unit": "minutes"
+							}
+						},
+						{
+							"number": 6,
+							"step": "Drain; immerse in cold water.",
+							"ingredients": [
+								{
+									"id": 14412,
+									"name": "water",
+									"localizedName": "water",
+									"image": "water.png"
+								}
+							],
+							"equipment": []
+						},
+						{
+							"number": 7,
+							"step": "Drain when cool. In a bowl, mix with vinegar, sesame oil, sugar, and salt to taste.",
+							"ingredients": [
+								{
+									"id": 4058,
+									"name": "sesame oil",
+									"localizedName": "sesame oil",
+									"image": "sesame-oil.png"
+								},
+								{
+									"id": 2053,
+									"name": "vinegar",
+									"localizedName": "vinegar",
+									"image": "vinegar-(white).jpg"
+								},
+								{
+									"id": 19335,
+									"name": "sugar",
+									"localizedName": "sugar",
+									"image": "sugar-in-bowl.png"
+								},
+								{
+									"id": 2047,
+									"name": "salt",
+									"localizedName": "salt",
+									"image": "salt.jpg"
+								}
+							],
+							"equipment": [
+								{
+									"id": 404783,
+									"name": "bowl",
+									"localizedName": "bowl",
+									"image": "bowl.jpg"
+								}
+							]
+						},
+						{
+							"number": 8,
+							"step": "Place wok over high heat; when hot, add salad oil.",
+							"ingredients": [
+								{
+									"id": 1004582,
+									"name": "salad oil",
+									"localizedName": "salad oil",
+									"image": "olive-oil.jpg"
+								}
+							],
+							"equipment": [
+								{
+									"id": 404666,
+									"name": "wok",
+									"localizedName": "wok",
+									"image": "wok.png"
+								}
+							]
+						},
+						{
+							"number": 9,
+							"step": "Add beef with liquid in bowl; stir until meat is no longer pink, about 2 minutes.",
+							"ingredients": [
+								{
+									"id": 23572,
+									"name": "beef",
+									"localizedName": "beef",
+									"image": "beef-cubes-raw.png"
+								},
+								{
+									"id": 1065062,
+									"name": "meat",
+									"localizedName": "meat",
+									"image": "whole-chicken.jpg"
+								}
+							],
+							"equipment": [
+								{
+									"id": 404783,
+									"name": "bowl",
+									"localizedName": "bowl",
+									"image": "bowl.jpg"
+								}
+							],
+							"length": {
+								"number": 2,
+								"unit": "minutes"
+							}
+						},
+						{
+							"number": 10,
+							"step": "Add remaining marinade and broth to pan; stir until boiling.",
+							"ingredients": [
+								{
+									"id": 0,
+									"name": "marinade",
+									"localizedName": "marinade",
+									"image": "seasoning.png"
+								},
+								{
+									"id": 1006615,
+									"name": "broth",
+									"localizedName": "broth",
+									"image": "chicken-broth.png"
+								}
+							],
+							"equipment": [
+								{
+									"id": 404645,
+									"name": "frying pan",
+									"localizedName": "frying pan",
+									"image": "pan.png"
+								}
+							]
+						},
+						{
+							"number": 11,
+							"step": "Scoop rice into bowls; add beef and sauce, then vegetables and seasonings.",
+							"ingredients": [
+								{
+									"id": 1042027,
+									"name": "seasoning",
+									"localizedName": "seasoning",
+									"image": "seasoning.png"
+								},
+								{
+									"id": 11583,
+									"name": "vegetable",
+									"localizedName": "vegetable",
+									"image": "mixed-vegetables.png"
+								},
+								{
+									"id": 0,
+									"name": "sauce",
+									"localizedName": "sauce",
+									"image": ""
+								},
+								{
+									"id": 23572,
+									"name": "beef",
+									"localizedName": "beef",
+									"image": "beef-cubes-raw.png"
+								},
+								{
+									"id": 20444,
+									"name": "rice",
+									"localizedName": "rice",
+									"image": "uncooked-white-rice.png"
+								}
+							],
+							"equipment": [
+								{
+									"id": 404783,
+									"name": "bowl",
+									"localizedName": "bowl",
+									"image": "bowl.jpg"
+								}
+							]
+						},
+						{
+							"number": 12,
+							"step": "Sprinkle with onions and sesame seed.",
+							"ingredients": [
+								{
+									"id": 12023,
+									"name": "sesame seeds",
+									"localizedName": "sesame seeds",
+									"image": "sesame-seeds.png"
+								},
+								{
+									"id": 11282,
+									"name": "onion",
+									"localizedName": "onion",
+									"image": "brown-onion.png"
+								}
+							],
+							"equipment": []
+						},
+						{
+							"number": 13,
+							"step": "This recipe yields 4 servings.",
+							"ingredients": [],
+							"equipment": []
+						},
+						{
+							"number": 14,
+							"step": "Comments: If you can't find toasted sesame seed, stir regular sesame seed in a frying pan over low heat until golden, 1 minute.",
+							"ingredients": [
+								{
+									"id": 12023,
+									"name": "sesame seeds",
+									"localizedName": "sesame seeds",
+									"image": "sesame-seeds.png"
+								}
+							],
+							"equipment": [
+								{
+									"id": 404645,
+									"name": "frying pan",
+									"localizedName": "frying pan",
+									"image": "pan.png"
+								}
+							],
+							"length": {
+								"number": 1,
+								"unit": "minutes"
+							}
+						}
+					]
+				}
+			],
+			"spoonacularSourceUrl": "https://spoonacular.com/korean-beef-rice-bowl-649030"
+		},
+		{
+			"vegetarian": false,
+			"vegan": false,
+			"glutenFree": true,
+			"dairyFree": true,
+			"veryHealthy": false,
+			"cheap": false,
+			"veryPopular": false,
+			"sustainable": false,
+			"lowFodmap": false,
+			"weightWatcherSmartPoints": 18,
+			"gaps": "no",
+			"preparationMinutes": -1,
+			"cookingMinutes": -1,
+			"aggregateLikes": 2,
+			"healthScore": 46,
+			"creditsText": "foodista.com",
+			"sourceName": "foodista.com",
+			"pricePerServing": 480.18,
+			"id": 634965,
+			"title": "Bibimbab (Korean Rice w Vegetables & Beef)",
+			"readyInMinutes": 45,
+			"servings": 4,
+			"sourceUrl": "http://www.foodista.com/recipe/7SFVMHXW/bibimbab-korean-rice-w-vegetables-beef",
+			"image": "https://spoonacular.com/recipeImages/634965-312x231.jpg",
+			"imageType": "jpg",
+			"summary": "Forget going out to eat or ordering takeout every time you crave Korean food. Try making Bibimbab (Korean Rice w Vegetables & Beef) at home. This gluten free and dairy free recipe serves 4 and costs <b>$4.8 per serving</b>. This main course has <b>680 calories</b>, <b>40g of protein</b>, and <b>32g of fat</b> per serving. If you have garlic clove, sesame oil, sesame seeds, and a few other ingredients on hand, you can make it. This recipe from Foodista has 2 fans. From preparation to the plate, this recipe takes roughly <b>45 minutes</b>. Taking all factors into account, this recipe <b>earns a spoonacular score of 83%</b>, which is great. <a href=\"https://spoonacular.com/recipes/bibimbab-korean-rice-w-vegetables-beef-1297907\">Bibimbab (Korean Rice w Vegetables & Beef)</a>, <a href=\"https://spoonacular.com/recipes/korean-bibimbab-rice-w-vegetables-beef-1507229\">Korean Bibimbab (Rice w Vegetables & Beef)</a>, and <a href=\"https://spoonacular.com/recipes/korean-bibimbab-rice-w-vegetables-beef-649031\">Korean Bibimbab (Rice w Vegetables & Beef)</a> are very similar to this recipe.",
+			"cuisines": ["Korean", "Asian"],
+			"dishTypes": ["lunch", "main course", "main dish", "dinner"],
+			"diets": ["gluten free", "dairy free"],
+			"occasions": [],
+			"analyzedInstructions": [
+				{
+					"name": "",
+					"steps": [
+						{
+							"number": 1,
+							"step": "Cook rice according to package directions.",
+							"ingredients": [
+								{
+									"id": 20444,
+									"name": "rice",
+									"localizedName": "rice",
+									"image": "uncooked-white-rice.png"
+								}
+							],
+							"equipment": []
+						},
+						{
+							"number": 2,
+							"step": "Cut vegetables into matchstick pieces and set aside for sauteing.3.In a large non-stick pan/skillet, bring 2 cups water to a boil.",
+							"ingredients": [
+								{
+									"id": 11583,
+									"name": "vegetable",
+									"localizedName": "vegetable",
+									"image": "mixed-vegetables.png"
+								},
+								{
+									"id": 14412,
+									"name": "water",
+									"localizedName": "water",
+									"image": "water.png"
+								}
+							],
+							"equipment": [
+								{
+									"id": 404645,
+									"name": "frying pan",
+									"localizedName": "frying pan",
+									"image": "pan.png"
+								}
+							]
+						},
+						{
+							"number": 3,
+							"step": "Add spinach and cook, stirring constantly until wilted; drain. When cool enough to handle, squeeze spinach dry into a ball.4.Wipe out skillet; heat 1 tsp olive oil over medium-high.",
+							"ingredients": [
+								{
+									"id": 4053,
+									"name": "olive oil",
+									"localizedName": "olive oil",
+									"image": "olive-oil.jpg"
+								},
+								{
+									"id": 10011457,
+									"name": "spinach",
+									"localizedName": "spinach",
+									"image": "spinach.jpg"
+								}
+							],
+							"equipment": [
+								{
+									"id": 404645,
+									"name": "frying pan",
+									"localizedName": "frying pan",
+									"image": "pan.png"
+								}
+							]
+						},
+						{
+							"number": 4,
+							"step": "Add carrots and cook until soft, 3 minutes.",
+							"ingredients": [
+								{
+									"id": 11124,
+									"name": "carrot",
+									"localizedName": "carrot",
+									"image": "sliced-carrot.png"
+								}
+							],
+							"equipment": [],
+							"length": {
+								"number": 3,
+								"unit": "minutes"
+							}
+						},
+						{
+							"number": 5,
+							"step": "Add garlic and cook until fragrant or semi-browned, 1 minute.",
+							"ingredients": [
+								{
+									"id": 11215,
+									"name": "garlic",
+									"localizedName": "garlic",
+									"image": "garlic.png"
+								}
+							],
+							"equipment": [],
+							"length": {
+								"number": 1,
+								"unit": "minutes"
+							}
+						},
+						{
+							"number": 6,
+							"step": "Add cucumber slices mixed with gochugaru (red pepper flakes).",
+							"ingredients": [
+								{
+									"id": 1032009,
+									"name": "red pepper flakes",
+									"localizedName": "red pepper flakes",
+									"image": "red-pepper-flakes.jpg"
+								},
+								{
+									"id": 1072009,
+									"name": "gochugaru",
+									"localizedName": "gochugaru",
+									"image": "chili-powder.jpg"
+								},
+								{
+									"id": 11206,
+									"name": "cucumber",
+									"localizedName": "cucumber",
+									"image": "cucumber.jpg"
+								}
+							],
+							"equipment": []
+						},
+						{
+							"number": 7,
+							"step": "Combine spinach and soy sauce; set aside until serving.",
+							"ingredients": [
+								{
+									"id": 16124,
+									"name": "soy sauce",
+									"localizedName": "soy sauce",
+									"image": "soy-sauce.jpg"
+								},
+								{
+									"id": 10011457,
+									"name": "spinach",
+									"localizedName": "spinach",
+									"image": "spinach.jpg"
+								}
+							],
+							"equipment": []
+						},
+						{
+							"number": 8,
+							"step": "Add thinly sliced beef to non-stick pan and heat until browned. Wipe down with napkin.",
+							"ingredients": [
+								{
+									"id": 23572,
+									"name": "beef",
+									"localizedName": "beef",
+									"image": "beef-cubes-raw.png"
+								}
+							],
+							"equipment": [
+								{
+									"id": 404645,
+									"name": "frying pan",
+									"localizedName": "frying pan",
+									"image": "pan.png"
+								}
+							]
+						},
+						{
+							"number": 9,
+							"step": "Heat 1 tsp olive oil in non-stick pan over medium-high.",
+							"ingredients": [
+								{
+									"id": 4053,
+									"name": "olive oil",
+									"localizedName": "olive oil",
+									"image": "olive-oil.jpg"
+								}
+							],
+							"equipment": [
+								{
+									"id": 404645,
+									"name": "frying pan",
+									"localizedName": "frying pan",
+									"image": "pan.png"
+								}
+							]
+						},
+						{
+							"number": 10,
+							"step": "Add eggs and cook until whites are set and yolks are still runny, about 5 minutes.7.Divide rice among four bowls; top with vegetables and eggs.",
+							"ingredients": [
+								{
+									"id": 11583,
+									"name": "vegetable",
+									"localizedName": "vegetable",
+									"image": "mixed-vegetables.png"
+								},
+								{
+									"id": 1125,
+									"name": "egg yolk",
+									"localizedName": "egg yolk",
+									"image": "egg-yolk.jpg"
+								},
+								{
+									"id": 1123,
+									"name": "egg",
+									"localizedName": "egg",
+									"image": "egg.png"
+								},
+								{
+									"id": 20444,
+									"name": "rice",
+									"localizedName": "rice",
+									"image": "uncooked-white-rice.png"
+								}
+							],
+							"equipment": [
+								{
+									"id": 404783,
+									"name": "bowl",
+									"localizedName": "bowl",
+									"image": "bowl.jpg"
+								}
+							],
+							"length": {
+								"number": 5,
+								"unit": "minutes"
+							}
+						},
+						{
+							"number": 11,
+							"step": "Drizzle each with sesame oil, sprinkle with sesame seeds. Top with gochujang (red pepper paste) or Sriracha sauce as substitute.*Bibimbab and its main ingredients (usually rice and vegetables) can be chosen at one's preference. This is the main reason why bibimbab is so appealing; it suits vegetarians, dieters, health-conscience eaters, and even meat-lovers, who are more than welcome to add beef to their liking. For us, since we usually have rice available to eat at all times, we simply slice up any available vegetables or lettuce leaf varieties in the fridge for an \"instant\" and very satisfying bibimbab meal. So feel free to deviate from the original recipe!",
+							"ingredients": [
+								{
+									"id": 1016973,
+									"name": "gochujang",
+									"localizedName": "gochujang",
+									"image": "chili-paste.png"
+								},
+								{
+									"id": 1016168,
+									"name": "sriracha",
+									"localizedName": "sriracha",
+									"image": "hot-sauce-or-tabasco.png"
+								},
+								{
+									"id": 93623,
+									"name": "lettuce leaf",
+									"localizedName": "lettuce leaf",
+									"image": "iceberg-lettuce"
+								},
+								{
+									"id": 12023,
+									"name": "sesame seeds",
+									"localizedName": "sesame seeds",
+									"image": "sesame-seeds.png"
+								},
+								{
+									"id": 4058,
+									"name": "sesame oil",
+									"localizedName": "sesame oil",
+									"image": "sesame-oil.png"
+								},
+								{
+									"id": 11583,
+									"name": "vegetable",
+									"localizedName": "vegetable",
+									"image": "mixed-vegetables.png"
+								},
+								{
+									"id": 23572,
+									"name": "beef",
+									"localizedName": "beef",
+									"image": "beef-cubes-raw.png"
+								},
+								{
+									"id": 1065062,
+									"name": "meat",
+									"localizedName": "meat",
+									"image": "whole-chicken.jpg"
+								},
+								{
+									"id": 20444,
+									"name": "rice",
+									"localizedName": "rice",
+									"image": "uncooked-white-rice.png"
+								}
+							],
+							"equipment": []
+						}
+					]
+				}
+			],
+			"spoonacularSourceUrl": "https://spoonacular.com/bibimbab-korean-rice-w-vegetables-beef-634965"
+		},
+		{
+			"vegetarian": false,
+			"vegan": false,
+			"glutenFree": true,
+			"dairyFree": true,
+			"veryHealthy": false,
+			"cheap": false,
+			"veryPopular": false,
+			"sustainable": false,
+			"lowFodmap": false,
+			"weightWatcherSmartPoints": 14,
+			"gaps": "no",
+			"preparationMinutes": -1,
+			"cookingMinutes": -1,
+			"aggregateLikes": 1,
+			"healthScore": 13,
+			"creditsText": "Foodista.com – The Cooking Encyclopedia Everyone Can Edit",
+			"license": "CC BY 3.0",
+			"sourceName": "Foodista",
+			"pricePerServing": 129.5,
+			"id": 649040,
+			"title": "Korean Chicken Stew",
+			"readyInMinutes": 45,
+			"servings": 4,
+			"sourceUrl": "http://www.foodista.com/recipe/ZWGBQGJ3/korean-chicken-stew",
+			"image": "https://spoonacular.com/recipeImages/649040-312x231.jpg",
+			"imageType": "jpg",
+			"summary": "Korean Chicken Stew could be just the <b>gluten free and dairy free</b> recipe you've been looking for. This recipe serves 4. For <b>$1.29 per serving</b>, this recipe <b>covers 22%</b> of your daily requirements of vitamins and minerals. This main course has <b>445 calories</b>, <b>27g of protein</b>, and <b>14g of fat</b> per serving. It is brought to you by Foodista. This recipe is typical of Korean cuisine. It will be a hit at your <b>Autumn</b> event. A mixture of ginger and garlic paste, sesame oil, potatoes, and a handful of other ingredients are all it takes to make this recipe so delicious. 1 person has tried and liked this recipe. From preparation to the plate, this recipe takes about <b>45 minutes</b>. Taking all factors into account, this recipe <b>earns a spoonacular score of 58%</b>, which is pretty good. Try <a href=\"https://spoonacular.com/recipes/korean-chicken-stew-with-gochujang-sauce-1060674\">Korean Chicken Stew with Gochujang Sauce</a>, <a href=\"https://spoonacular.com/recipes/korean-spicy-chicken-vegetable-stew-dakdoritang-567338\">Korean Spicy Chicken & Vegetable Stew (Dakdoritang)</a>, and <a href=\"https://spoonacular.com/recipes/simplest-korean-beef-stew-116447\">Simplest Korean Beef Stew</a> for similar recipes.",
+			"cuisines": ["Korean", "Asian"],
+			"dishTypes": [
+				"lunch",
+				"soup",
+				"main course",
+				"main dish",
+				"dinner"
+			],
+			"diets": ["gluten free", "dairy free"],
+			"occasions": ["fall", "winter"],
+			"analyzedInstructions": [
+				{
+					"name": "",
+					"steps": [
+						{
+							"number": 1,
+							"step": "Mix first 6 ingredients",
+							"ingredients": [],
+							"equipment": []
+						},
+						{
+							"number": 2,
+							"step": "Put chicken and vegetables in heavy bottom pot",
+							"ingredients": [
+								{
+									"id": 11583,
+									"name": "vegetable",
+									"localizedName": "vegetable",
+									"image": "mixed-vegetables.png"
+								},
+								{
+									"id": 5006,
+									"name": "whole chicken",
+									"localizedName": "whole chicken",
+									"image": "whole-chicken.jpg"
+								}
+							],
+							"equipment": [
+								{
+									"id": 404752,
+									"name": "pot",
+									"localizedName": "pot",
+									"image": "stock-pot.jpg"
+								}
+							]
+						},
+						{
+							"number": 3,
+							"step": "Add sauce, stir",
+							"ingredients": [
+								{
+									"id": 0,
+									"name": "sauce",
+									"localizedName": "sauce",
+									"image": ""
+								}
+							],
+							"equipment": []
+						},
+						{
+							"number": 4,
+							"step": "Pour in some water, bring to a boil. Cover and leave on medium heat about 30 min",
+							"ingredients": [
+								{
+									"id": 14412,
+									"name": "water",
+									"localizedName": "water",
+									"image": "water.png"
+								}
+							],
+							"equipment": []
+						},
+						{
+							"number": 5,
+							"step": "Sprinkle with cilantro or spring onion and enjoy!",
+							"ingredients": [
+								{
+									"id": 11291,
+									"name": "spring onions",
+									"localizedName": "spring onions",
+									"image": "spring-onions.jpg"
+								},
+								{
+									"id": 11165,
+									"name": "cilantro",
+									"localizedName": "cilantro",
+									"image": "cilantro.png"
+								}
+							],
+							"equipment": []
+						}
+					]
+				}
+			],
+			"spoonacularSourceUrl": "https://spoonacular.com/korean-chicken-stew-649040"
+		},
+		{
+			"vegetarian": false,
+			"vegan": false,
+			"glutenFree": false,
+			"dairyFree": true,
+			"veryHealthy": false,
+			"cheap": false,
+			"veryPopular": false,
+			"sustainable": false,
+			"lowFodmap": false,
+			"weightWatcherSmartPoints": 19,
+			"gaps": "no",
+			"preparationMinutes": -1,
+			"cookingMinutes": -1,
+			"aggregateLikes": 1,
+			"healthScore": 27,
+			"creditsText": "Foodista.com – The Cooking Encyclopedia Everyone Can Edit",
+			"license": "CC BY 3.0",
+			"sourceName": "Foodista",
+			"pricePerServing": 235.56,
+			"id": 649036,
+			"title": "Korean Candy Chicken",
+			"readyInMinutes": 45,
+			"servings": 6,
+			"sourceUrl": "http://www.foodista.com/recipe/K3YCBNCV/korean-candy-chicken",
+			"image": "https://spoonacular.com/recipeImages/649036-312x231.jpg",
+			"imageType": "jpg",
+			"summary": "Korean Candy Chicken is a main course that serves 6. One serving contains <b>671 calories</b>, <b>57g of protein</b>, and <b>9g of fat</b>. For <b>$2.36 per serving</b>, this recipe <b>covers 30%</b> of your daily requirements of vitamins and minerals. A mixture of soy sauce, eggs, sesame seeds, and a handful of other ingredients are all it takes to make this recipe so delicious. 1 person found this recipe to be flavorful and satisfying. From preparation to the plate, this recipe takes around <b>45 minutes</b>. This recipe is typical of Korean cuisine. It is brought to you by Foodista. It is a good option if you're following a <b>dairy free</b> diet. Taking all factors into account, this recipe <b>earns a spoonacular score of 70%</b>, which is solid. <a href=\"https://spoonacular.com/recipes/char-grilled-korean-style-bbq-pork-chops-and-artisan-korean-meat-giveaway-567521\">Char-grilled Korean Style BBQ Pork Chops and Artisan Korean Meat Giveaway</a>, <a href=\"https://spoonacular.com/recipes/grilled-korean-bbq-short-rib-dogs-with-sweet-peach-relish-spicy-korean-slaw-549399\">Grilled Korean BBQ Short Rib Dogs with Sweet Peach Relish + Spicy Korean Slaw</a>, and <a href=\"https://spoonacular.com/recipes/cajeta-candy-chewy-cinnamon-milk-candy-583749\">Cajeta Candy (Chewy Cinnamon Milk Candy)</a> are very similar to this recipe.",
+			"cuisines": ["Korean", "Asian"],
+			"dishTypes": ["lunch", "main course", "main dish", "dinner"],
+			"diets": ["dairy free"],
+			"occasions": [],
+			"analyzedInstructions": [
+				{
+					"name": "",
+					"steps": [
+						{
+							"number": 1,
+							"step": "In a pan, pour about two inches of oil and heat on medium heat till hot.",
+							"ingredients": [
+								{
+									"id": 4582,
+									"name": "cooking oil",
+									"localizedName": "cooking oil",
+									"image": "vegetable-oil.jpg"
+								}
+							],
+							"equipment": [
+								{
+									"id": 404645,
+									"name": "frying pan",
+									"localizedName": "frying pan",
+									"image": "pan.png"
+								}
+							]
+						},
+						{
+							"number": 2,
+							"step": "Cut chicken on the diagonal into thick strips, about two inches wide.In a bowl, beat eggs.In another container, place flour.Coat chicken strips in egg mixture first, then generously pat with flour, covering all sides. I will often give it a couple of coatings. There should be a thick layer of batter on the chicken pieces.When oil is hot, fry chicken pieces till golden brown, about 3 minutes on each side.",
+							"ingredients": [
+								{
+									"id": 1005006,
+									"name": "chicken pieces",
+									"localizedName": "chicken pieces",
+									"image": "chicken-parts.jpg"
+								},
+								{
+									"id": 1015062,
+									"name": "chicken tenders",
+									"localizedName": "chicken tenders",
+									"image": "chicken-tenders-or-fingers.png"
+								},
+								{
+									"id": 5006,
+									"name": "whole chicken",
+									"localizedName": "whole chicken",
+									"image": "whole-chicken.jpg"
+								},
+								{
+									"id": 20081,
+									"name": "all purpose flour",
+									"localizedName": "all purpose flour",
+									"image": "flour.png"
+								},
+								{
+									"id": 1123,
+									"name": "egg",
+									"localizedName": "egg",
+									"image": "egg.png"
+								},
+								{
+									"id": 4582,
+									"name": "cooking oil",
+									"localizedName": "cooking oil",
+									"image": "vegetable-oil.jpg"
+								}
+							],
+							"equipment": [
+								{
+									"id": 404783,
+									"name": "bowl",
+									"localizedName": "bowl",
+									"image": "bowl.jpg"
+								}
+							],
+							"length": {
+								"number": 3,
+								"unit": "minutes"
+							}
+						},
+						{
+							"number": 3,
+							"step": "Remove chicken, and let rest on a paper towel to drain the oil.To make candy sauce, place soy sauce and sugar in a bowl and mix together, about 30 seconds.The sugar will not completely dissolve, but the mixture should be thick, and not grainy.",
+							"ingredients": [
+								{
+									"id": 16124,
+									"name": "soy sauce",
+									"localizedName": "soy sauce",
+									"image": "soy-sauce.jpg"
+								},
+								{
+									"id": 5006,
+									"name": "whole chicken",
+									"localizedName": "whole chicken",
+									"image": "whole-chicken.jpg"
+								},
+								{
+									"id": 0,
+									"name": "candy",
+									"localizedName": "candy",
+									"image": ""
+								},
+								{
+									"id": 0,
+									"name": "sauce",
+									"localizedName": "sauce",
+									"image": ""
+								},
+								{
+									"id": 19335,
+									"name": "sugar",
+									"localizedName": "sugar",
+									"image": "sugar-in-bowl.png"
+								},
+								{
+									"id": 4582,
+									"name": "cooking oil",
+									"localizedName": "cooking oil",
+									"image": "vegetable-oil.jpg"
+								}
+							],
+							"equipment": [
+								{
+									"id": 405895,
+									"name": "paper towels",
+									"localizedName": "paper towels",
+									"image": "paper-towels.jpg"
+								},
+								{
+									"id": 404783,
+									"name": "bowl",
+									"localizedName": "bowl",
+									"image": "bowl.jpg"
+								}
+							]
+						},
+						{
+							"number": 4,
+							"step": "Add sesame seeds and mix to incorporate.Dip chicken in sauce,  covering all sides.Repeat, till all pieces are covered.",
+							"ingredients": [
+								{
+									"id": 12023,
+									"name": "sesame seeds",
+									"localizedName": "sesame seeds",
+									"image": "sesame-seeds.png"
+								},
+								{
+									"id": 5006,
+									"name": "whole chicken",
+									"localizedName": "whole chicken",
+									"image": "whole-chicken.jpg"
+								},
+								{
+									"id": 0,
+									"name": "sauce",
+									"localizedName": "sauce",
+									"image": ""
+								},
+								{
+									"id": 0,
+									"name": "dip",
+									"localizedName": "dip",
+									"image": ""
+								}
+							],
+							"equipment": []
+						},
+						{
+							"number": 5,
+							"step": "Serve with rice, drizzle remain sauce over chicken.",
+							"ingredients": [
+								{
+									"id": 5006,
+									"name": "whole chicken",
+									"localizedName": "whole chicken",
+									"image": "whole-chicken.jpg"
+								},
+								{
+									"id": 0,
+									"name": "sauce",
+									"localizedName": "sauce",
+									"image": ""
+								},
+								{
+									"id": 20444,
+									"name": "rice",
+									"localizedName": "rice",
+									"image": "uncooked-white-rice.png"
+								}
+							],
+							"equipment": []
+						},
+						{
+							"number": 6,
+							"step": "Garnish with sliced scallions.",
+							"ingredients": [
+								{
+									"id": 11291,
+									"name": "green onions",
+									"localizedName": "green onions",
+									"image": "spring-onions.jpg"
+								}
+							],
+							"equipment": []
+						}
+					]
+				}
+			],
+			"spoonacularSourceUrl": "https://spoonacular.com/korean-candy-chicken-649036"
+		},
+		{
+			"vegetarian": false,
+			"vegan": false,
+			"glutenFree": false,
+			"dairyFree": false,
+			"veryHealthy": true,
+			"cheap": false,
+			"veryPopular": false,
+			"sustainable": false,
+			"lowFodmap": false,
+			"weightWatcherSmartPoints": 38,
+			"gaps": "no",
+			"preparationMinutes": -1,
+			"cookingMinutes": -1,
+			"aggregateLikes": 1,
+			"healthScore": 60,
+			"creditsText": "Foodista.com – The Cooking Encyclopedia Everyone Can Edit",
+			"license": "CC BY 3.0",
+			"sourceName": "Foodista",
+			"pricePerServing": 446.08,
+			"id": 649077,
+			"title": "Korean-Style Hamburg Steak w Tomato Gravy",
+			"readyInMinutes": 45,
+			"servings": 2,
+			"sourceUrl": "https://www.foodista.com/recipe/V5HSZPTW/korean-style-hamburg-steak-w-tomato-gravy",
+			"image": "https://spoonacular.com/recipeImages/649077-312x231.jpg",
+			"imageType": "jpg",
+			"summary": "You can never have too many Korean recipes, so give Korean-Style Hamburg Steak w Tomato Gravy a try. This recipe makes 2 servings with <b>1243 calories</b>, <b>69g of protein</b>, and <b>80g of fat</b> each. For <b>$4.46 per serving</b>, this recipe <b>covers 59%</b> of your daily requirements of vitamins and minerals. Head to the store and pick up egg, worcestershire sauce, olive oil, and a few other things to make it today. 1 person has tried and liked this recipe. It will be a hit at your <b>valentin day</b> event. It is brought to you by Foodista. It works best as a sauce, and is done in approximately <b>45 minutes</b>. Overall, this recipe earns a <b>pretty good spoonacular score of 77%</b>. If you like this recipe, take a look at these similar recipes: <a href=\"https://spoonacular.com/recipes/hamburg-steak-hambgu-42286\">Hamburg Steak (hamb?gu)</a>, <a href=\"https://spoonacular.com/recipes/steak-and-eggs-korean-style-17792\">Steak and Eggs Korean Style</a>, and <a href=\"https://spoonacular.com/recipes/korean-style-steak-lettuce-wraps-695248\">Korean-Style Steak & Lettuce Wraps</a>.",
+			"cuisines": ["Korean", "Asian"],
+			"dishTypes": ["sauce"],
+			"diets": [],
+			"occasions": ["valentine's day", "father's day"],
+			"analyzedInstructions": [
+				{
+					"name": "",
+					"steps": [
+						{
+							"number": 1,
+							"step": "Optional step: Precook the onions and garlic in some olive oil until caramelized. This will add some depth and flavor to the patties.",
+							"ingredients": [
+								{
+									"id": 4053,
+									"name": "olive oil",
+									"localizedName": "olive oil",
+									"image": "olive-oil.jpg"
+								},
+								{
+									"id": 11215,
+									"name": "garlic",
+									"localizedName": "garlic",
+									"image": "garlic.png"
+								},
+								{
+									"id": 11282,
+									"name": "onion",
+									"localizedName": "onion",
+									"image": "brown-onion.png"
+								}
+							],
+							"equipment": []
+						},
+						{
+							"number": 2,
+							"step": "Place the ground pork in a large bowl along with the first six ingredients on the list.",
+							"ingredients": [
+								{
+									"id": 10219,
+									"name": "ground pork",
+									"localizedName": "ground pork",
+									"image": "meat-ground.jpg"
+								}
+							],
+							"equipment": [
+								{
+									"id": 404783,
+									"name": "bowl",
+									"localizedName": "bowl",
+									"image": "bowl.jpg"
+								}
+							]
+						},
+						{
+							"number": 3,
+							"step": "Mix well with your hands and then form into round patties. Overnight marinating is optional.",
+							"ingredients": [],
+							"equipment": []
+						},
+						{
+							"number": 4,
+							"step": "In a frying pan or cast iron skillet, lightly coated with olive oil or butter and cook the patties on medium high heat, roughly 4 minutes on each side. Cook eggs accordingly after finishing the patties.",
+							"ingredients": [
+								{
+									"id": 4053,
+									"name": "olive oil",
+									"localizedName": "olive oil",
+									"image": "olive-oil.jpg"
+								},
+								{
+									"id": 1001,
+									"name": "butter",
+									"localizedName": "butter",
+									"image": "butter-sliced.jpg"
+								},
+								{
+									"id": 1123,
+									"name": "egg",
+									"localizedName": "egg",
+									"image": "egg.png"
+								}
+							],
+							"equipment": [
+								{
+									"id": 404645,
+									"name": "frying pan",
+									"localizedName": "frying pan",
+									"image": "pan.png"
+								}
+							],
+							"length": {
+								"number": 4,
+								"unit": "minutes"
+							}
+						},
+						{
+							"number": 5,
+							"step": "With the remaining bits from the meat, add in the minced garlic and halved cherry tomatoes, saute for a few minutes until browned. Scrape off meat pieces in the process.",
+							"ingredients": [
+								{
+									"id": 10311529,
+									"name": "cherry tomato",
+									"localizedName": "cherry tomato",
+									"image": "cherry-tomatoes.png"
+								},
+								{
+									"id": 0,
+									"name": "minced garlic",
+									"localizedName": "minced garlic",
+									"image": "garlic.png"
+								},
+								{
+									"id": 1065062,
+									"name": "meat",
+									"localizedName": "meat",
+									"image": "whole-chicken.jpg"
+								}
+							],
+							"equipment": []
+						},
+						{
+							"number": 6,
+							"step": "Add remaining sauce ingredients and cook until it reduces, about 5 minutes. Tomato skins will peel off (discard if necessary).",
+							"ingredients": [
+								{
+									"id": 11529,
+									"name": "tomato",
+									"localizedName": "tomato",
+									"image": "tomato.png"
+								},
+								{
+									"id": 0,
+									"name": "sauce",
+									"localizedName": "sauce",
+									"image": ""
+								}
+							],
+							"equipment": [],
+							"length": {
+								"number": 5,
+								"unit": "minutes"
+							}
+						},
+						{
+							"number": 7,
+							"step": "Add flour to thicken the sauce and adjust taste as needed.",
+							"ingredients": [
+								{
+									"id": 20081,
+									"name": "all purpose flour",
+									"localizedName": "all purpose flour",
+									"image": "flour.png"
+								},
+								{
+									"id": 0,
+									"name": "sauce",
+									"localizedName": "sauce",
+									"image": ""
+								}
+							],
+							"equipment": []
+						}
+					]
+				}
+			],
+			"spoonacularSourceUrl": "https://spoonacular.com/korean-style-hamburg-steak-w-tomato-gravy-649077"
+		},
+		{
+			"vegetarian": true,
+			"vegan": false,
+			"glutenFree": true,
+			"dairyFree": true,
+			"veryHealthy": false,
+			"cheap": false,
+			"veryPopular": false,
+			"sustainable": false,
+			"lowFodmap": false,
+			"weightWatcherSmartPoints": 6,
+			"gaps": "no",
+			"preparationMinutes": -1,
+			"cookingMinutes": -1,
+			"aggregateLikes": 1,
+			"healthScore": 8,
+			"creditsText": "Foodista.com – The Cooking Encyclopedia Everyone Can Edit",
+			"license": "CC BY 3.0",
+			"sourceName": "Foodista",
+			"pricePerServing": 141.98,
+			"id": 662584,
+			"title": "Sweet Potato Kimchi Hash Brunch - gluten free, dairy free, vegetarian",
+			"readyInMinutes": 45,
+			"servings": 6,
+			"sourceUrl": "https://www.foodista.com/recipe/T8TJXJ3K/sweet-potato-kimchi-hash-brunch-gluten-free-dairy-free-vegetarian",
+			"image": "https://spoonacular.com/recipeImages/662584-312x231.jpg",
+			"imageType": "jpg",
+			"summary": "The recipe Sweet Potato Kimchi Hash Brunch - gluten free, dairy free, vegetarian can be made <b>in around 45 minutes</b>. This recipe makes 6 servings with <b>280 calories</b>, <b>9g of protein</b>, and <b>11g of fat</b> each. For <b>$1.42 per serving</b>, this recipe <b>covers 17%</b> of your daily requirements of vitamins and minerals. This recipe from Foodista requires agave nectar, pepper, chives plus 1 tablespoon, and kimchi. It is a good option if you're following a <b>gluten free, dairy free, and lacto ovo vegetarian</b> diet. 1 person were glad they tried this recipe. Not a lot of people really liked this hor d'oeuvre. This recipe is typical of Korean cuisine. Overall, this recipe earns a <b>not so awesome spoonacular score of 36%</b>. Similar recipes are <a href=\"https://spoonacular.com/recipes/2-ingredient-sweet-potato-pancakes-gluten-free-dairy-free-nut-free-1379303\">2-ingredient Sweet Potato Pancakes {gluten-free, dairy-free, nut-free}</a>, <a href=\"https://spoonacular.com/recipes/healthy-sweet-potato-casserole-gluten-free-nut-free-dairy-free-1052405\">Healthy Sweet Potato Casserole (gluten-free, nut-free, dairy-free)</a>, and <a href=\"https://spoonacular.com/recipes/2-ingredient-sweet-potato-pancakes-gluten-free-dairy-free-nut-free-1224983\">2-ingredient Sweet Potato Pancakes {gluten-free, dairy-free, nut-free}</a>.",
+			"cuisines": ["Korean", "Asian"],
+			"dishTypes": [
+				"antipasti",
+				"starter",
+				"snack",
+				"appetizer",
+				"antipasto",
+				"hor d'oeuvre"
+			],
+			"diets": ["gluten free", "dairy free", "lacto ovo vegetarian"],
+			"occasions": [],
+			"analyzedInstructions": [
+				{
+					"name": "",
+					"steps": [
+						{
+							"number": 1,
+							"step": "Set a large skillet over medium high heat.",
+							"ingredients": [],
+							"equipment": [
+								{
+									"id": 404645,
+									"name": "frying pan",
+									"localizedName": "frying pan",
+									"image": "pan.png"
+								}
+							]
+						},
+						{
+							"number": 2,
+							"step": "When hot add coconut oil.",
+							"ingredients": [
+								{
+									"id": 4047,
+									"name": "coconut oil",
+									"localizedName": "coconut oil",
+									"image": "oil-coconut.jpg"
+								}
+							],
+							"equipment": []
+						},
+						{
+							"number": 3,
+							"step": "Add onions, let it sit for a minute or two to brown, then stir occasionally.",
+							"ingredients": [
+								{
+									"id": 11282,
+									"name": "onion",
+									"localizedName": "onion",
+									"image": "brown-onion.png"
+								}
+							],
+							"equipment": []
+						},
+						{
+							"number": 4,
+							"step": "When translucent add the garlic, stir to combine for another minute.",
+							"ingredients": [
+								{
+									"id": 11215,
+									"name": "garlic",
+									"localizedName": "garlic",
+									"image": "garlic.png"
+								}
+							],
+							"equipment": []
+						},
+						{
+							"number": 5,
+							"step": "Add grated sweet potato, let it sit for 2 minutes before stirring to get some caramelization. (I grated in food processor, then hand sliced any large pieces that didnt go through the grater).",
+							"ingredients": [
+								{
+									"id": 11507,
+									"name": "sweet potato",
+									"localizedName": "sweet potato",
+									"image": "sweet-potato.png"
+								}
+							],
+							"equipment": [
+								{
+									"id": 404771,
+									"name": "food processor",
+									"localizedName": "food processor",
+									"image": "food-processor.png"
+								},
+								{
+									"id": 404631,
+									"name": "grater",
+									"localizedName": "grater",
+									"image": "grater.jpg"
+								}
+							],
+							"length": {
+								"number": 2,
+								"unit": "minutes"
+							}
+						},
+						{
+							"number": 6,
+							"step": "Season with kosher salt and pepper.",
+							"ingredients": [
+								{
+									"id": 1102047,
+									"name": "salt and pepper",
+									"localizedName": "salt and pepper",
+									"image": "salt-and-pepper.jpg"
+								}
+							],
+							"equipment": []
+						},
+						{
+							"number": 7,
+							"step": "Add coconut nectar. Stir often.",
+							"ingredients": [
+								{
+									"id": 12104,
+									"name": "coconut",
+									"localizedName": "coconut",
+									"image": "coconut.jpg"
+								},
+								{
+									"id": 0,
+									"name": "nectar",
+									"localizedName": "nectar",
+									"image": ""
+								}
+							],
+							"equipment": []
+						},
+						{
+							"number": 8,
+							"step": "Cook down for about 5 minutes.",
+							"ingredients": [],
+							"equipment": [],
+							"length": {
+								"number": 5,
+								"unit": "minutes"
+							}
+						},
+						{
+							"number": 9,
+							"step": "You will see some bits stuck on the bottom of the pan that look burned, thats fine and will be de-glazed.",
+							"ingredients": [],
+							"equipment": [
+								{
+									"id": 404645,
+									"name": "frying pan",
+									"localizedName": "frying pan",
+									"image": "pan.png"
+								}
+							]
+						},
+						{
+							"number": 10,
+							"step": "Add sherry vinegar then scrape any charred bits on the bottom of the pan to deglaze.",
+							"ingredients": [
+								{
+									"id": 1012068,
+									"name": "sherry vinegar",
+									"localizedName": "sherry vinegar",
+									"image": "dark-sauce.jpg"
+								}
+							],
+							"equipment": [
+								{
+									"id": 404645,
+									"name": "frying pan",
+									"localizedName": "frying pan",
+									"image": "pan.png"
+								}
+							]
+						},
+						{
+							"number": 11,
+							"step": "Add chopped kimchi, stir to combine well, about a minute.",
+							"ingredients": [
+								{
+									"id": 98860,
+									"name": "kimchi",
+									"localizedName": "kimchi",
+									"image": "kimchi.png"
+								}
+							],
+							"equipment": []
+						},
+						{
+							"number": 12,
+							"step": "Turn off heat.",
+							"ingredients": [],
+							"equipment": []
+						},
+						{
+							"number": 13,
+							"step": "Add remaining chives for garnish.",
+							"ingredients": [
+								{
+									"id": 11156,
+									"name": "chives",
+									"localizedName": "chives",
+									"image": "fresh-chives.jpg"
+								}
+							],
+							"equipment": []
+						}
+					]
+				},
+				{
+					"name": "For the egg option",
+					"steps": [
+						{
+							"number": 1,
+							"step": "Crack an egg into a small bowl.",
+							"ingredients": [
+								{
+									"id": 1123,
+									"name": "egg",
+									"localizedName": "egg",
+									"image": "egg.png"
+								}
+							],
+							"equipment": [
+								{
+									"id": 404783,
+									"name": "bowl",
+									"localizedName": "bowl",
+									"image": "bowl.jpg"
+								}
+							]
+						},
+						{
+							"number": 2,
+							"step": "*This is to ensure it is a good egg (no blood specks) before frying, and so the white does not spread all around the pan. Set aside.",
+							"ingredients": [
+								{
+									"id": 0,
+									"name": "spread",
+									"localizedName": "spread",
+									"image": ""
+								},
+								{
+									"id": 1123,
+									"name": "egg",
+									"localizedName": "egg",
+									"image": "egg.png"
+								}
+							],
+							"equipment": [
+								{
+									"id": 404645,
+									"name": "frying pan",
+									"localizedName": "frying pan",
+									"image": "pan.png"
+								}
+							]
+						},
+						{
+							"number": 3,
+							"step": "In a flat non-stick pan, set on medium high heat add the extra coconut oil after a minute (when pan is hot).",
+							"ingredients": [
+								{
+									"id": 4047,
+									"name": "coconut oil",
+									"localizedName": "coconut oil",
+									"image": "oil-coconut.jpg"
+								}
+							],
+							"equipment": [
+								{
+									"id": 404645,
+									"name": "frying pan",
+									"localizedName": "frying pan",
+									"image": "pan.png"
+								}
+							]
+						},
+						{
+							"number": 4,
+							"step": "It should sizzle right away.",
+							"ingredients": [],
+							"equipment": []
+						},
+						{
+							"number": 5,
+							"step": "Add the egg.",
+							"ingredients": [
+								{
+									"id": 1123,
+									"name": "egg",
+									"localizedName": "egg",
+									"image": "egg.png"
+								}
+							],
+							"equipment": []
+						},
+						{
+							"number": 6,
+							"step": "Then crack another egg in the small bowl, and repeat as many as needed.",
+							"ingredients": [
+								{
+									"id": 1123,
+									"name": "egg",
+									"localizedName": "egg",
+									"image": "egg.png"
+								}
+							],
+							"equipment": [
+								{
+									"id": 404783,
+									"name": "bowl",
+									"localizedName": "bowl",
+									"image": "bowl.jpg"
+								}
+							]
+						},
+						{
+							"number": 7,
+							"step": "Place some arugula onto each place.",
+							"ingredients": [
+								{
+									"id": 11959,
+									"name": "arugula",
+									"localizedName": "arugula",
+									"image": "arugula-or-rocket-salad.jpg"
+								}
+							],
+							"equipment": []
+						},
+						{
+							"number": 8,
+							"step": "Then the hash (about a heaping cup or so)",
+							"ingredients": [
+								{
+									"id": 11390,
+									"name": "hash browns",
+									"localizedName": "hash browns",
+									"image": "hash-brown-potatoes.png"
+								}
+							],
+							"equipment": []
+						},
+						{
+							"number": 9,
+							"step": "Slide a fried egg on top.",
+							"ingredients": [
+								{
+									"id": 1123,
+									"name": "egg",
+									"localizedName": "egg",
+									"image": "egg.png"
+								}
+							],
+							"equipment": []
+						},
+						{
+							"number": 10,
+							"step": "Sprinkle a pinch of maldon sea salt",
+							"ingredients": [
+								{
+									"id": 1012047,
+									"name": "sea salt",
+									"localizedName": "sea salt",
+									"image": "salt.jpg"
+								}
+							],
+							"equipment": []
+						},
+						{
+							"number": 11,
+							"step": "Then a pinch of chives.",
+							"ingredients": [
+								{
+									"id": 11156,
+									"name": "chives",
+									"localizedName": "chives",
+									"image": "fresh-chives.jpg"
+								}
+							],
+							"equipment": []
+						}
+					]
+				},
+				{
+					"name": "Vegan option",
+					"steps": [
+						{
+							"number": 1,
+							"step": "Place some arugula onto each plate",
+							"ingredients": [
+								{
+									"id": 11959,
+									"name": "arugula",
+									"localizedName": "arugula",
+									"image": "arugula-or-rocket-salad.jpg"
+								}
+							],
+							"equipment": []
+						},
+						{
+							"number": 2,
+							"step": "Then the hash (about a heaping cup or so)",
+							"ingredients": [
+								{
+									"id": 11390,
+									"name": "hash browns",
+									"localizedName": "hash browns",
+									"image": "hash-brown-potatoes.png"
+								}
+							],
+							"equipment": []
+						},
+						{
+							"number": 3,
+							"step": "Add thinly sliced avocado.",
+							"ingredients": [
+								{
+									"id": 9037,
+									"name": "avocado",
+									"localizedName": "avocado",
+									"image": "avocado.jpg"
+								}
+							],
+							"equipment": []
+						},
+						{
+							"number": 4,
+							"step": "Squeeze a little lemon on top, then a pinch of maldon sea salt.",
+							"ingredients": [
+								{
+									"id": 1012047,
+									"name": "sea salt",
+									"localizedName": "sea salt",
+									"image": "salt.jpg"
+								},
+								{
+									"id": 9150,
+									"name": "lemon",
+									"localizedName": "lemon",
+									"image": "lemon.png"
+								}
+							],
+							"equipment": []
+						}
+					]
+				}
+			],
+			"spoonacularSourceUrl": "https://spoonacular.com/sweet-potato-kimchi-hash-brunch-gluten-free-dairy-free-vegetarian-662584"
+		},
+		{
+			"vegetarian": false,
+			"vegan": false,
+			"glutenFree": true,
+			"dairyFree": true,
+			"veryHealthy": false,
+			"cheap": false,
+			"veryPopular": false,
+			"sustainable": false,
+			"lowFodmap": false,
+			"weightWatcherSmartPoints": 10,
+			"gaps": "no",
+			"preparationMinutes": -1,
+			"cookingMinutes": -1,
+			"aggregateLikes": 1,
+			"healthScore": 37,
+			"creditsText": "Foodista.com – The Cooking Encyclopedia Everyone Can Edit",
+			"license": "CC BY 3.0",
+			"sourceName": "Foodista",
+			"pricePerServing": 157.24,
+			"id": 1096217,
+			"title": "Healthy Cabbage Soup with Spicy Kimchi",
+			"readyInMinutes": 35,
+			"servings": 4,
+			"sourceUrl": "https://www.foodista.com/recipe/P2M3MZS3/healthy-cabbage-soup-with-spicy-kimchi",
+			"image": "https://spoonacular.com/recipeImages/1096217-312x231.jpg",
+			"imageType": "jpg",
+			"summary": "Healthy Cabbage Soup with Spicy Kimchi might be just the main course you are searching for. One serving contains <b>346 calories</b>, <b>14g of protein</b>, and <b>20g of fat</b>. For <b>$1.57 per serving</b>, this recipe <b>covers 23%</b> of your daily requirements of vitamins and minerals. This recipe serves 4. This recipe from Foodista has 1 fans. It can be enjoyed any time, but it is especially good for <b>Autumn</b>. If you have garlic cloves, chicken bone broth, ground pork, and a few other ingredients on hand, you can make it. It is a good option if you're following a <b>gluten free and dairy free</b> diet. This recipe is typical of Korean cuisine. From preparation to the plate, this recipe takes about <b>35 minutes</b>. Taking all factors into account, this recipe <b>earns a spoonacular score of 77%</b>, which is solid. If you like this recipe, you might also like recipes such as <a href=\"https://spoonacular.com/recipes/spicy-cabbage-carrot-and-daikon-kimchi-11612\">Spicy Cabbage, Carrot and Daikon Kimchi</a>, <a href=\"https://spoonacular.com/recipes/kimchi-traditional-spicy-napa-cabbage-pickle-11763\">Kimchi (traditional Spicy Napa Cabbage Pickle)</a>, and <a href=\"https://spoonacular.com/recipes/kimchi-traditional-spicy-napa-cabbage-pickle-1246989\">Kimchi (traditional Spicy Napa Cabbage Pickle)</a>.",
+			"cuisines": ["Korean", "Asian"],
+			"dishTypes": [
+				"lunch",
+				"soup",
+				"main course",
+				"main dish",
+				"dinner"
+			],
+			"diets": ["gluten free", "dairy free"],
+			"occasions": ["fall", "winter"],
+			"analyzedInstructions": [
+				{
+					"name": "",
+					"steps": [
+						{
+							"number": 1,
+							"step": "In a large pot over medium heat, warm the coconut oil until melted.",
+							"ingredients": [
+								{
+									"id": 4047,
+									"name": "coconut oil",
+									"localizedName": "coconut oil",
+									"image": "oil-coconut.jpg"
+								}
+							],
+							"equipment": [
+								{
+									"id": 404752,
+									"name": "pot",
+									"localizedName": "pot",
+									"image": "stock-pot.jpg"
+								}
+							]
+						},
+						{
+							"number": 2,
+							"step": "Add the onion and cook until translucent, 4 to 6 minutes.",
+							"ingredients": [
+								{
+									"id": 11282,
+									"name": "onion",
+									"localizedName": "onion",
+									"image": "brown-onion.png"
+								}
+							],
+							"equipment": [],
+							"length": {
+								"number": 4,
+								"unit": "minutes"
+							}
+						},
+						{
+							"number": 3,
+							"step": "Add the ground pork and cook, breaking it up with a spoon, until browned, 8 to 10 minutes.",
+							"ingredients": [
+								{
+									"id": 10219,
+									"name": "ground pork",
+									"localizedName": "ground pork",
+									"image": "meat-ground.jpg"
+								}
+							],
+							"equipment": [],
+							"length": {
+								"number": 8,
+								"unit": "minutes"
+							}
+						},
+						{
+							"number": 4,
+							"step": "Add the garlic and ginger and cook for another minute.",
+							"ingredients": [
+								{
+									"id": 11215,
+									"name": "garlic",
+									"localizedName": "garlic",
+									"image": "garlic.png"
+								},
+								{
+									"id": 11216,
+									"name": "ginger",
+									"localizedName": "ginger",
+									"image": "ginger.png"
+								}
+							],
+							"equipment": []
+						},
+						{
+							"number": 5,
+							"step": "Add the cabbage. Then stir in the soy sauce, fish sauce, sesame oil and kimchi and kimchi juice.",
+							"ingredients": [
+								{
+									"id": 6179,
+									"name": "fish sauce",
+									"localizedName": "fish sauce",
+									"image": "asian-fish-sauce.jpg"
+								},
+								{
+									"id": 4058,
+									"name": "sesame oil",
+									"localizedName": "sesame oil",
+									"image": "sesame-oil.png"
+								},
+								{
+									"id": 16124,
+									"name": "soy sauce",
+									"localizedName": "soy sauce",
+									"image": "soy-sauce.jpg"
+								},
+								{
+									"id": 11109,
+									"name": "cabbage",
+									"localizedName": "cabbage",
+									"image": "cabbage.jpg"
+								},
+								{
+									"id": 98860,
+									"name": "kimchi",
+									"localizedName": "kimchi",
+									"image": "kimchi.png"
+								},
+								{
+									"id": 1019016,
+									"name": "juice",
+									"localizedName": "juice",
+									"image": "apple-juice.jpg"
+								}
+							],
+							"equipment": []
+						},
+						{
+							"number": 6,
+							"step": "Add the bone broth and bring to a boil. Reduce the heat to a simmer and cook, covered, until the cabbage is completely soft, 15 to 20 minutes.",
+							"ingredients": [
+								{
+									"id": 98904,
+									"name": "bone broth",
+									"localizedName": "bone broth",
+									"image": "chicken-broth.png"
+								},
+								{
+									"id": 11109,
+									"name": "cabbage",
+									"localizedName": "cabbage",
+									"image": "cabbage.jpg"
+								}
+							],
+							"equipment": [],
+							"length": {
+								"number": 15,
+								"unit": "minutes"
+							}
+						},
+						{
+							"number": 7,
+							"step": "Remove from the heat and garnish with the scallions.",
+							"ingredients": [
+								{
+									"id": 11291,
+									"name": "green onions",
+									"localizedName": "green onions",
+									"image": "spring-onions.jpg"
+								}
+							],
+							"equipment": []
+						}
+					]
+				}
+			],
+			"spoonacularSourceUrl": "https://spoonacular.com/healthy-cabbage-soup-with-spicy-kimchi-1096217"
+		},
+		{
+			"vegetarian": false,
+			"vegan": false,
+			"glutenFree": false,
+			"dairyFree": true,
+			"veryHealthy": false,
+			"cheap": false,
+			"veryPopular": false,
+			"sustainable": false,
+			"lowFodmap": false,
+			"weightWatcherSmartPoints": 12,
+			"gaps": "no",
+			"preparationMinutes": -1,
+			"cookingMinutes": -1,
+			"aggregateLikes": 1,
+			"healthScore": 13,
+			"creditsText": "foodista.com",
+			"sourceName": "foodista.com",
+			"pricePerServing": 320.72,
+			"id": 644135,
+			"title": "Galbi Tang (Korean Beef Short Ribs Soup)",
+			"readyInMinutes": 45,
+			"servings": 4,
+			"sourceUrl": "https://www.foodista.com/recipe/KP428FJG/galbi-tang-beef-short-ribs-soup",
+			"image": "https://spoonacular.com/recipeImages/644135-312x231.jpg",
+			"imageType": "jpg",
+			"summary": "Forget going out to eat or ordering takeout every time you crave Korean food. Try making Galbi Tang (Korean Beef Short Ribs Soup) at home. This recipe makes 4 servings with <b>455 calories</b>, <b>36g of protein</b>, and <b>21g of fat</b> each. For <b>$3.21 per serving</b>, this recipe <b>covers 22%</b> of your daily requirements of vitamins and minerals. If you have sesame oil, egg strips, soy sauce, and a few other ingredients on hand, you can make it. It will be a hit at your <b>Autumn</b> event. It is brought to you by Foodista. 1 person has made this recipe and would make it again. Only a few people really liked this main course. From preparation to the plate, this recipe takes around <b>45 minutes</b>. It is a good option if you're following a <b>dairy free</b> diet. Overall, this recipe earns a <b>solid spoonacular score of 49%</b>. <a href=\"https://spoonacular.com/recipes/galbi-korean-bbq-short-ribs-795384\">Galbi (Korean BBQ Short Ribs)</a>, <a href=\"https://spoonacular.com/recipes/korean-beef-short-rib-stew-galbi-jjim-472188\">Korean Beef Short Rib Stew (Galbi Jjim)</a>, and <a href=\"https://spoonacular.com/recipes/la-galbi-thinly-sliced-bbq-short-ribs-567346\">LA Galbi (Thinly Sliced BBQ Short Ribs)</a> are very similar to this recipe.",
+			"cuisines": ["Korean", "Asian"],
+			"dishTypes": [
+				"lunch",
+				"soup",
+				"main course",
+				"main dish",
+				"dinner"
+			],
+			"diets": ["dairy free"],
+			"occasions": ["fall", "winter"],
+			"analyzedInstructions": [
+				{
+					"name": "",
+					"steps": [
+						{
+							"number": 1,
+							"step": "Soak the ribs in a bowl of cold water for about an hour to drain the blood, changing the water if necessary.",
+							"ingredients": [
+								{
+									"id": 14412,
+									"name": "water",
+									"localizedName": "water",
+									"image": "water.png"
+								},
+								{
+									"id": 23236,
+									"name": "ribs",
+									"localizedName": "ribs",
+									"image": "ribs.png"
+								}
+							],
+							"equipment": [
+								{
+									"id": 404783,
+									"name": "bowl",
+									"localizedName": "bowl",
+									"image": "bowl.jpg"
+								}
+							]
+						},
+						{
+							"number": 2,
+							"step": "Mix sliced radish and add with the seasoning sauce.",
+							"ingredients": [
+								{
+									"id": 0,
+									"name": "seasoning sauce",
+									"localizedName": "seasoning sauce",
+									"image": ""
+								},
+								{
+									"id": 11429,
+									"name": "radish",
+									"localizedName": "radish",
+									"image": "radishes.jpg"
+								}
+							],
+							"equipment": []
+						},
+						{
+							"number": 3,
+							"step": "After soaking and rinsing the ribs, place in a large pot and cover with water until submerged.",
+							"ingredients": [
+								{
+									"id": 14412,
+									"name": "water",
+									"localizedName": "water",
+									"image": "water.png"
+								},
+								{
+									"id": 23236,
+									"name": "ribs",
+									"localizedName": "ribs",
+									"image": "ribs.png"
+								}
+							],
+							"equipment": [
+								{
+									"id": 404752,
+									"name": "pot",
+									"localizedName": "pot",
+									"image": "stock-pot.jpg"
+								}
+							]
+						},
+						{
+							"number": 4,
+							"step": "Add half onion, few garlic pieces, and a slice of ginger (this step is optional).",
+							"ingredients": [
+								{
+									"id": 11215,
+									"name": "garlic",
+									"localizedName": "garlic",
+									"image": "garlic.png"
+								},
+								{
+									"id": 11216,
+									"name": "ginger",
+									"localizedName": "ginger",
+									"image": "ginger.png"
+								},
+								{
+									"id": 11282,
+									"name": "onion",
+									"localizedName": "onion",
+									"image": "brown-onion.png"
+								}
+							],
+							"equipment": []
+						},
+						{
+							"number": 5,
+							"step": "Bring to a boil for about 15 minutes, removing any foam or scum that float to the top.",
+							"ingredients": [],
+							"equipment": [],
+							"length": {
+								"number": 15,
+								"unit": "minutes"
+							}
+						},
+						{
+							"number": 6,
+							"step": "Drain and rinse the ribs under cold water removing any impurities.",
+							"ingredients": [
+								{
+									"id": 14412,
+									"name": "water",
+									"localizedName": "water",
+									"image": "water.png"
+								},
+								{
+									"id": 23236,
+									"name": "ribs",
+									"localizedName": "ribs",
+									"image": "ribs.png"
+								}
+							],
+							"equipment": []
+						},
+						{
+							"number": 7,
+							"step": "Add new water just until ribs are submerged (more water can be added if desired).",
+							"ingredients": [
+								{
+									"id": 14412,
+									"name": "water",
+									"localizedName": "water",
+									"image": "water.png"
+								},
+								{
+									"id": 23236,
+									"name": "ribs",
+									"localizedName": "ribs",
+									"image": "ribs.png"
+								}
+							],
+							"equipment": []
+						},
+						{
+							"number": 8,
+							"step": "Bring to a boil, and then simmer over medium heat for 20 minutes.",
+							"ingredients": [],
+							"equipment": [],
+							"length": {
+								"number": 20,
+								"unit": "minutes"
+							}
+						},
+						{
+							"number": 9,
+							"step": "Add the radish and sauce mixture and cook for an additional 10 minutes.",
+							"ingredients": [
+								{
+									"id": 11429,
+									"name": "radish",
+									"localizedName": "radish",
+									"image": "radishes.jpg"
+								},
+								{
+									"id": 0,
+									"name": "sauce",
+									"localizedName": "sauce",
+									"image": ""
+								}
+							],
+							"equipment": [],
+							"length": {
+								"number": 10,
+								"unit": "minutes"
+							}
+						},
+						{
+							"number": 10,
+							"step": "Lastly, add the vermicelli noodles and scallions and cook for another few minutes.",
+							"ingredients": [
+								{
+									"id": 11291,
+									"name": "green onions",
+									"localizedName": "green onions",
+									"image": "spring-onions.jpg"
+								},
+								{
+									"id": 20420,
+									"name": "pasta",
+									"localizedName": "pasta",
+									"image": "fusilli.jpg"
+								}
+							],
+							"equipment": []
+						},
+						{
+							"number": 11,
+							"step": "Garnish with thinly cut egg strips and toasted sesame seeds.",
+							"ingredients": [
+								{
+									"id": 12023,
+									"name": "sesame seeds",
+									"localizedName": "sesame seeds",
+									"image": "sesame-seeds.png"
+								},
+								{
+									"id": 1123,
+									"name": "egg",
+									"localizedName": "egg",
+									"image": "egg.png"
+								}
+							],
+							"equipment": []
+						},
+						{
+							"number": 12,
+							"step": "Serve with rice and other banchan (side dishes).",
+							"ingredients": [
+								{
+									"id": 20444,
+									"name": "rice",
+									"localizedName": "rice",
+									"image": "uncooked-white-rice.png"
+								}
+							],
+							"equipment": []
+						}
+					]
+				}
+			],
+			"spoonacularSourceUrl": "https://spoonacular.com/galbi-tang-korean-beef-short-ribs-soup-644135"
+		},
+		{
+			"vegetarian": false,
+			"vegan": false,
+			"glutenFree": true,
+			"dairyFree": true,
+			"veryHealthy": false,
+			"cheap": false,
+			"veryPopular": false,
+			"sustainable": false,
+			"lowFodmap": false,
+			"weightWatcherSmartPoints": 10,
+			"gaps": "no",
+			"preparationMinutes": -1,
+			"cookingMinutes": -1,
+			"aggregateLikes": 1,
+			"healthScore": 3,
+			"creditsText": "Foodista.com – The Cooking Encyclopedia Everyone Can Edit",
+			"license": "CC BY 3.0",
+			"sourceName": "Foodista",
+			"pricePerServing": 54.71,
+			"id": 649066,
+			"title": "Korean Potato Salad",
+			"readyInMinutes": 45,
+			"servings": 8,
+			"sourceUrl": "https://www.foodista.com/recipe/WCRBFB24/korean-potato-salad",
+			"image": "https://spoonacular.com/recipeImages/649066-312x231.jpg",
+			"imageType": "jpg",
+			"summary": "Korean Potato Salad could be just the <b>gluten free and dairy free</b> recipe you've been looking for. This recipe serves 8 and costs 55 cents per serving. One portion of this dish contains roughly <b>3g of protein</b>, <b>21g of fat</b>, and a total of <b>333 calories</b>. 1 person has tried and liked this recipe. It works well as a very reasonably priced side dish. It can be enjoyed any time, but it is especially good for <b>The Fourth Of July</b>. This recipe is typical of Korean cuisine. A mixture of pepper, dressing, sugar, and a handful of other ingredients are all it takes to make this recipe so tasty. It is brought to you by Foodista. From preparation to the plate, this recipe takes approximately <b>45 minutes</b>. Overall, this recipe earns a <b>rather bad spoonacular score of 31%</b>. Similar recipes include <a href=\"https://spoonacular.com/recipes/korean-potato-salad-gamja-salad-1611703\">Korean Potato Salad (Gamja Salad)</a>, <a href=\"https://spoonacular.com/recipes/korean-stir-fried-sweet-potato-noodles-859111\">Korean Stir-Fried Sweet Potato Noodles</a>, and <a href=\"https://spoonacular.com/recipes/cook-the-book-japchae-korean-sweet-potato-noodles-207198\">Cook the Book: Japchae, Korean Sweet Potato Noodles</a>.",
+			"cuisines": ["Korean", "Asian"],
+			"dishTypes": ["side dish"],
+			"diets": ["gluten free", "dairy free"],
+			"occasions": ["father's day", "4th of july", "summer"],
+			"analyzedInstructions": [
+				{
+					"name": "",
+					"steps": [
+						{
+							"number": 1,
+							"step": "Wash the potatoes then peel and rinse in cold water.",
+							"ingredients": [
+								{
+									"id": 11352,
+									"name": "potato",
+									"localizedName": "potato",
+									"image": "potatoes-yukon-gold.png"
+								},
+								{
+									"id": 14412,
+									"name": "water",
+									"localizedName": "water",
+									"image": "water.png"
+								}
+							],
+							"equipment": []
+						},
+						{
+							"number": 2,
+							"step": "Cut into about 1 inch by 1 inch cubes (2.5 cm squared) and rinse again.",
+							"ingredients": [],
+							"equipment": []
+						},
+						{
+							"number": 3,
+							"step": "Bring a large pot of water to a full boil, add 1/2 teaspoon salt and the cubed potatoes",
+							"ingredients": [
+								{
+									"id": 11352,
+									"name": "potato",
+									"localizedName": "potato",
+									"image": "potatoes-yukon-gold.png"
+								},
+								{
+									"id": 14412,
+									"name": "water",
+									"localizedName": "water",
+									"image": "water.png"
+								},
+								{
+									"id": 2047,
+									"name": "salt",
+									"localizedName": "salt",
+									"image": "salt.jpg"
+								}
+							],
+							"equipment": [
+								{
+									"id": 404752,
+									"name": "pot",
+									"localizedName": "pot",
+									"image": "stock-pot.jpg"
+								}
+							]
+						},
+						{
+							"number": 4,
+							"step": "Boil until semi tender (Korean chop stick or fork passes through with slight resistance). This will take 8-15 minutes.",
+							"ingredients": [],
+							"equipment": [],
+							"length": {
+								"number": 15,
+								"unit": "minutes"
+							}
+						},
+						{
+							"number": 5,
+							"step": "Drain and let cool after youve sprinkled them with your white pepper.",
+							"ingredients": [
+								{
+									"id": 2032,
+									"name": "white pepper",
+									"localizedName": "white pepper",
+									"image": "white-pepper.png"
+								}
+							],
+							"equipment": []
+						},
+						{
+							"number": 6,
+							"step": "While the potatoes are cooking, clean the apples and Korean pear, then cut into about 1/2 inch by 1/2 inch pieces (1.25 cm squared) and add to bowl. Toss until well mixed.",
+							"ingredients": [
+								{
+									"id": 11352,
+									"name": "potato",
+									"localizedName": "potato",
+									"image": "potatoes-yukon-gold.png"
+								},
+								{
+									"id": 9003,
+									"name": "apple",
+									"localizedName": "apple",
+									"image": "apple.jpg"
+								},
+								{
+									"id": 9252,
+									"name": "pear",
+									"localizedName": "pear",
+									"image": "pears-bosc.jpg"
+								}
+							],
+							"equipment": [
+								{
+									"id": 404783,
+									"name": "bowl",
+									"localizedName": "bowl",
+									"image": "bowl.jpg"
+								}
+							]
+						},
+						{
+							"number": 7,
+							"step": "In a medium mixing bowl combine the mayonnaise, pepper and sugar (optional) then mix well.",
+							"ingredients": [
+								{
+									"id": 4025,
+									"name": "mayonnaise",
+									"localizedName": "mayonnaise",
+									"image": "mayonnaise.png"
+								},
+								{
+									"id": 1002030,
+									"name": "pepper",
+									"localizedName": "pepper",
+									"image": "pepper.jpg"
+								},
+								{
+									"id": 19335,
+									"name": "sugar",
+									"localizedName": "sugar",
+									"image": "sugar-in-bowl.png"
+								}
+							],
+							"equipment": [
+								{
+									"id": 405907,
+									"name": "mixing bowl",
+									"localizedName": "mixing bowl",
+									"image": "mixing-bowl.jpg"
+								}
+							]
+						},
+						{
+							"number": 8,
+							"step": "Add dressing to potato mix and stir until well mixed.  If desired garnish with toasted sesame seed.",
+							"ingredients": [
+								{
+									"id": 12023,
+									"name": "sesame seeds",
+									"localizedName": "sesame seeds",
+									"image": "sesame-seeds.png"
+								},
+								{
+									"id": 11352,
+									"name": "potato",
+									"localizedName": "potato",
+									"image": "potatoes-yukon-gold.png"
+								}
+							],
+							"equipment": []
+						},
+						{
+							"number": 9,
+							"step": "Chill and serve cold or at room temperature.",
+							"ingredients": [],
+							"equipment": []
+						}
+					]
+				}
+			],
+			"spoonacularSourceUrl": "https://spoonacular.com/korean-potato-salad-649066"
+		},
+		{
+			"vegetarian": true,
+			"vegan": true,
+			"glutenFree": true,
+			"dairyFree": true,
+			"veryHealthy": false,
+			"cheap": false,
+			"veryPopular": false,
+			"sustainable": false,
+			"lowFodmap": false,
+			"weightWatcherSmartPoints": 1,
+			"gaps": "no",
+			"preparationMinutes": -1,
+			"cookingMinutes": -1,
+			"aggregateLikes": 1,
+			"healthScore": 1,
+			"creditsText": "Foodista.com – The Cooking Encyclopedia Everyone Can Edit",
+			"license": "CC BY 3.0",
+			"sourceName": "Foodista",
+			"pricePerServing": 75.44,
+			"id": 648975,
+			"title": "Kkaetnip Jangajji (Korean Pickled Perilla Leaves)",
+			"readyInMinutes": 45,
+			"servings": 10,
+			"sourceUrl": "http://www.foodista.com/recipe/LLZNLLR4/kkaetnip-jangajji-korean-pickled-perilla-leaves",
+			"image": "https://spoonacular.com/recipeImages/648975-312x231.jpg",
+			"imageType": "jpg",
+			"summary": "If you want to add more <b>Korean</b> recipes to your recipe box, Kkaetnip Jangajji (Korean Pickled Perilla Leaves) might be a recipe you should try. For <b>75 cents per serving</b>, this recipe <b>covers 3%</b> of your daily requirements of vitamins and minerals. One serving contains <b>37 calories</b>, <b>3g of protein</b>, and <b>2g of fat</b>. This recipe serves 10. It works well as a side dish. Head to the store and pick up soy sauce, rice wine, green onions, and a few other things to make it today. This recipe from Foodista has 1 fans. From preparation to the plate, this recipe takes around <b>45 minutes</b>. It is a good option if you're following a <b>gluten free, dairy free, lacto ovo vegetarian, and vegan</b> diet. All things considered, we decided this recipe <b>deserves a spoonacular score of 19%</b>. This score is not so tremendous. If you like this recipe, you might also like recipes such as <a href=\"https://spoonacular.com/recipes/marinated-perilla-leaves-kkaennip-jangajji-887025\">Marinated Perilla Leaves (Kkaennip-jangajji)</a>, <a href=\"https://spoonacular.com/recipes/marinated-perilla-leaves-200127\">Marinated Perilla Leaves</a>, and <a href=\"https://spoonacular.com/recipes/seasoned-perilla-leaves-pancakes-kkaenip-jang-ddeok-567396\">Seasoned perilla leaves pancakes (Kkaenip Jang Ddeok)</a>.",
+			"cuisines": ["Korean", "Asian"],
+			"dishTypes": ["side dish"],
+			"diets": [
+				"gluten free",
+				"dairy free",
+				"lacto ovo vegetarian",
+				"vegan"
+			],
+			"occasions": [],
+			"analyzedInstructions": [
+				{
+					"name": "",
+					"steps": [
+						{
+							"number": 1,
+							"step": "Wash each perilla leaf individually through running water and shake off excess water.",
+							"ingredients": [
+								{
+									"id": 10311111,
+									"name": "shiso leaves",
+									"localizedName": "shiso leaves",
+									"image": "shiso-leaves.jpg"
+								},
+								{
+									"id": 0,
+									"name": "shake",
+									"localizedName": "shake",
+									"image": ""
+								},
+								{
+									"id": 14412,
+									"name": "water",
+									"localizedName": "water",
+									"image": "water.png"
+								}
+							],
+							"equipment": []
+						},
+						{
+							"number": 2,
+							"step": "Place in a colander until dried; set aside for at least 15 minutes.2.In a mixing bowl, combine all the other ingredients together with the finely chopped onion, green onion, and minced garlic. In a tupperware or plastic container, place a spoonful of the sauce on the bottom.",
+							"ingredients": [
+								{
+									"id": 0,
+									"name": "minced garlic",
+									"localizedName": "minced garlic",
+									"image": "garlic.png"
+								},
+								{
+									"id": 11291,
+									"name": "green onions",
+									"localizedName": "green onions",
+									"image": "spring-onions.jpg"
+								},
+								{
+									"id": 11282,
+									"name": "onion",
+									"localizedName": "onion",
+									"image": "brown-onion.png"
+								},
+								{
+									"id": 0,
+									"name": "sauce",
+									"localizedName": "sauce",
+									"image": ""
+								}
+							],
+							"equipment": [
+								{
+									"id": 405907,
+									"name": "mixing bowl",
+									"localizedName": "mixing bowl",
+									"image": "mixing-bowl.jpg"
+								},
+								{
+									"id": 404639,
+									"name": "colander",
+									"localizedName": "colander",
+									"image": "colander.jpg"
+								}
+							],
+							"length": {
+								"number": 15,
+								"unit": "minutes"
+							}
+						},
+						{
+							"number": 3,
+							"step": "Add one perilla leaf then put another spoonful of the sauce to coat the leaf. Continue alternating the layers with a perilla leaf and the sauce until stacks are formed side by side.3.Continue lathering the leaves one at a time until each one is covered with the sauce. If you run out of sauce, it will collect at the bottom of the tupperware. Reuse any runoff sauce to complete the process4.Store in the refrigerator for at least a few days. When ready, serve as a side dish (banchan) with the main dish.*This particular side dish (along with regular gim, seaweed) is perfect with a bowl of rice. Many Koreans (with chopsticks in hand) simply wrap a single leaf around some rice and indulge in its deliciousness. The salty and sour perilla leaves with the sticky rice really go great together.",
+							"ingredients": [
+								{
+									"id": 10311111,
+									"name": "shiso leaves",
+									"localizedName": "shiso leaves",
+									"image": "shiso-leaves.jpg"
+								},
+								{
+									"id": 10120054,
+									"name": "sticky rice",
+									"localizedName": "sticky rice",
+									"image": "rice-jasmine-cooked.jpg"
+								},
+								{
+									"id": 11445,
+									"name": "seaweed",
+									"localizedName": "seaweed",
+									"image": "kombu.jpg"
+								},
+								{
+									"id": 0,
+									"name": "sauce",
+									"localizedName": "sauce",
+									"image": ""
+								},
+								{
+									"id": 20444,
+									"name": "rice",
+									"localizedName": "rice",
+									"image": "uncooked-white-rice.png"
+								},
+								{
+									"id": 10018364,
+									"name": "wrap",
+									"localizedName": "wrap",
+									"image": "flour-tortilla.jpg"
+								}
+							],
+							"equipment": [
+								{
+									"id": 405596,
+									"name": "chopsticks",
+									"localizedName": "chopsticks",
+									"image": "chopsticks.jpg"
+								},
+								{
+									"id": 404783,
+									"name": "bowl",
+									"localizedName": "bowl",
+									"image": "bowl.jpg"
+								}
+							]
+						}
+					]
+				}
+			],
+			"spoonacularSourceUrl": "https://spoonacular.com/kkaetnip-jangajji-korean-pickled-perilla-leaves-648975"
+		},
+		{
+			"vegetarian": false,
+			"vegan": false,
+			"glutenFree": true,
+			"dairyFree": true,
+			"veryHealthy": true,
+			"cheap": false,
+			"veryPopular": false,
+			"sustainable": false,
+			"lowFodmap": false,
+			"weightWatcherSmartPoints": 7,
+			"gaps": "no",
+			"preparationMinutes": -1,
+			"cookingMinutes": -1,
+			"aggregateLikes": 1,
+			"healthScore": 72,
+			"creditsText": "Foodista.com – The Cooking Encyclopedia Everyone Can Edit",
+			"license": "CC BY 3.0",
+			"sourceName": "Foodista",
+			"pricePerServing": 318.29,
+			"id": 648916,
+			"title": "Kimchi/Kimchee/Gimchi (Korean Fermented Spicy Cabbage)",
+			"readyInMinutes": 45,
+			"servings": 20,
+			"sourceUrl": "http://www.foodista.com/recipe/Z4R2DPPH/kimchi-kimchee-gimchi-korean-fermented-spicy-cabbage",
+			"image": "https://spoonacular.com/recipeImages/648916-312x231.jpg",
+			"imageType": "jpg",
+			"summary": "Kimchi/Kimchee/Gimchi (Korean Fermented Spicy Cabbage) might be a good recipe to expand your side dish recipe box. Watching your figure? This gluten free, dairy free, and pescatarian recipe has <b>223 calories</b>, <b>9g of protein</b>, and <b>7g of fat</b> per serving. This recipe serves 20 and costs $3.18 per serving. Only a few people made this recipe, and 1 would say it hit the spot. From preparation to the plate, this recipe takes around <b>45 minutes</b>. It is a <b>rather expensive</b> recipe for fans of Korean food. If you have brown sugar, garlic cloves, saewujeot, and a few other ingredients on hand, you can make it. It is brought to you by Foodista. Overall, this recipe earns a <b>good spoonacular score of 46%</b>. <a href=\"https://spoonacular.com/recipes/basic-napa-cabbage-kimchi-kimchee-1211937\">Basic Napa Cabbage Kimchi (Kimchee)</a>, <a href=\"https://spoonacular.com/recipes/basic-napa-cabbage-kimchi-kimchee-163340\">Basic Napa Cabbage Kimchi (Kimchee)</a>, and <a href=\"https://spoonacular.com/recipes/cucumber-kimchi-oi-gimchi-150278\">Cucumber Kimchi (Oi Gimchi)</a> are very similar to this recipe.",
+			"cuisines": ["Korean", "Asian"],
+			"dishTypes": ["side dish"],
+			"diets": ["gluten free", "dairy free", "pescatarian"],
+			"occasions": [],
+			"analyzedInstructions": [
+				{
+					"name": "",
+					"steps": [
+						{
+							"number": 1,
+							"step": "Remove discolored, bruised outer leaves of cabbage and rinse well under cold water.",
+							"ingredients": [
+								{
+									"id": 11109,
+									"name": "cabbage",
+									"localizedName": "cabbage",
+									"image": "cabbage.jpg"
+								},
+								{
+									"id": 14412,
+									"name": "water",
+									"localizedName": "water",
+									"image": "water.png"
+								}
+							],
+							"equipment": []
+						},
+						{
+							"number": 2,
+							"step": "Cut cabbage head into desired pieces; smaller 2-inch pieces is recommended for easier access later.  In 3 separate large bowls, prepare one cup sea salt and water mixture for each bowl.",
+							"ingredients": [
+								{
+									"id": 1012047,
+									"name": "sea salt",
+									"localizedName": "sea salt",
+									"image": "salt.jpg"
+								},
+								{
+									"id": 11109,
+									"name": "cabbage",
+									"localizedName": "cabbage",
+									"image": "cabbage.jpg"
+								},
+								{
+									"id": 14412,
+									"name": "water",
+									"localizedName": "water",
+									"image": "water.png"
+								}
+							],
+							"equipment": [
+								{
+									"id": 404783,
+									"name": "bowl",
+									"localizedName": "bowl",
+									"image": "bowl.jpg"
+								}
+							]
+						},
+						{
+							"number": 3,
+							"step": "Sprinkle remaining 1 cup of sea salt onto the leaves of the cabbages before soaking them in the salt water. Cabbages should be partially submerged in the salt water.",
+							"ingredients": [
+								{
+									"id": 11109,
+									"name": "cabbage",
+									"localizedName": "cabbage",
+									"image": "cabbage.jpg"
+								},
+								{
+									"id": 1012047,
+									"name": "sea salt",
+									"localizedName": "sea salt",
+									"image": "salt.jpg"
+								},
+								{
+									"id": 14412,
+									"name": "water",
+									"localizedName": "water",
+									"image": "water.png"
+								},
+								{
+									"id": 2047,
+									"name": "salt",
+									"localizedName": "salt",
+									"image": "salt.jpg"
+								}
+							],
+							"equipment": []
+						},
+						{
+							"number": 4,
+							"step": "Let sit for a minimum 6 hours but 12 hours is preferred.",
+							"ingredients": [],
+							"equipment": [],
+							"length": {
+								"number": 1080,
+								"unit": "minutes"
+							}
+						},
+						{
+							"number": 5,
+							"step": "Once finished soaking, rinse the cabbage leaves thoroughly under cold water several times.",
+							"ingredients": [
+								{
+									"id": 11109,
+									"name": "cabbage",
+									"localizedName": "cabbage",
+									"image": "cabbage.jpg"
+								},
+								{
+									"id": 14412,
+									"name": "water",
+									"localizedName": "water",
+									"image": "water.png"
+								}
+							],
+							"equipment": []
+						},
+						{
+							"number": 6,
+							"step": "Remove water from the cabbage by giving them a squeeze (they should have a rubbery texture by now) to remove excess water. Set in a colander or basket for at least 2 hours so the water will drain out thoroughly. Meanwhile, prepare the red pepper mixture to be mixed with cabbage leaves.",
+							"ingredients": [
+								{
+									"id": 11821,
+									"name": "red pepper",
+									"localizedName": "red pepper",
+									"image": "red-pepper.jpg"
+								},
+								{
+									"id": 11109,
+									"name": "cabbage",
+									"localizedName": "cabbage",
+									"image": "cabbage.jpg"
+								},
+								{
+									"id": 14412,
+									"name": "water",
+									"localizedName": "water",
+									"image": "water.png"
+								}
+							],
+							"equipment": [
+								{
+									"id": 404639,
+									"name": "colander",
+									"localizedName": "colander",
+									"image": "colander.jpg"
+								}
+							],
+							"length": {
+								"number": 120,
+								"unit": "minutes"
+							}
+						},
+						{
+							"number": 7,
+							"step": "Prepare 3 tbsp of the sweet rice flour with 3 cups of water into a small pot. Bring to a boil and whisk until the mixture turns into a glue-like consistency.",
+							"ingredients": [
+								{
+									"id": 10020061,
+									"name": "sweet rice flour",
+									"localizedName": "sweet rice flour",
+									"image": "white-powder.jpg"
+								},
+								{
+									"id": 14412,
+									"name": "water",
+									"localizedName": "water",
+									"image": "water.png"
+								}
+							],
+							"equipment": [
+								{
+									"id": 404661,
+									"name": "whisk",
+									"localizedName": "whisk",
+									"image": "whisk.png"
+								},
+								{
+									"id": 404752,
+									"name": "pot",
+									"localizedName": "pot",
+									"image": "stock-pot.jpg"
+								}
+							]
+						},
+						{
+							"number": 8,
+							"step": "Let cool and set aside.",
+							"ingredients": [],
+							"equipment": []
+						},
+						{
+							"number": 9,
+							"step": "In a food processor, puree onion, garlic, ginger and some water until smooth.",
+							"ingredients": [
+								{
+									"id": 11215,
+									"name": "garlic",
+									"localizedName": "garlic",
+									"image": "garlic.png"
+								},
+								{
+									"id": 11216,
+									"name": "ginger",
+									"localizedName": "ginger",
+									"image": "ginger.png"
+								},
+								{
+									"id": 11282,
+									"name": "onion",
+									"localizedName": "onion",
+									"image": "brown-onion.png"
+								},
+								{
+									"id": 14412,
+									"name": "water",
+									"localizedName": "water",
+									"image": "water.png"
+								}
+							],
+							"equipment": [
+								{
+									"id": 404771,
+									"name": "food processor",
+									"localizedName": "food processor",
+									"image": "food-processor.png"
+								}
+							]
+						},
+						{
+							"number": 10,
+							"step": "Pour gochugaru (chili flakes) in a large mixing bowl, add the garlic mixture puree, cooled rice glue, fish sauce, salted shrimp, sugar, and sesame seeds.",
+							"ingredients": [
+								{
+									"id": 1032009,
+									"name": "red pepper flakes",
+									"localizedName": "red pepper flakes",
+									"image": "red-pepper-flakes.jpg"
+								},
+								{
+									"id": 12023,
+									"name": "sesame seeds",
+									"localizedName": "sesame seeds",
+									"image": "sesame-seeds.png"
+								},
+								{
+									"id": 6179,
+									"name": "fish sauce",
+									"localizedName": "fish sauce",
+									"image": "asian-fish-sauce.jpg"
+								},
+								{
+									"id": 1072009,
+									"name": "gochugaru",
+									"localizedName": "gochugaru",
+									"image": "chili-powder.jpg"
+								},
+								{
+									"id": 11215,
+									"name": "garlic",
+									"localizedName": "garlic",
+									"image": "garlic.png"
+								},
+								{
+									"id": 15270,
+									"name": "shrimp",
+									"localizedName": "shrimp",
+									"image": "shrimp.png"
+								},
+								{
+									"id": 19335,
+									"name": "sugar",
+									"localizedName": "sugar",
+									"image": "sugar-in-bowl.png"
+								},
+								{
+									"id": 20444,
+									"name": "rice",
+									"localizedName": "rice",
+									"image": "uncooked-white-rice.png"
+								}
+							],
+							"equipment": [
+								{
+									"id": 405907,
+									"name": "mixing bowl",
+									"localizedName": "mixing bowl",
+									"image": "mixing-bowl.jpg"
+								}
+							]
+						},
+						{
+							"number": 11,
+							"step": "Mix well and add the sliced radish and green onions.",
+							"ingredients": [
+								{
+									"id": 11291,
+									"name": "green onions",
+									"localizedName": "green onions",
+									"image": "spring-onions.jpg"
+								},
+								{
+									"id": 11429,
+									"name": "radish",
+									"localizedName": "radish",
+									"image": "radishes.jpg"
+								}
+							],
+							"equipment": []
+						},
+						{
+							"number": 12,
+							"step": "Lather each cabbage piece with red pepper mixture by rubbing them well (rubber gloves highly recommended). Continue until all the cabbage leaves are covered in the red pepper mixture. Pack them inside air-tight glass jars/containers.  Set out at room temperature for 2 days for fermentation to take place. After that, place in the refrigerator and serve as needed. The kimchi may keep for 2 or 3 months in the refrigerator.*Making kimchi is not easy, but if done right, the rewards are endless. You can take the easy way out and purchase them at your local Korean grocery store and even possibly in the Asian foods section of your local grocery.",
+							"ingredients": [
+								{
+									"id": 11821,
+									"name": "red pepper",
+									"localizedName": "red pepper",
+									"image": "red-pepper.jpg"
+								},
+								{
+									"id": 11109,
+									"name": "cabbage",
+									"localizedName": "cabbage",
+									"image": "cabbage.jpg"
+								},
+								{
+									"id": 98860,
+									"name": "kimchi",
+									"localizedName": "kimchi",
+									"image": "kimchi.png"
+								}
+							],
+							"equipment": []
+						}
+					]
+				}
+			],
+			"spoonacularSourceUrl": "https://spoonacular.com/kimchi-kimchee-gimchi-korean-fermented-spicy-cabbage-648916"
+		},
+		{
+			"vegetarian": false,
+			"vegan": false,
+			"glutenFree": true,
+			"dairyFree": true,
+			"veryHealthy": false,
+			"cheap": false,
+			"veryPopular": false,
+			"sustainable": false,
+			"lowFodmap": false,
+			"weightWatcherSmartPoints": 7,
+			"gaps": "no",
+			"preparationMinutes": -1,
+			"cookingMinutes": -1,
+			"aggregateLikes": 1,
+			"healthScore": 5,
+			"creditsText": "foodista.com",
+			"sourceName": "foodista.com",
+			"pricePerServing": 99.69,
+			"id": 649045,
+			"title": "Korean Dak Juk (Chicken Porridge)",
+			"readyInMinutes": 45,
+			"servings": 4,
+			"sourceUrl": "http://www.foodista.com/recipe/B33NNHB6/korean-dak-juk-chicken-porridge",
+			"image": "https://spoonacular.com/recipeImages/649045-312x231.jpg",
+			"imageType": "jpg",
+			"summary": "Korean Dak Juk (Chicken Porridge) is a <b>gluten free, dairy free, and ketogenic</b> main course. This recipe serves 4. One serving contains <b>273 calories</b>, <b>21g of protein</b>, and <b>19g of fat</b>. For <b>100 cents per serving</b>, this recipe <b>covers 13%</b> of your daily requirements of vitamins and minerals. A mixture of carrot, salt, of water, and a handful of other ingredients are all it takes to make this recipe so delicious. 1 person has made this recipe and would make it again. It is brought to you by Foodista. Not a lot of people really liked this Korean dish. From preparation to the plate, this recipe takes approximately <b>45 minutes</b>. Taking all factors into account, this recipe <b>earns a spoonacular score of 36%</b>, which is rather bad. Try <a href=\"https://spoonacular.com/recipes/dak-bulgogi-korean-bbq-chicken-1566187\">Dak Bulgogi (Korean BBQ Chicken)</a>, <a href=\"https://spoonacular.com/recipes/korean-fried-chicken-yangnyeom-dak-82919\">Korean Fried Chicken (yangnyeom Dak)</a>, and <a href=\"https://spoonacular.com/recipes/dak-bulgogi-korean-bbq-chicken-1248345\">Dak Bulgogi - Korean BBQ Chicken</a> for similar recipes.",
+			"cuisines": ["Korean", "Asian"],
+			"dishTypes": ["lunch", "main course", "main dish", "dinner"],
+			"diets": ["gluten free", "dairy free", "ketogenic"],
+			"occasions": [],
+			"analyzedInstructions": [
+				{
+					"name": "",
+					"steps": [
+						{
+							"number": 1,
+							"step": "Be sure to soak sweet rice in a large bowl of water (partially submerged) at least an hour before usage. There should be directions to usage so check the package if available.",
+							"ingredients": [
+								{
+									"id": 14412,
+									"name": "water",
+									"localizedName": "water",
+									"image": "water.png"
+								},
+								{
+									"id": 20444,
+									"name": "rice",
+									"localizedName": "rice",
+									"image": "uncooked-white-rice.png"
+								}
+							],
+							"equipment": [
+								{
+									"id": 404783,
+									"name": "bowl",
+									"localizedName": "bowl",
+									"image": "bowl.jpg"
+								}
+							]
+						},
+						{
+							"number": 2,
+							"step": "Fill a large pot with about 8 cups of water, boil and then add whole chicken breasts, garlic cloves, and about 1 tbsp of salt. Boil on medium-high setting for about 20 minutes.",
+							"ingredients": [
+								{
+									"id": 5062,
+									"name": "chicken breast",
+									"localizedName": "chicken breast",
+									"image": "chicken-breasts.png"
+								},
+								{
+									"id": 10211215,
+									"name": "whole garlic cloves",
+									"localizedName": "whole garlic cloves",
+									"image": "garlic.jpg"
+								},
+								{
+									"id": 14412,
+									"name": "water",
+									"localizedName": "water",
+									"image": "water.png"
+								},
+								{
+									"id": 2047,
+									"name": "salt",
+									"localizedName": "salt",
+									"image": "salt.jpg"
+								}
+							],
+							"equipment": [
+								{
+									"id": 404752,
+									"name": "pot",
+									"localizedName": "pot",
+									"image": "stock-pot.jpg"
+								}
+							],
+							"length": {
+								"number": 20,
+								"unit": "minutes"
+							}
+						},
+						{
+							"number": 3,
+							"step": "Remove chicken pieces from the heat and rinse under running cold water to cool. The chicken pieces can be torn into strips by hands or cut into thinly diced pieces according to preference.",
+							"ingredients": [
+								{
+									"id": 1005006,
+									"name": "chicken pieces",
+									"localizedName": "chicken pieces",
+									"image": "chicken-parts.jpg"
+								},
+								{
+									"id": 14412,
+									"name": "water",
+									"localizedName": "water",
+									"image": "water.png"
+								}
+							],
+							"equipment": []
+						},
+						{
+							"number": 4,
+							"step": "As for the chicken broth, strain through a sieve and/or remove the garlic cloves with a spoon (saving is optional). Reserve chicken broth and pour about 3-4 cups of broth back into the pot.",
+							"ingredients": [
+								{
+									"id": 6194,
+									"name": "chicken broth",
+									"localizedName": "chicken broth",
+									"image": "chicken-broth.png"
+								},
+								{
+									"id": 10211215,
+									"name": "whole garlic cloves",
+									"localizedName": "whole garlic cloves",
+									"image": "garlic.jpg"
+								},
+								{
+									"id": 1006615,
+									"name": "broth",
+									"localizedName": "broth",
+									"image": "chicken-broth.png"
+								}
+							],
+							"equipment": [
+								{
+									"id": 405600,
+									"name": "sieve",
+									"localizedName": "sieve",
+									"image": "strainer.png"
+								},
+								{
+									"id": 404752,
+									"name": "pot",
+									"localizedName": "pot",
+									"image": "stock-pot.jpg"
+								}
+							]
+						},
+						{
+							"number": 5,
+							"step": "Drain the water from the sweet rice and combine with shredded chicken and diced vegetables into the pot. Cook for about 20 minutes on medium heat, stirring frequently to prevent rice from sticking on the bottom. Keep the lid partially covered until a thick consistency is achieved.",
+							"ingredients": [
+								{
+									"id": 1005114,
+									"name": "shredded chicken",
+									"localizedName": "shredded chicken",
+									"image": "rotisserie-chicken.png"
+								},
+								{
+									"id": 11583,
+									"name": "vegetable",
+									"localizedName": "vegetable",
+									"image": "mixed-vegetables.png"
+								},
+								{
+									"id": 14412,
+									"name": "water",
+									"localizedName": "water",
+									"image": "water.png"
+								},
+								{
+									"id": 20444,
+									"name": "rice",
+									"localizedName": "rice",
+									"image": "uncooked-white-rice.png"
+								}
+							],
+							"equipment": [
+								{
+									"id": 404752,
+									"name": "pot",
+									"localizedName": "pot",
+									"image": "stock-pot.jpg"
+								}
+							],
+							"length": {
+								"number": 20,
+								"unit": "minutes"
+							}
+						},
+						{
+							"number": 6,
+							"step": "Add more chicken broth or water if necessary.",
+							"ingredients": [
+								{
+									"id": 6194,
+									"name": "chicken broth",
+									"localizedName": "chicken broth",
+									"image": "chicken-broth.png"
+								},
+								{
+									"id": 14412,
+									"name": "water",
+									"localizedName": "water",
+									"image": "water.png"
+								}
+							],
+							"equipment": []
+						},
+						{
+							"number": 7,
+							"step": "Plate into soup bowls while topping with a dash of sesame oil, soy sauce and green onion slices according to taste. Enjoy!",
+							"ingredients": [
+								{
+									"id": 11291,
+									"name": "green onions",
+									"localizedName": "green onions",
+									"image": "spring-onions.jpg"
+								},
+								{
+									"id": 4058,
+									"name": "sesame oil",
+									"localizedName": "sesame oil",
+									"image": "sesame-oil.png"
+								},
+								{
+									"id": 16124,
+									"name": "soy sauce",
+									"localizedName": "soy sauce",
+									"image": "soy-sauce.jpg"
+								},
+								{
+									"id": 0,
+									"name": "soup",
+									"localizedName": "soup",
+									"image": ""
+								}
+							],
+							"equipment": [
+								{
+									"id": 404783,
+									"name": "bowl",
+									"localizedName": "bowl",
+									"image": "bowl.jpg"
+								}
+							]
+						}
+					]
+				}
+			],
+			"spoonacularSourceUrl": "https://spoonacular.com/korean-dak-juk-chicken-porridge-649045"
+		},
+		{
+			"vegetarian": false,
+			"vegan": false,
+			"glutenFree": true,
+			"dairyFree": true,
+			"veryHealthy": false,
+			"cheap": false,
+			"veryPopular": false,
+			"sustainable": false,
+			"lowFodmap": false,
+			"weightWatcherSmartPoints": 21,
+			"gaps": "no",
+			"preparationMinutes": -1,
+			"cookingMinutes": -1,
+			"aggregateLikes": 1,
+			"healthScore": 46,
+			"creditsText": "foodista.com",
+			"sourceName": "foodista.com",
+			"pricePerServing": 650.98,
+			"id": 649031,
+			"title": "Korean Bibimbab (Rice w Vegetables & Beef)",
+			"readyInMinutes": 45,
+			"servings": 4,
+			"sourceUrl": "http://www.foodista.com/recipe/5GCY5HTJ/korean-bibimbab-rice-w-vegetables-beef",
+			"image": "https://spoonacular.com/recipeImages/649031-312x231.jpg",
+			"imageType": "jpg",
+			"summary": "Korean Bibimbab (Rice w Vegetables & Beef) is a <b>gluten free and dairy free</b> main course. This recipe makes 4 servings with <b>777 calories</b>, <b>44g of protein</b>, and <b>40g of fat</b> each. For <b>$6.51 per serving</b>, this recipe <b>covers 47%</b> of your daily requirements of vitamins and minerals. This recipe from Foodista has 1 fans. Not a lot of people really liked this Korean dish. Head to the store and pick up carrots, spinach, eggs, and a few other things to make it today. From preparation to the plate, this recipe takes about <b>45 minutes</b>. Taking all factors into account, this recipe <b>earns a spoonacular score of 80%</b>, which is solid. If you like this recipe, you might also like recipes such as <a href=\"https://spoonacular.com/recipes/bibimbab-korean-rice-w-vegetables-beef-634965\">Bibimbab (Korean Rice w Vegetables & Beef)</a>, <a href=\"https://spoonacular.com/recipes/korean-bibimbab-rice-w-vegetables-beef-1507229\">Korean Bibimbab (Rice w Vegetables & Beef)</a>, and <a href=\"https://spoonacular.com/recipes/bibimbab-korean-rice-w-vegetables-beef-1297907\">Bibimbab (Korean Rice w Vegetables & Beef)</a>.",
+			"cuisines": ["Korean", "Asian"],
+			"dishTypes": ["lunch", "main course", "main dish", "dinner"],
+			"diets": ["gluten free", "dairy free"],
+			"occasions": [],
+			"analyzedInstructions": [
+				{
+					"name": "",
+					"steps": [
+						{
+							"number": 1,
+							"step": "Cook rice according to package directions.",
+							"ingredients": [
+								{
+									"id": 20444,
+									"name": "rice",
+									"localizedName": "rice",
+									"image": "uncooked-white-rice.png"
+								}
+							],
+							"equipment": []
+						},
+						{
+							"number": 2,
+							"step": "Cut vegetables into matchstick pieces and set aside for sauteing.3.In a large non-stick pan/skillet, bring 2 cups water to a boil.",
+							"ingredients": [
+								{
+									"id": 11583,
+									"name": "vegetable",
+									"localizedName": "vegetable",
+									"image": "mixed-vegetables.png"
+								},
+								{
+									"id": 14412,
+									"name": "water",
+									"localizedName": "water",
+									"image": "water.png"
+								}
+							],
+							"equipment": [
+								{
+									"id": 404645,
+									"name": "frying pan",
+									"localizedName": "frying pan",
+									"image": "pan.png"
+								}
+							]
+						},
+						{
+							"number": 3,
+							"step": "Add spinach and cook, stirring constantly until wilted; drain. When cool enough to handle, squeeze spinach dry into a ball.4.Wipe out skillet; heat 1 tsp olive oil over medium-high.",
+							"ingredients": [
+								{
+									"id": 4053,
+									"name": "olive oil",
+									"localizedName": "olive oil",
+									"image": "olive-oil.jpg"
+								},
+								{
+									"id": 10011457,
+									"name": "spinach",
+									"localizedName": "spinach",
+									"image": "spinach.jpg"
+								}
+							],
+							"equipment": [
+								{
+									"id": 404645,
+									"name": "frying pan",
+									"localizedName": "frying pan",
+									"image": "pan.png"
+								}
+							]
+						},
+						{
+							"number": 4,
+							"step": "Add carrots and cook until soft, 3 minutes.",
+							"ingredients": [
+								{
+									"id": 11124,
+									"name": "carrot",
+									"localizedName": "carrot",
+									"image": "sliced-carrot.png"
+								}
+							],
+							"equipment": [],
+							"length": {
+								"number": 3,
+								"unit": "minutes"
+							}
+						},
+						{
+							"number": 5,
+							"step": "Add garlic and cook until fragrant or semi-browned, 1 minute.",
+							"ingredients": [
+								{
+									"id": 11215,
+									"name": "garlic",
+									"localizedName": "garlic",
+									"image": "garlic.png"
+								}
+							],
+							"equipment": [],
+							"length": {
+								"number": 1,
+								"unit": "minutes"
+							}
+						},
+						{
+							"number": 6,
+							"step": "Add cucumber slices mixed with gochugaru (red pepper flakes).",
+							"ingredients": [
+								{
+									"id": 1032009,
+									"name": "red pepper flakes",
+									"localizedName": "red pepper flakes",
+									"image": "red-pepper-flakes.jpg"
+								},
+								{
+									"id": 1072009,
+									"name": "gochugaru",
+									"localizedName": "gochugaru",
+									"image": "chili-powder.jpg"
+								},
+								{
+									"id": 11206,
+									"name": "cucumber",
+									"localizedName": "cucumber",
+									"image": "cucumber.jpg"
+								}
+							],
+							"equipment": []
+						},
+						{
+							"number": 7,
+							"step": "Combine spinach and soy sauce; set aside until serving.",
+							"ingredients": [
+								{
+									"id": 16124,
+									"name": "soy sauce",
+									"localizedName": "soy sauce",
+									"image": "soy-sauce.jpg"
+								},
+								{
+									"id": 10011457,
+									"name": "spinach",
+									"localizedName": "spinach",
+									"image": "spinach.jpg"
+								}
+							],
+							"equipment": []
+						},
+						{
+							"number": 8,
+							"step": "Add thinly sliced beef to non-stick pan and heat until browned. Wipe down with napkin.",
+							"ingredients": [
+								{
+									"id": 23572,
+									"name": "beef",
+									"localizedName": "beef",
+									"image": "beef-cubes-raw.png"
+								}
+							],
+							"equipment": [
+								{
+									"id": 404645,
+									"name": "frying pan",
+									"localizedName": "frying pan",
+									"image": "pan.png"
+								}
+							]
+						},
+						{
+							"number": 9,
+							"step": "Heat 1 tsp olive oil in non-stick pan over medium-high.",
+							"ingredients": [
+								{
+									"id": 4053,
+									"name": "olive oil",
+									"localizedName": "olive oil",
+									"image": "olive-oil.jpg"
+								}
+							],
+							"equipment": [
+								{
+									"id": 404645,
+									"name": "frying pan",
+									"localizedName": "frying pan",
+									"image": "pan.png"
+								}
+							]
+						},
+						{
+							"number": 10,
+							"step": "Add eggs and cook until whites are set and yolks are still runny, about 5 minutes.7.Divide rice among four bowls; top with vegetables and eggs.",
+							"ingredients": [
+								{
+									"id": 11583,
+									"name": "vegetable",
+									"localizedName": "vegetable",
+									"image": "mixed-vegetables.png"
+								},
+								{
+									"id": 1125,
+									"name": "egg yolk",
+									"localizedName": "egg yolk",
+									"image": "egg-yolk.jpg"
+								},
+								{
+									"id": 1123,
+									"name": "egg",
+									"localizedName": "egg",
+									"image": "egg.png"
+								},
+								{
+									"id": 20444,
+									"name": "rice",
+									"localizedName": "rice",
+									"image": "uncooked-white-rice.png"
+								}
+							],
+							"equipment": [
+								{
+									"id": 404783,
+									"name": "bowl",
+									"localizedName": "bowl",
+									"image": "bowl.jpg"
+								}
+							],
+							"length": {
+								"number": 5,
+								"unit": "minutes"
+							}
+						},
+						{
+							"number": 11,
+							"step": "Drizzle each with sesame oil, sprinkle with sesame seeds. Top with gochujang (red pepper paste) or Sriracha sauce as substitute.*Bibimbab and its main ingredients (usually rice and vegetables) can be chosen at one's preference. This is the main reason why bibimbab is so appealing; it suits vegetarians, dieters, health-conscience eaters, and even meat-lovers, who are more than welcome to add beef to their liking. For us, since we usually have rice available to eat at all times, we simply slice up any available vegetables or lettuce leaf varieties in the fridge for an \"instant\" and very satisfying bibimbab meal. So feel free to deviate from the original recipe!",
+							"ingredients": [
+								{
+									"id": 1016973,
+									"name": "gochujang",
+									"localizedName": "gochujang",
+									"image": "chili-paste.png"
+								},
+								{
+									"id": 1016168,
+									"name": "sriracha",
+									"localizedName": "sriracha",
+									"image": "hot-sauce-or-tabasco.png"
+								},
+								{
+									"id": 93623,
+									"name": "lettuce leaf",
+									"localizedName": "lettuce leaf",
+									"image": "iceberg-lettuce"
+								},
+								{
+									"id": 12023,
+									"name": "sesame seeds",
+									"localizedName": "sesame seeds",
+									"image": "sesame-seeds.png"
+								},
+								{
+									"id": 4058,
+									"name": "sesame oil",
+									"localizedName": "sesame oil",
+									"image": "sesame-oil.png"
+								},
+								{
+									"id": 11583,
+									"name": "vegetable",
+									"localizedName": "vegetable",
+									"image": "mixed-vegetables.png"
+								},
+								{
+									"id": 23572,
+									"name": "beef",
+									"localizedName": "beef",
+									"image": "beef-cubes-raw.png"
+								},
+								{
+									"id": 1065062,
+									"name": "meat",
+									"localizedName": "meat",
+									"image": "whole-chicken.jpg"
+								},
+								{
+									"id": 20444,
+									"name": "rice",
+									"localizedName": "rice",
+									"image": "uncooked-white-rice.png"
+								}
+							],
+							"equipment": []
+						}
+					]
+				}
+			],
+			"spoonacularSourceUrl": "https://spoonacular.com/korean-bibimbab-rice-w-vegetables-beef-649031"
+		},
+		{
+			"vegetarian": false,
+			"vegan": false,
+			"glutenFree": true,
+			"dairyFree": true,
+			"veryHealthy": false,
+			"cheap": false,
+			"veryPopular": false,
+			"sustainable": false,
+			"lowFodmap": true,
+			"weightWatcherSmartPoints": 5,
+			"gaps": "no",
+			"preparationMinutes": -1,
+			"cookingMinutes": -1,
+			"aggregateLikes": 1,
+			"healthScore": 6,
+			"creditsText": "Foodista.com – The Cooking Encyclopedia Everyone Can Edit",
+			"license": "CC BY 3.0",
+			"sourceName": "Foodista",
+			"pricePerServing": 199.43,
+			"id": 649029,
+			"title": "Korean Bibim Naengmyun (Instant Spicy Cold Noodles)",
+			"readyInMinutes": 45,
+			"servings": 2,
+			"sourceUrl": "http://www.foodista.com/recipe/V7VF28CS/korean-bibim-naengmyun-instant-spicy-cold-noodles",
+			"image": "https://spoonacular.com/recipeImages/649029-312x231.jpg",
+			"imageType": "jpg",
+			"summary": "If you want to add more <b>Korean</b> recipes to your recipe box, Korean Bibim Naengmyun (Instant Spicy Cold Noodles) might be a recipe you should try. One portion of this dish contains roughly <b>14g of protein</b>, <b>10g of fat</b>, and a total of <b>198 calories</b>. This gluten free, dairy free, and fodmap friendly recipe serves 2 and costs <b>$1.99 per serving</b>. 1 person were glad they tried this recipe. This recipe from Foodista requires alfalfa sprouts, kimchi, eggs, and leaf lettuce. From preparation to the plate, this recipe takes around <b>45 minutes</b>. Only a few people really liked this side dish. Taking all factors into account, this recipe <b>earns a spoonacular score of 40%</b>, which is not so spectacular. Try <a href=\"https://spoonacular.com/recipes/instant-spicy-korean-cold-noodles-bibim-naengmyeon-567333\">Instant Spicy Korean Cold Noodles (Bibim Naengmyeon)</a>, <a href=\"https://spoonacular.com/recipes/korean-chilled-buckwheat-noodles-with-chile-sauce-bibim-naengmyun-236866\">Korean Chilled Buckwheat Noodles with Chile Sauce (Bibim Naengmyun)</a>, and <a href=\"https://spoonacular.com/recipes/vegetarian-naengmyun-korean-cold-noodles-41475\">Vegetarian Naengmyun (korean Cold Noodles)</a> for similar recipes.",
+			"cuisines": ["Korean", "Asian"],
+			"dishTypes": ["side dish"],
+			"diets": ["gluten free", "dairy free", "fodmap friendly"],
+			"occasions": [],
+			"analyzedInstructions": [
+				{
+					"name": "",
+					"steps": [
+						{
+							"number": 1,
+							"step": "Prepare the vegetables by thinly slicing them into 2-inch strips. This allows them to be eaten comfortably with the noodles. Shred the lettuce into desired pieces and lay them as a bed for the noodles.",
+							"ingredients": [
+								{
+									"id": 11583,
+									"name": "vegetable",
+									"localizedName": "vegetable",
+									"image": "mixed-vegetables.png"
+								},
+								{
+									"id": 11252,
+									"name": "lettuce",
+									"localizedName": "lettuce",
+									"image": "iceberg-lettuce.jpg"
+								},
+								{
+									"id": 20420,
+									"name": "pasta",
+									"localizedName": "pasta",
+									"image": "fusilli.jpg"
+								}
+							],
+							"equipment": []
+						},
+						{
+							"number": 2,
+							"step": "Boil the noodles in pot for about 7 minutes or shortly after the noodles separate on their own. It's best to have slightly undercooked noodles as opposed to overcooked noodles, as they will continue to soften as you eat them. For extra spiciness, add in 1 tbsp of gochujang (red pepper paste) to the original sauce packets.",
+							"ingredients": [
+								{
+									"id": 1016973,
+									"name": "gochujang",
+									"localizedName": "gochujang",
+									"image": "chili-paste.png"
+								},
+								{
+									"id": 20420,
+									"name": "pasta",
+									"localizedName": "pasta",
+									"image": "fusilli.jpg"
+								},
+								{
+									"id": 0,
+									"name": "sauce",
+									"localizedName": "sauce",
+									"image": ""
+								}
+							],
+							"equipment": [
+								{
+									"id": 404752,
+									"name": "pot",
+									"localizedName": "pot",
+									"image": "stock-pot.jpg"
+								}
+							],
+							"length": {
+								"number": 7,
+								"unit": "minutes"
+							}
+						},
+						{
+							"number": 3,
+							"step": "After draining the noodles under cold water for several minutes, top on the bed of lettuce and top with pre-cut vegetables and garnish with sesame seeds and alfalfa sprouts.",
+							"ingredients": [
+								{
+									"id": 10111001,
+									"name": "alfalfa sprouts",
+									"localizedName": "alfalfa sprouts",
+									"image": "alfalfa-sprouts.png"
+								},
+								{
+									"id": 12023,
+									"name": "sesame seeds",
+									"localizedName": "sesame seeds",
+									"image": "sesame-seeds.png"
+								},
+								{
+									"id": 11583,
+									"name": "vegetable",
+									"localizedName": "vegetable",
+									"image": "mixed-vegetables.png"
+								},
+								{
+									"id": 11252,
+									"name": "lettuce",
+									"localizedName": "lettuce",
+									"image": "iceberg-lettuce.jpg"
+								},
+								{
+									"id": 20420,
+									"name": "pasta",
+									"localizedName": "pasta",
+									"image": "fusilli.jpg"
+								},
+								{
+									"id": 14412,
+									"name": "water",
+									"localizedName": "water",
+									"image": "water.png"
+								}
+							],
+							"equipment": []
+						},
+						{
+							"number": 4,
+							"step": "Add the spicy sauce according to taste preference. Enjoy!",
+							"ingredients": [
+								{
+									"id": 0,
+									"name": "sauce",
+									"localizedName": "sauce",
+									"image": ""
+								}
+							],
+							"equipment": []
+						}
+					]
+				}
+			],
+			"spoonacularSourceUrl": "https://spoonacular.com/korean-bibim-naengmyun-instant-spicy-cold-noodles-649029"
+		},
+		{
+			"vegetarian": false,
+			"vegan": false,
+			"glutenFree": true,
+			"dairyFree": true,
+			"veryHealthy": false,
+			"cheap": false,
+			"veryPopular": false,
+			"sustainable": false,
+			"lowFodmap": false,
+			"weightWatcherSmartPoints": 10,
+			"gaps": "no",
+			"preparationMinutes": -1,
+			"cookingMinutes": -1,
+			"aggregateLikes": 0,
+			"healthScore": 12,
+			"creditsText": "MichelleB",
+			"sourceName": "spoonacular.com",
+			"pricePerServing": 202.11,
+			"id": 390813,
+			"title": "Easy Korean Beef",
+			"author": "MichelleB",
+			"readyInMinutes": 30,
+			"servings": 3,
+			"sourceUrl": "http://spoonacular.com/-1392749060815",
+			"image": "https://spoonacular.com/recipeImages/390813-312x231.jpg",
+			"imageType": "jpg",
+			"summary": "The recipe Easy Korean Beef is ready <b>in approximately 30 minutes</b> and is definitely a super <b>gluten free and dairy free</b> option for lovers of Korean food. For <b>$2.02 per serving</b>, this recipe <b>covers 18%</b> of your daily requirements of vitamins and minerals. One portion of this dish contains approximately <b>33g of protein</b>, <b>12g of fat</b>, and a total of <b>326 calories</b>. This recipe serves 3. This recipe from spoonacular user <a href=\"/profile/MichelleB\">MichelleB</a> requires brown sugar, sesame oil, ginger, and ground beef. It works well as an affordable main course. If you like this recipe, you might also like recipes such as <a href=\"https://spoonacular.com/recipes/easy-korean-beef-1145752\">Easy Korean Beef</a>, <a href=\"https://spoonacular.com/recipes/easy-korean-ground-beef-1037430\">Easy Korean Ground Beef</a>, and <a href=\"https://spoonacular.com/recipes/easy-korean-beef-bowl-993735\">Easy Korean Beef Bowl</a>.",
+			"cuisines": ["Korean", "Asian"],
+			"dishTypes": ["lunch", "main course", "main dish", "dinner"],
+			"diets": ["gluten free", "dairy free"],
+			"occasions": [],
+			"analyzedInstructions": [
+				{
+					"name": "",
+					"steps": [
+						{
+							"number": 1,
+							"step": "Heat a large skillet over medium heat and brown hamburger with garlic in the sesame oil.",
+							"ingredients": [
+								{
+									"id": 4058,
+									"name": "sesame oil",
+									"localizedName": "sesame oil",
+									"image": "sesame-oil.png"
+								},
+								{
+									"id": 11215,
+									"name": "garlic",
+									"localizedName": "garlic",
+									"image": "garlic.png"
+								}
+							],
+							"equipment": [
+								{
+									"id": 404645,
+									"name": "frying pan",
+									"localizedName": "frying pan",
+									"image": "pan.png"
+								}
+							]
+						},
+						{
+							"number": 2,
+							"step": "Drain most of the fat and add brown sugar, soy sauce, ginger, salt, pepper, and red peppers.  Simmer for a few minutes to blend the flavors.",
+							"ingredients": [
+								{
+									"id": 19334,
+									"name": "brown sugar",
+									"localizedName": "brown sugar",
+									"image": "dark-brown-sugar.png"
+								},
+								{
+									"id": 11821,
+									"name": "red pepper",
+									"localizedName": "red pepper",
+									"image": "red-pepper.jpg"
+								},
+								{
+									"id": 16124,
+									"name": "soy sauce",
+									"localizedName": "soy sauce",
+									"image": "soy-sauce.jpg"
+								},
+								{
+									"id": 11216,
+									"name": "ginger",
+									"localizedName": "ginger",
+									"image": "ginger.png"
+								},
+								{
+									"id": 1002030,
+									"name": "pepper",
+									"localizedName": "pepper",
+									"image": "pepper.jpg"
+								},
+								{
+									"id": 2047,
+									"name": "salt",
+									"localizedName": "salt",
+									"image": "salt.jpg"
+								}
+							],
+							"equipment": []
+						},
+						{
+							"number": 3,
+							"step": "Serve over steamed rice and top with green onions",
+							"ingredients": [
+								{
+									"id": 11291,
+									"name": "green onions",
+									"localizedName": "green onions",
+									"image": "spring-onions.jpg"
+								},
+								{
+									"id": 10220445,
+									"name": "cooked rice",
+									"localizedName": "cooked rice",
+									"image": "uncooked-white-rice.png"
+								}
+							],
+							"equipment": []
+						}
+					]
+				}
+			],
+			"spoonacularSourceUrl": "https://spoonacular.com/easy-korean-beef-390813"
+		}
+	],
+	"offset": 0,
+	"number": 60,
+	"totalResults": 23
+}
