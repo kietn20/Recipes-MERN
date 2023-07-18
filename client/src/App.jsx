@@ -8,14 +8,15 @@ import { CreateRecipes } from "./components/create-recipes";
 import { SavedRecipes } from "./components/saved-recipes";
 import { Navbar } from "./components/navbar";
 import { RecipesTemplate } from "./components/recipesTemplate";
+import { useState } from "react";
 
 export const APIurl = "https://recipe-mern-server.onrender.com";
 
 function App() {
+	const [showNavbar, setShowNavbar] = useState(true)
 	return (
 		<div className="App">
 			<Router>
-				<Navbar />
 				<Routes>
 					<Route path="/" element={<Home />}></Route>
 					<Route path="/auth" element={<Auth />}></Route>

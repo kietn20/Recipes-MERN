@@ -1,3 +1,4 @@
+import { Navbar } from "./navbar";
 import { useEffect, useState } from "react";
 import axios from "axios";
 import { useGetUserID } from "../hooks/useGetUserID";
@@ -75,180 +76,199 @@ export const Home = () => {
 	const isRecipeSaved = (id) => savedRecipes.includes(id);
 
 	return (
-		<div className="home">
-			<div className="popularDiv">
-				<h1 className="popular-title">Popular Recipes</h1>
-				<div className="popular-recipes">
-					<div className="popular-big">
-						<a
-							href="https://www.vickypham.com/blog/vietnamese-beef-noodle-soup-pho-bo"
-							target="_blank"
-						>
-							<img
-								src="https://hips.hearstapps.com/hmg-prod/images/instant-pot-pho-1-1649171262.jpg?crop=0.888888888888889xw:1xh;center,top&resize=1200:*"
-								alt="pho bo"
-							/>
-							<h1>Phở Bò (Vietnamese Beef Noodle Soup) </h1>
-						</a>
-					</div>
-					<div className="popular-side">
-						{Object.keys(recipesInfo).map((key, i) => (
+		<div>
+			<Navbar />
+			<div className="home">
+				<div className="popularDiv">
+					<h1 className="popular-title">Popular Recipes</h1>
+					<div className="popular-recipes">
+						<div className="popular-big">
 							<a
-								href={recipesInfo[key].sourceUrl}
-								key={i}
+								href="https://www.vickypham.com/blog/vietnamese-beef-noodle-soup-pho-bo"
 								target="_blank"
 							>
-								<div>
-									<img
-										src={recipesInfo[key].image}
-										alt={recipesInfo[key].title}
-									/>
-									<div className="popular-side-description">
-										<h1>{recipesInfo[key].title}</h1>
-										<div className="popular-side-facts">
-											<div className="popular-side-likes">
-												<BiLike />
+								<img
+									src="https://hips.hearstapps.com/hmg-prod/images/instant-pot-pho-1-1649171262.jpg?crop=0.888888888888889xw:1xh;center,top&resize=1200:*"
+									alt="pho bo"
+								/>
+								<h1>Phở Bò (Vietnamese Beef Noodle Soup) </h1>
+							</a>
+						</div>
+						<div className="popular-side">
+							{Object.keys(recipesInfo).map((key, i) => (
+								<a
+									href={recipesInfo[key].sourceUrl}
+									key={i}
+									target="_blank"
+								>
+									<div>
+										<img
+											src={recipesInfo[key].image}
+											alt={recipesInfo[key].title}
+										/>
+										<div className="popular-side-description">
+											<h1>{recipesInfo[key].title}</h1>
+											<div className="popular-side-facts">
+												<div className="popular-side-likes">
+													<BiLike />
+													<h5>
+														&nbsp;
+														{recipesInfo[
+															key
+														].aggregateLikes.toLocaleString(
+															"en-US"
+														)}
+													</h5>
+												</div>
 												<h5>
-													&nbsp;
-													{recipesInfo[
-														key
-													].aggregateLikes.toLocaleString(
-														"en-US"
-													)}
+													Ready in&nbsp;
+													{
+														recipesInfo[key]
+															.readyInMinutes
+													}
+													&nbsp;minutes
 												</h5>
 											</div>
+										</div>
+									</div>
+								</a>
+							))}
+						</div>
+					</div>
+				</div>
+				<div className="breakfast">
+					<h1 className="title">Breakfast</h1>
+					<div className="breakfast-display">
+						{Object.keys(breakfastRecipes.slice(0, 6)).map(
+							(key, i) => (
+								<a
+									href={breakfastRecipes[key].sourceUrl}
+									key={i}
+									target="_blank"
+								>
+									<div className="breakfast-item">
+										<img
+											src={breakfastRecipes[key].image}
+											alt={breakfastRecipes[key].title}
+										/>
+										<div className="breakfast-description">
+											<h4>
+												{breakfastRecipes[key].title}
+											</h4>
 											<h5>
 												Ready in&nbsp;
 												{
-													recipesInfo[key]
+													breakfastRecipes[key]
 														.readyInMinutes
 												}
 												&nbsp;minutes
 											</h5>
 										</div>
 									</div>
-								</div>
-							</a>
-						))}
+								</a>
+							)
+						)}
 					</div>
 				</div>
-			</div>
-			<div className="breakfast">
-				<h1 className="title">Breakfast</h1>
-				<div className="breakfast-display">
-					{Object.keys(breakfastRecipes.slice(0,6)).map((key, i) => (
-						<a
-							href={breakfastRecipes[key].sourceUrl}
-							key={i}
-							target="_blank"
-						>
-							<div className="breakfast-item">
-								<img
-									src={breakfastRecipes[key].image}
-									alt={breakfastRecipes[key].title}
-								/>
-								<div className="breakfast-description">
-									<h4>{breakfastRecipes[key].title}</h4>
-									<h5>
-										Ready in&nbsp;
-										{breakfastRecipes[key].readyInMinutes}
-										&nbsp;minutes
-									</h5>
-								</div>
-							</div>
-						</a>
-					))}
-				</div>
-			</div>
-			<div className="breakfast">
-				<h1 className="title">Meals</h1>
-				<div className="breakfast-display">
-					{Object.keys(mainCourseRecipes.slice(0, 6)).map(
-						(key, i) => (
-							<a
-								href={mainCourseRecipes[key].sourceUrl}
-								key={i}
-								target="_blank"
-							>
-								<div className="breakfast-item">
-									<img
-										src={mainCourseRecipes[key].image}
-										alt={mainCourseRecipes[key].title}
-									/>
-									<div className="breakfast-description">
-										<h4>{mainCourseRecipes[key].title}</h4>
-										<h5>
-											Ready in&nbsp;
-											{
-												mainCourseRecipes[key]
-													.readyInMinutes
-											}
-											&nbsp;minutes
-										</h5>
-									</div>
-								</div>
-							</a>
-						)
-					)}
-				</div>
-			</div>
-			<div className="breakfast">
-				<h1 className="title">Desserts</h1>
-				<div className="breakfast-display">
-					{Object.keys(dessertRecipes.slice(0, 6)).map((key, i) => (
-						<a
-							href={dessertRecipes[key].sourceUrl}
-							key={i}
-							target="_blank"
-						>
-							<div className="breakfast-item">
-								<img
-									src={dessertRecipes[key].image}
-									alt={dessertRecipes[key].title}
-								/>
-								<div className="breakfast-description">
-									<h4>{dessertRecipes[key].title}</h4>
-									<h5>
-										Ready in&nbsp;
-										{dessertRecipes[key].readyInMinutes}
-										&nbsp;minutes
-									</h5>
-								</div>
-							</div>
-						</a>
-					))}
-				</div>
-			</div>
-			<div className="usersRecipes">
-				<h1>User Created Recipes</h1>
-				<ul>
-					{recipes.map((recipe) => (
-						<li className="recipeItem" key={recipe._id}>
-							<div>
-								<h2>
-									<a href="#" className="underline">
-										{recipe.name}
-									</a>
-								</h2>
-								<button
-									onClick={() => saveRecipe(recipe._id)}
-									disabled={isRecipeSaved(recipe._id)}
+				<div className="breakfast">
+					<h1 className="title">Meals</h1>
+					<div className="breakfast-display">
+						{Object.keys(mainCourseRecipes.slice(0, 6)).map(
+							(key, i) => (
+								<a
+									href={mainCourseRecipes[key].sourceUrl}
+									key={i}
+									target="_blank"
 								>
-									{isRecipeSaved(recipe._id)
-										? "Saved"
-										: "Save"}
-								</button>
-							</div>
-							<div>
-								<p>{recipe.instructions}</p>
-							</div>
-							<img src={recipe.imageUrl} alt={recipe.name} />
-							<p>Cooking Time: {recipe.cookingTime} (minutes)</p>
-						</li>
-					))}
-				</ul>
+									<div className="breakfast-item">
+										<img
+											src={mainCourseRecipes[key].image}
+											alt={mainCourseRecipes[key].title}
+										/>
+										<div className="breakfast-description">
+											<h4>
+												{mainCourseRecipes[key].title}
+											</h4>
+											<h5>
+												Ready in&nbsp;
+												{
+													mainCourseRecipes[key]
+														.readyInMinutes
+												}
+												&nbsp;minutes
+											</h5>
+										</div>
+									</div>
+								</a>
+							)
+						)}
+					</div>
+				</div>
+				<div className="breakfast">
+					<h1 className="title">Desserts</h1>
+					<div className="breakfast-display">
+						{Object.keys(dessertRecipes.slice(0, 6)).map(
+							(key, i) => (
+								<a
+									href={dessertRecipes[key].sourceUrl}
+									key={i}
+									target="_blank"
+								>
+									<div className="breakfast-item">
+										<img
+											src={dessertRecipes[key].image}
+											alt={dessertRecipes[key].title}
+										/>
+										<div className="breakfast-description">
+											<h4>{dessertRecipes[key].title}</h4>
+											<h5>
+												Ready in&nbsp;
+												{
+													dessertRecipes[key]
+														.readyInMinutes
+												}
+												&nbsp;minutes
+											</h5>
+										</div>
+									</div>
+								</a>
+							)
+						)}
+					</div>
+				</div>
+				<div className="usersRecipes">
+					<h1>User Created Recipes</h1>
+					<ul>
+						{recipes.map((recipe) => (
+							<li className="recipeItem" key={recipe._id}>
+								<div>
+									<h2>
+										<a href="#" className="underline">
+											{recipe.name}
+										</a>
+									</h2>
+									<button
+										onClick={() => saveRecipe(recipe._id)}
+										disabled={isRecipeSaved(recipe._id)}
+									>
+										{isRecipeSaved(recipe._id)
+											? "Saved"
+											: "Save"}
+									</button>
+								</div>
+								<div>
+									<p>{recipe.instructions}</p>
+								</div>
+								<img src={recipe.imageUrl} alt={recipe.name} />
+								<p>
+									Cooking Time: {recipe.cookingTime} (minutes)
+								</p>
+							</li>
+						))}
+					</ul>
+				</div>
+				<Footer />
 			</div>
-			<Footer />
 		</div>
 	);
 };

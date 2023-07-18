@@ -1,9 +1,9 @@
 import { useState } from "react";
 import axios from "axios";
 import { useCookies } from "react-cookie";
-import { useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { APIurl } from "../App";
-import "./login.css"
+import "./login.css";
 
 export const Login = () => {
 	const [username, setUsername] = useState("");
@@ -31,28 +31,40 @@ export const Login = () => {
 
 	return (
 		<div className="login-container">
-			<form onSubmit={onSubmit}>
-				<h1>Login</h1>
-				<div className="form-group">
-					<label htmlFor="username">Username:</label>
-					<input
-						type="text"
-						id="username"
-						value={username}
-						onChange={(event) => setUsername(event.target.value)}
-					/>
-				</div>
-				<div className="form-group">
-					<label htmlFor="password">Password:</label>
-					<input
-						type="password"
-						id="password"
-						value={password}
-						onChange={(event) => setPassword(event.target.value)}
-					/>
-				</div>
-				<button type="submit">Login</button>
-			</form>
+			<div className="login-leftside">
+				<img src="./loginIMG.jpg" alt="" />
+			</div>
+			<div className="login-form">
+				<Link to="/">
+					<img src="./cooked-logo.png" alt="logo1" />
+				</Link>
+				<form onSubmit={onSubmit}>
+					<h1>Log in</h1>
+					<div className="form-group">
+						<label htmlFor="username">Username:</label>
+						<input
+							type="text"
+							id="username"
+							value={username}
+							onChange={(event) =>
+								setUsername(event.target.value)
+							}
+						/>
+					</div>
+					<div className="form-group">
+						<label htmlFor="password">Password:</label>
+						<input
+							type="password"
+							id="password"
+							value={password}
+							onChange={(event) =>
+								setPassword(event.target.value)
+							}
+						/>
+					</div>
+					<button type="submit">~ enter ~</button>
+				</form>
+			</div>
 		</div>
 	);
 };

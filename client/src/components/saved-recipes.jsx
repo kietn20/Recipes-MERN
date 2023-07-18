@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import axios from "axios";
 import { useGetUserID } from "../hooks/useGetUserID";
 import { APIurl } from "../App";
+import { Navbar } from "./navbar";
 
 export const SavedRecipes = () => {
 	const [savedRecipes, setSavedRecipes] = useState([]);
@@ -24,6 +25,7 @@ export const SavedRecipes = () => {
 
 	return (
 		<div>
+			<Navbar />
 			<h1>Saved Recipes</h1>
 			{savedRecipes ? (
 				<ul>
