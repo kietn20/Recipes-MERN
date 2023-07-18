@@ -21,9 +21,11 @@ import indian from "../api/indian.json";
 import korean from "../api/korean.json";
 import vietnamese from "../api/vietnamese.json";
 import japanese from "../api/japanese.json";
+import { BiLogOut } from "react-icons/bi";
 
 export const Navbar = () => {
 	const [cookies, setCookies] = useCookies(["access_token"]);
+	console.log("cookies", cookies);
 	const navigate = useNavigate();
 
 	const logout = () => {
@@ -38,7 +40,9 @@ export const Navbar = () => {
 					<img src="./cooked-logo.png" alt="logo1" />
 				</Link>
 				<div className="navlinks">
-					<Link to="/create-recipes">Create Recipes</Link>
+					<Link to={cookies['access_token'] ? "/create-recipes" : "/login"}>
+						Create Recipes
+					</Link>
 					{!cookies.access_token ? (
 						<div>
 							{/* <Link to="/auth">Login/Register</Link> */}
@@ -49,7 +53,8 @@ export const Navbar = () => {
 						<>
 							<Link to="/saved-recipes">Saved Recipes</Link>
 							<a className="logout" onClick={logout}>
-								Logout
+								Logout&nbsp;
+								<BiLogOut className="logoutIcon" />
 							</a>
 						</>
 					)}

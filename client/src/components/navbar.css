@@ -31,25 +31,47 @@
 .navbar-upper a:hover:not(.logout){
     transition: 0.8s;
     text-decoration: underline;
-    text-decoration-color: rgb(255, 123, 0);
+    text-decoration-color: orangered;
+    text-underline-offset: 6px;
 }
 
-.navlinks, .navlinks div {
+.navlinks {
+    position: relative;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-top: 2rem;
     padding-right: 3rem;
     gap: 2rem;
+    font-size: 20px;
+}
+
+.navlinks div {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+}
+
+.logoutIcon {
+    position: absolute;
+    padding-top: 4px;
 }
 
 .logout {
     background-color:rgb(245, 229, 200);
+    padding: 10px;
+    padding-right: 25px;
 }
 
 .logout:hover {
     color: white;
-    transition: 0.8s;
-    background-color:orange;
+    transition: 0.3s ease;
+    background-color:orangered;
+    padding-right: 25px;
+    cursor: pointer;
+    text-underline-offset: 6px;
 }
 
 .navbar-lower {
@@ -59,7 +81,7 @@
     justify-content: space-evenly;
     width: min-content;
     gap: 2rem;
-
+    padding-bottom: 5px;
 }
 
 .navbar-lower a {
