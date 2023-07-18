@@ -87,6 +87,8 @@
 .navbar-lower a {
     color: black;
     text-decoration: none;
+    font-size: 20px;
+
 }
 
 .dropdown {
@@ -120,7 +122,9 @@
 }
 
 .dropdown-content a:hover {
-    background-color: #f1f1f1
+    background-color: #f1f1f1;
+    background-color: orange;
+    transition: 0.2s;
 }
 
 .dropdown:hover .dropdown-content {
@@ -131,4 +135,6 @@
     background-color: #f1f1f1;
     border-radius: 5px;
     padding: 5px;
+    background-color: rgb(247, 212, 141);
+    transition: 0.2s;
 }

@@ -25,7 +25,6 @@ import { BiLogOut } from "react-icons/bi";
 
 export const Navbar = () => {
 	const [cookies, setCookies] = useCookies(["access_token"]);
-	console.log("cookies", cookies);
 	const navigate = useNavigate();
 
 	const logout = () => {
