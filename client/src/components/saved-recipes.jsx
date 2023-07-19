@@ -7,9 +7,11 @@ import { Navbar } from "./navbar";
 import "./saved-recipes.css";
 import { BsFillBookmarkDashFill } from "react-icons/bs";
 
+const userID = useGetUserID();
+
 export const SavedRecipes = () => {
+	console.log("userID:" + userID);
 	const [savedRecipes, setSavedRecipes] = useState([]);
-	const userID = useGetUserID();
 	const [cookies, _] = useCookies(["access_token"]);
 
 	useEffect(() => {
@@ -23,21 +25,16 @@ export const SavedRecipes = () => {
 				console.err(err);
 			}
 		};
-
 		if (cookies.access_token) fetchSavedRecipe();
+		else console.log("cookies bad");
 	}, []);
 
 	const isRecipeSaved = (id) => savedRecipes.includes(id);
 
 	const removeSavedRecipe = async (recipeID) => {
 		try {
-			const response = await axios.put(
-				`${APIurl}/recipes/savedRecipes/delete`,
-				{
-					recipeID,
-					userID,
-				},
-				{ headers: { authorization: cookies.access_token } }
+			const response = await axios.delete(
+				`${APIurl}/recipes/savedRecipes/delete/${userID}/${recipeID}`
 			);
 			setSavedRecipes(response.data.savedRecipes);
 		} catch (err) {
