@@ -51,12 +51,9 @@ export const UserCreatedRecipes = () => {
 				},
 				{ headers: { authorization: cookies.access_token } }
 			);
-			// console.log(response);
-			// console.log(response.data);
 			setSavedRecipes(response.data.savedRecipes);
 		} catch (err) {
 			console.err(err);
-			console.err("!!!!!!!!!!!!!!!saveRecipe error");
 		}
 	};
 

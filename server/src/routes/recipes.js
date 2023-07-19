@@ -34,7 +34,6 @@ router.put("/", verifyToken, async (req, res) => {
         res.json({ savedRecipes: user.savedRecipes });
     } catch (err) {
         res.json(err);
-        res.json("router error from backend")
     }
 });
 
@@ -59,15 +58,14 @@ router.get("/savedRecipes/:userID", async (req, res) => {
     }
 });
 
-router.delete("/savedRecipes/delete", verifyToken, async (req, res) => {
+router.put("/savedRecipes/delete", verifyToken, async (req, res) => {
     try {
         const recipe = await RecipeModel.findById(req.body.recipeID);
         const user = await UserModel.findById(req.body.userID);
         const index = user.savedRecipes.indexOf(recipe);
         user.savedRecipes.splice(index, 1);
-        console.log(index);
         await user.save();
-        res.json({ savedRecipes: user.savedRecipes, index })
+        res.json({ savedRecipes: user.savedRecipes })
     } catch (err) {
         res.json("ashdhuiashdhasuidhuiashudhuiashudiuiashduihasuihdu")
     }

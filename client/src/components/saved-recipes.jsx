@@ -24,14 +24,14 @@ export const SavedRecipes = () => {
 			}
 		};
 
-		fetchSavedRecipe();
+		if (cookies.access_token) fetchSavedRecipe();
 	}, []);
 
 	const isRecipeSaved = (id) => savedRecipes.includes(id);
 
 	const removeSavedRecipe = async (recipeID) => {
 		try {
-			const response = await axios.delete(
+			const response = await axios.put(
 				`${APIurl}/recipes/savedRecipes/delete`,
 				{
 					recipeID,
@@ -82,7 +82,7 @@ export const SavedRecipes = () => {
 					))}
 				</div>
 			) : (
-				<h1>world</h1>
+				<h2>No Recipes Saved</h2>
 			)}
 		</div>
 	);
