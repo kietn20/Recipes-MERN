@@ -1,12 +1,16 @@
 import { useEffect, useState } from "react";
+import { useCookies } from "react-cookie";
 import axios from "axios";
 import { useGetUserID } from "../hooks/useGetUserID";
 import { APIurl } from "../App";
 import { Navbar } from "./navbar";
+import "./saved-recipes.css";
+import { BsFillBookmarkDashFill } from "react-icons/bs";
 
 export const SavedRecipes = () => {
 	const [savedRecipes, setSavedRecipes] = useState([]);
 	const userID = useGetUserID();
+	const [cookies, _] = useCookies(["access_token"]);
 
 	useEffect(() => {
 		const fetchSavedRecipe = async () => {
@@ -23,27 +27,62 @@ export const SavedRecipes = () => {
 		fetchSavedRecipe();
 	}, []);
 
+	const isRecipeSaved = (id) => savedRecipes.includes(id);
+
+	const removeSavedRecipe = async (recipeID) => {
+		try {
+			const response = await axios.delete(
+				`${APIurl}/recipes/savedRecipes/delete`,
+				{
+					recipeID,
+					userID,
+				},
+				{ headers: { authorization: cookies.access_token } }
+			);
+			setSavedRecipes(response.data.savedRecipes);
+		} catch (err) {
+			console.error(err);
+		}
+	};
+
 	return (
-		<div>
+		<div className="savedRecipes-container">
 			<Navbar />
 			<h1>Saved Recipes</h1>
 			{savedRecipes ? (
-				<ul>
+				<div>
 					{savedRecipes.map((recipe) => (
-						<li key={recipe._id}>
-							<div>
-								<h2>{recipe.name}</h2>
-							</div>
-							<div>
-								<p>{recipe.instructions}</p>
-							</div>
+						<div key={recipe._id} className="savedRecipeItem">
 							<img src={recipe.imageUrl} alt={recipe.name} />
-							<p>Cooking Time: {recipe.cookingTime} (minutes)</p>
-						</li>
+							<div className="savedRecipeItem-description">
+								<div>
+									<h2>{recipe.name}</h2>
+									<button
+										onClick={() =>
+											removeSavedRecipe(recipe._id)
+										}
+										disabled={isRecipeSaved(recipe._id)}
+									>
+										<BsFillBookmarkDashFill />
+									</button>
+								</div>
+								<p>
+									Cooking Time: {recipe.cookingTime} (minutes)
+								</p>
+								<h3>Instructions</h3>
+								<p>{recipe.instructions}</p>
+								<h3>Ingredients</h3>
+								<ul>
+									{recipe.ingredients.map((ingredient) => (
+										<li key={ingredient}>{ingredient}</li>
+									))}
+								</ul>
+							</div>
+						</div>
 					))}
-				</ul>
+				</div>
 			) : (
-				<h1>No current saved recipes</h1>
+				<h1>world</h1>
 			)}
 		</div>
 	);

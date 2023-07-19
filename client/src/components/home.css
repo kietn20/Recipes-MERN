@@ -58,6 +58,18 @@
     -webkit-box-orient: vertical;
 }
 
+.recipeItem-filledButton {
+	font-size: 1.5rem;
+    float: right;
+}
+
+.recipeItem-emptyButton {
+	background-color: transparent;
+	border: transparent;
+	cursor: pointer;
+	font-size: 1.5rem;
+}
+
 /* -------------------------------- Popular  -------------------------------- */
 
 .popularDiv {
@@ -224,19 +236,21 @@
     position: relative;
     overflow: hidden;
 }
+
 .underline:after {
     content: "";
     position: absolute;
-    z-index: -1;
+    z-index: 1;
     right: 0;
     width: 0;
     bottom: -5px;
-    background: #000;
-    height: 4px;
+    background: orangered;
+    height: 3px;
     transition-property: width;
     transition-duration: 0.3s;
     transition-timing-function: ease-out;
 }
+
 .underline:hover:after,
 .underline:focus:after,
 .underline:active:after {

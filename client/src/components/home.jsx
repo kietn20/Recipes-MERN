@@ -12,6 +12,7 @@ import breakfast from "../api/breakfast.json";
 import mainCourse from "../api/mainCourse.json";
 import desserts from "../api/dessert.json";
 import { Footer } from "./footer";
+import { BsBookmark, BsBookmarkCheckFill } from "react-icons/bs";
 
 const APIkey = import.meta.env.VITE_SPOONKEY;
 
@@ -239,23 +240,29 @@ export const Home = () => {
 				<div className="usersRecipes">
 					<h1>User Created Recipes</h1>
 					<ul>
-						{recipes.map((recipe) => (
+						{recipes.slice(0, 6).map((recipe) => (
 							<li className="recipeItem" key={recipe._id}>
-								<div>
+								<h2 className="underline">
+									<a href="#">{recipe.name}</a>
+								</h2>
+								{isRecipeSaved(recipe._id) ? (
+									<BsBookmarkCheckFill className="recipeItem-filledButton" />
+								) : (
 									<h2>
 										<a href="#" className="underline">
 											{recipe.name}
 										</a>
+										<button
+											className="recipeItem-emptyButton"
+											onClick={() =>
+												saveRecipe(recipe._id)
+											}
+											disabled={isRecipeSaved(recipe._id)}
+										>
+											<BsBookmark />
+										</button>
 									</h2>
-									<button
-										onClick={() => saveRecipe(recipe._id)}
-										disabled={isRecipeSaved(recipe._id)}
-									>
-										{isRecipeSaved(recipe._id)
-											? "Saved"
-											: "Save"}
-									</button>
-								</div>
+								)}
 								<div>
 									<p>{recipe.instructions}</p>
 								</div>

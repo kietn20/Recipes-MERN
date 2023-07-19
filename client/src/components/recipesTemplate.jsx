@@ -1,6 +1,7 @@
 import { Footer } from "./footer";
 import { useLocation } from "react-router-dom";
 import "./recipesTemplate.css";
+import { Navbar } from "./navbar";
 
 export const RecipesTemplate = () => {
 	const location = useLocation();
@@ -8,6 +9,7 @@ export const RecipesTemplate = () => {
 	console.log(location.state[0]);
 	return (
 		<div className="wrapper">
+			<Navbar />
 			<h1 className="title">{location.state[1]}</h1>
 			<div className="wrapper-display">
 				{Object.keys(obj).map((key, i) => (

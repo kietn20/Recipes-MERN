@@ -39,7 +39,13 @@ export const Navbar = () => {
 					<img src="./cooked-logo.png" alt="logo1" />
 				</Link>
 				<div className="navlinks">
-					<Link to={cookies['access_token'] ? "/create-recipes" : "/login"}>
+					<Link
+						to={
+							cookies["access_token"]
+								? "/create-recipes"
+								: "/login"
+						}
+					>
 						Create Recipes
 					</Link>
 					{!cookies.access_token ? (
@@ -145,6 +151,11 @@ export const Navbar = () => {
 							Japanese
 						</Link>
 					</div>
+				</div>
+				<div className="nav-userCreated">
+					<Link className="dropbtn" to="/user-created-recipes">
+						User Created Recipes
+					</Link>
 				</div>
 			</div>
 		</div>

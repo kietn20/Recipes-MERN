@@ -55,7 +55,7 @@ export const Register = () => {
 							}
 						/>
 					</div>
-					<button type="submit">~ Register ~</button>
+					<button type="submit">~ enterlo ~</button>
 				</form>
 			</div>
 		</div>
