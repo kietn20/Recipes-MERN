@@ -58,7 +58,7 @@ router.get("/savedRecipes/:userID", async (req, res) => {
     }
 });
 
-router.delete("/savedRecipes/delete/:userID/:recipeID", async (req, res) => {
+router.delete("/savedRecipes/delete/?userID=&recipeID=", async (req, res) => {
     console.log('frog');
     try {
         const user = await UserModel.findById(req.params.userID);
