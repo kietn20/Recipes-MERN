@@ -6,6 +6,14 @@ import { verifyToken } from "./users.js";
 
 const router = express.Router();
 
+router.get("", async (req, res) => {
+    try {
+        res.json({ hello: 'hello world' });
+    } catch (err) {
+        res.json(err)
+    }
+});
+
 router.get("/", async (req, res) => {
     try {
         const response = await RecipeModel.find({});
@@ -13,7 +21,7 @@ router.get("/", async (req, res) => {
     } catch (err) {
         res.json(err);
     }
-})
+});
 
 router.post("/", verifyToken, async (req, res) => {
     const recipe = new RecipeModel(req.body);
@@ -64,11 +72,11 @@ router.post("/savedRecipes/delete", async (req, res) => {
     try {
         // const user = await UserModel.findById(req.params.userID);
         // const recipe = await RecipeModel.findById(req.params.recipeID);
-        const user = '64b8b414728c545652098a55';
-        const recipe = '64a8df609956187032dcc2f4';
-        await user.savedRecipes.delete(recipe);
-        // const index = user.savedRecipes.indexOf(recipe);
-        // user.savedRecipes.splice(index, 1);
+        const user = await UserModel.findById('64b8b414728c545652098a55');
+        const recipe = await RecipeModel.findById('64a8df609956187032dcc2f4');
+
+        const index = user.savedRecipes.indexOf(recipe);
+        user.savedRecipes.splice(index, 1);
         await user.save();
         res.json({ savedRecipes: user.savedRecipes });
     } catch (err) {
