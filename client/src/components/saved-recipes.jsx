@@ -24,6 +24,7 @@ export const SavedRecipes = () => {
 				console.err(err);
 			}
 		};
+
 		if (cookies.access_token) fetchSavedRecipe();
 		else console.log("cookies bad");
 	}, []);
