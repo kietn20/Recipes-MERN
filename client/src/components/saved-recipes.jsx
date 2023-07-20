@@ -7,10 +7,9 @@ import { Navbar } from "./navbar";
 import "./saved-recipes.css";
 import { BsFillBookmarkDashFill } from "react-icons/bs";
 
-const userID = useGetUserID();
-
 export const SavedRecipes = () => {
-	console.log("userID:" + userID);
+	const userID = useGetUserID();
+	// console.log("userID:" + userID);
 	const [savedRecipes, setSavedRecipes] = useState([]);
 	const [cookies, _] = useCookies(["access_token"]);
 

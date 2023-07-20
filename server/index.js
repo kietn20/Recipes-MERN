@@ -1,15 +1,16 @@
 import express from "express";
 import cors from "cors";
 import mongoose from "mongoose";
-import 'dotenv/config'
-import { userRouter } from "./routes/users.js";
-import { recipesRouter } from "./routes/recipes.js";
+import dotenv from "dotenv";
+import { userRouter } from "./src/routes/users.js";
+import { recipesRouter } from "./src/routes/recipes.js";
+
+dotenv.config();
 
 const mongoUsername = process.env.MONGO_USERNAME;
 const mongoPassword = process.env.MONGO_PASSWORD;
 
 const app = express();
-
 
 app.use(express.json());
 app.use(cors());
