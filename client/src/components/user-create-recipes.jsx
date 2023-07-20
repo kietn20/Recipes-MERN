@@ -41,6 +41,8 @@ export const UserCreatedRecipes = () => {
 		if (cookies.access_token) fetchSavedRecipe();
 	}, []);
 
+	const isRecipeSaved = (id) => savedRecipes.includes(id);
+
 	const saveRecipe = async (recipeID) => {
 		try {
 			const response = await axios.put(
@@ -56,8 +58,6 @@ export const UserCreatedRecipes = () => {
 			console.err(err);
 		}
 	};
-
-	const isRecipeSaved = (id) => savedRecipes.includes(id);
 
 	return (
 		<div className="usersRecipes-container">
@@ -75,10 +75,8 @@ export const UserCreatedRecipes = () => {
 									<BsBookmarkCheckFill className="recipeItem-filledButton" />
 								</div>
 							) : (
-								<h2>
-									<a href="#" className="underline">
-										{recipe.name}
-									</a>
+								<h2 className="underline">
+									<a href="#">{recipe.name}</a>
 									<button
 										className="recipeItem-emptyButton"
 										onClick={() => saveRecipe(recipe._id)}

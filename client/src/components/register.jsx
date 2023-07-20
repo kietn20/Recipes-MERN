@@ -8,6 +8,7 @@ import "./register.css";
 export const Register = () => {
 	const [username, setUsername] = useState("");
 	const [password, setPassword] = useState("");
+	const navigate = useNavigate();
 
 	const onSubmit = async (event) => {
 		event.preventDefault();
@@ -17,6 +18,7 @@ export const Register = () => {
 				password,
 			});
 			alert("Registration Complete! Now Login.");
+			navigate("/");
 		} catch (err) {
 			console.error(err);
 		}
@@ -55,7 +57,7 @@ export const Register = () => {
 							}
 						/>
 					</div>
-					<button type="submit">~ enterlo ~</button>
+					<button type="submit">~ enter ~</button>
 				</form>
 			</div>
 		</div>

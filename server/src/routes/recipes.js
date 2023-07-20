@@ -29,8 +29,10 @@ router.put("/", verifyToken, async (req, res) => {
     try {
         const recipe = await RecipeModel.findById(req.body.recipeID);
         const user = await UserModel.findById(req.body.userID);
-        user.savedRecipes.push(recipe);
-        await user.save();
+        if (!user.savedRecipes.includes(recipe)) {
+            user.savedRecipes.push(recipe);
+            await user.save();
+        }
         res.json({ savedRecipes: user.savedRecipes });
     } catch (err) {
         res.json(err);
@@ -58,7 +60,7 @@ router.get("/savedRecipes/:userID", async (req, res) => {
     }
 });
 
-router.delete("/savedRecipes/delete/?userID=:userID&recipeID=:recipeID", async (req, res) => {
+router.delete("/savedRecipes/delete/?userID=:userID&recipeID=:recipeID", verifyToken, async (req, res) => {
     console.log('frog');
     try {
         const user = await UserModel.findById(req.params.userID);
