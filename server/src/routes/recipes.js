@@ -78,7 +78,7 @@ router.delete("/savedRecipes/delete", async (req, res) => {
         //     });
 
         // await user.save();
-        res.json({ recipeObject: recipe, userObject: user });
+        res.json(user);
     } catch (err) {
         res.json(err);
     }
