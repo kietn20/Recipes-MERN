@@ -69,29 +69,29 @@ router.get("/savedRecipes/:userID", async (req, res) => {
     }
 });
 
-router.delete("/savedRecipes/delete", async (req, res) => {
+router.delete("/savedRecipes/delete", verifyToken, async (req, res) => {
     try {
-        // const user = await UserModel.findById(req.params.userID);
-        // const recipe = await RecipeModel.findById(req.params.recipeID);
+        const recipe = await RecipeModel.findById(req.body.recipeID);
+        const user = await UserModel.findById(req.body.userID);
         // const user = await UserModel.findById('64b8b414728c545652098a55');
         // const recipe = await RecipeModel.findById('64a8df609956187032dcc2f4');
 
-        // const index = user.savedRecipes.indexOf(recipe);
-        // user.savedRecipes.splice(index, 1);
-
+        const index = user.savedRecipes.indexOf(recipe);
+        user.savedRecipes.splice({ ObjectId: '64a8cf5215d92ca66adbc26a' }, 1);
+        user.savedRecipes.pop();
         // const user = await UserModel.findById('64b8b414728c545652098a55');
         // const recipeToRemove = await RecipeModel.findById('64a8df609956187032dcc2f4');
 
-        const savedRecipes = await UserModel.find(
-            { _id: '64b8b414728c545652098a55' },
-            {
-                $pull: {
-                    ObjectId: { '64a8df609956187032dcc2f4': { $in: savedRecipes } }
-                }
-            });
+        // const savedRecipes = await UserModel.find(
+        //     { _id: '64b8b414728c545652098a55' },
+        //     {
+        //         $pull: {
+        //             ObjectId: { '64a8df609956187032dcc2f4': { $in: savedRecipes } }
+        //         }
+        //     });
 
         await user.save();
-        res.json({ savedRecipes });
+        res.json({ savedRecipes: user.savedRecipes });
     } catch (err) {
         res.json('frog2');
         res.json(err);
