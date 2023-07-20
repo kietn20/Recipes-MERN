@@ -3,16 +3,17 @@ import mongoose from "mongoose";
 import { RecipeModel } from "../models/Recipes.js";
 import { UserModel } from "../models/Users.js";
 import { verifyToken } from "./users.js";
+import { ObjectId } from "mongodb";
 
 const router = express.Router();
 
-router.get("", async (req, res) => {
-    try {
-        res.json({ hello: 'hello world' });
-    } catch (err) {
-        res.json(err)
-    }
-});
+// router.get("", async (req, res) => {
+//     try {
+//         res.json({ hello: 'hello world' });
+//     } catch (err) {
+//         res.json(err)
+//     }
+// });
 
 router.get("/", async (req, res) => {
     try {
@@ -68,17 +69,29 @@ router.get("/savedRecipes/:userID", async (req, res) => {
     }
 });
 
-router.post("/savedRecipes/delete", async (req, res) => {
+router.delete("/savedRecipes/delete", async (req, res) => {
     try {
         // const user = await UserModel.findById(req.params.userID);
         // const recipe = await RecipeModel.findById(req.params.recipeID);
-        const user = await UserModel.findById('64b8b414728c545652098a55');
-        const recipe = await RecipeModel.findById('64a8df609956187032dcc2f4');
+        // const user = await UserModel.findById('64b8b414728c545652098a55');
+        // const recipe = await RecipeModel.findById('64a8df609956187032dcc2f4');
 
-        const index = user.savedRecipes.indexOf(recipe);
-        user.savedRecipes.splice(index, 1);
+        // const index = user.savedRecipes.indexOf(recipe);
+        // user.savedRecipes.splice(index, 1);
+
+        // const user = await UserModel.findById('64b8b414728c545652098a55');
+        // const recipeToRemove = await RecipeModel.findById('64a8df609956187032dcc2f4');
+
+        const savedRecipes = await UserModel.find(
+            { _id: '64b8b414728c545652098a55' },
+            {
+                $pull: {
+                    ObjectId: { '64a8df609956187032dcc2f4': { $in: savedRecipes } }
+                }
+            });
+
         await user.save();
-        res.json({ savedRecipes: user.savedRecipes });
+        res.json({ savedRecipes });
     } catch (err) {
         res.json('frog2');
         res.json(err);
