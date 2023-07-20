@@ -63,9 +63,10 @@ router.get("/savedRecipes/:userID", async (req, res) => {
 
 router.delete("/savedRecipes/delete", async (req, res) => {
     try {
-        const recipeID = req.body.recipeID;
-        const recipe = await RecipeModel.findById(req.body.recipeID);
-        const user = await UserModel.findById(req.body.userID);
+        const recipe = req.body.recipeID;
+        const user = req.body.userID;
+        // const recipe = await RecipeModel.findById(req.body.recipeID);
+        // const user = await UserModel.findById(req.body.userID);
 
         // const index = user.savedRecipes.indexOf(recipe).toString();
         // user.savedRecipes.splice(index, 1);
@@ -78,9 +79,10 @@ router.delete("/savedRecipes/delete", async (req, res) => {
         //         }
         //     });
 
-        await UserModel.deleteOne({ _id: new ObjectId(recipeID) });
+        await UserModel.deleteOne({ _id: new ObjectId(recipe) });
+        const newArray = UserModel.findById({ _id: ObjectId(user) }).savedRecipes
         // await user.save();
-        res.json({ savedRecipes: user.savedRecipes });
+        res.json({ savedRecipes: newArray });
     } catch (err) {
         res.json(err);
     }
