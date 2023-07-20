@@ -65,9 +65,8 @@ router.delete("/savedRecipes/delete", async (req, res) => {
         const recipe = await RecipeModel.findById(req.body.recipeID);
         const user = await UserModel.findById(req.body.userID);
 
-        // const index = user.savedRecipes.indexOf(recipe);
-        // user.savedRecipes.splice({ ObjectId: '64a8cf5215d92ca66adbc26a' }, 1);
-        user.savedRecipes.pop();
+        const index = user.savedRecipes.indexOf(recipe);
+        user.savedRecipes.splice(index, 1);
 
         // const savedRecipes = await UserModel.find(
         //     { _id: '64b8b414728c545652098a55' },
@@ -77,8 +76,7 @@ router.delete("/savedRecipes/delete", async (req, res) => {
         //         }
         //     });
 
-        // await user.save();
-        res.console.log('frog');
+        await user.save();
         res.json({ savedRecipes: user.savedRecipes });
     } catch (err) {
         res.json(err);
