@@ -36,10 +36,9 @@ export const SavedRecipes = () => {
 			const response = await axios.delete(
 				`${APIurl}/recipes/savedRecipes/delete`,
 				{
-					recipeID,
-					userID,
-				},
-				{ headers: { authorization: cookies.access_token } }
+					recipeID: recipeID,
+					userID: userID,
+				}
 			);
 			console.log("response.data:" + response.data);
 			// setSavedRecipes(response.data.savedRecipes);

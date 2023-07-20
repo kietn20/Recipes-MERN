@@ -77,10 +77,9 @@ router.delete("/savedRecipes/delete", async (req, res) => {
         //         }
         //     });
 
-        await user.save();
-        res.json({ frog: 'frog' });
+        // await user.save();
+        res.json({ recipeObject: recipe, userObject: user });
     } catch (err) {
-        res.json('frog2');
         res.json(err);
     }
 });
