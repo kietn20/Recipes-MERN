@@ -31,8 +31,6 @@ export const SavedRecipes = () => {
 	const isRecipeSaved = (id) => savedRecipes.includes(id);
 
 	const removeSavedRecipe = async (recipeID) => {
-		console.log("userID:" + userID);
-		console.log("recipeID:" + recipeID);
 		try {
 			const response = await axios.delete(
 				`${APIurl}/recipes/savedRecipes/delete`,
