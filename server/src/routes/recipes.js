@@ -73,8 +73,6 @@ router.delete("/savedRecipes/delete", async (req, res) => {
     try {
         const recipe = await RecipeModel.findById(req.body.recipeID);
         const user = await UserModel.findById(req.body.userID);
-        // const user = await UserModel.findById('64b8b414728c545652098a55');
-        // const recipe = await RecipeModel.findById('64a8df609956187032dcc2f4');
 
         const index = user.savedRecipes.indexOf(recipe);
         user.savedRecipes.splice({ ObjectId: '64a8cf5215d92ca66adbc26a' }, 1);
