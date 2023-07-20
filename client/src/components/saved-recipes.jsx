@@ -37,7 +37,8 @@ export const SavedRecipes = () => {
 				{
 					recipeID,
 					userID,
-				}
+				},
+				{ headers: { authorization: cookies.access_token } }
 			);
 			setSavedRecipes(response.data.savedRecipes);
 		} catch (err) {
