@@ -39,14 +39,14 @@ router.put("/", verifyToken, async (req, res) => {
     }
 });
 
-// router.get("/savedRecipes/ids/:userID", async (req, res) => {
-//     try {
-//         const user = await UserModel.findById(req.params.userID);
-//         res.json({ savedRecipes: user?.savedRecipes });
-//     } catch (err) {
-//         console.log(err);
-//     }
-// });
+router.get("/savedRecipes/ids/:userID", async (req, res) => {
+    try {
+        const user = await UserModel.findById(req.params.userID);
+        res.json({ savedRecipes: user?.savedRecipes });
+    } catch (err) {
+        console.log(err);
+    }
+});
 
 router.get("/savedRecipes/:userID", async (req, res) => {
     try {
@@ -60,10 +60,11 @@ router.get("/savedRecipes/:userID", async (req, res) => {
     }
 });
 
-router.delete("/savedRecipes/ids/:userID", async (req, res) => {
+router.post("/savedRecipes/delete", async (req, res) => {
     try {
-        const user = await UserModel.findById(req.params.userID);
+        // const user = await UserModel.findById(req.params.userID);
         // const recipe = await RecipeModel.findById(req.params.recipeID);
+        const user = '64b8b414728c545652098a55';
         const recipe = '64a8df609956187032dcc2f4';
         await user.savedRecipes.delete(recipe);
         // const index = user.savedRecipes.indexOf(recipe);
