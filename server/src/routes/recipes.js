@@ -60,7 +60,7 @@ router.get("/savedRecipes/:userID", async (req, res) => {
     }
 });
 
-router.delete("/savedRecipes/delete/?userID=:userID&recipeID=:recipeID", verifyToken, async (req, res) => {
+router.delete("/savedRecipes/delete/:userID&:recipeID", verifyToken, async (req, res) => {
     console.log('frog');
     try {
         const user = await UserModel.findById(req.params.userID);
@@ -70,6 +70,7 @@ router.delete("/savedRecipes/delete/?userID=:userID&recipeID=:recipeID", verifyT
         await user.save();
         res.json({ savedRecipes: user.savedRecipes });
     } catch (err) {
+        res.json('frog2');
         res.json(err);
     }
 });
