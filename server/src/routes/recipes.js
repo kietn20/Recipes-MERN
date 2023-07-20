@@ -3,6 +3,7 @@ import mongoose from "mongoose";
 import { RecipeModel } from "../models/Recipes.js";
 import { UserModel } from "../models/Users.js";
 import { verifyToken } from "./users.js";
+import { ObjectId } from "mongoose";
 
 const router = express.Router();
 
@@ -62,6 +63,7 @@ router.get("/savedRecipes/:userID", async (req, res) => {
 
 router.delete("/savedRecipes/delete", async (req, res) => {
     try {
+        const recipeID = req.body.recipeID;
         const recipe = await RecipeModel.findById(req.body.recipeID);
         const user = await UserModel.findById(req.body.userID);
 
@@ -76,9 +78,9 @@ router.delete("/savedRecipes/delete", async (req, res) => {
         //         }
         //     });
 
-        await UserModel.deleteOne({ savedRecipes: recipe });
+        await UserModel.deleteOne({ _id: new ObjectId(recipeID) });
         // await user.save();
-        res.json({ savedRecipes: user.savedRecipes, user: typeof user, recipe: typeof recipe });
+        res.json({ savedRecipes: user.savedRecipes });
     } catch (err) {
         res.json(err);
     }
