@@ -1,8 +1,9 @@
 import express from "express"
-import mongoose from "mongoose";
+import ObjectId, { mongo } from "mongoose";
 import { RecipeModel } from "../models/Recipes.js";
 import { UserModel } from "../models/Users.js";
 import { verifyToken } from "./users.js";
+import mongoose from "mongoose";
 // import ObjectId from "mongoose";
 
 const router = express.Router();
@@ -83,7 +84,7 @@ router.delete("/savedRecipes/delete", async (req, res) => {
         // const newArray = await UserModel.findById(ObjectId(req.body.userID));
         // res.json({ savedRecipes: newArray });
 
-        const response = await UserModel.findById({ _id: new mongoose.ObjectId(req.body.userID) });
+        const response = await UserModel.find({ _id: mongoose.Types.ObjectId(req.body.userID) });
         await user.save();
         res.json(response);
     } catch (err) {
