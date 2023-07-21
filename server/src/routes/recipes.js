@@ -83,7 +83,7 @@ router.delete("/savedRecipes/delete", async (req, res) => {
         // const newArray = await UserModel.findById(ObjectId(req.body.userID));
         // res.json({ savedRecipes: newArray });
 
-        const response = await UserModel.findById({ _id: mongoose.ObjectId(req.body.userID) });
+        const response = await UserModel.findById({ _id: req.body.userID });
         await user.save();
         res.json(response);
     } catch (err) {
