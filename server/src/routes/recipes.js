@@ -62,30 +62,18 @@ router.get("/savedRecipes/:userID", async (req, res) => {
     }
 });
 
+
 router.delete("/savedRecipes/delete", async (req, res) => {
     try {
-        const recipe = req.body.recipeID;
-        const user = req.body.userID;
-        // const recipe = await RecipeModel.findById(req.body.recipeID);
-        // const user = await UserModel.findById(req.body.userID);
+        const recipeID = req.body.recipeID;
+        const userID = req.body.userID;
 
-        // const index = user.savedRecipes.indexOf(recipe).toString();
-        // user.savedRecipes.splice(index, 1);
+        await UserModel.updateOne({ _id: "64b8b414728c545652098a55" }, { $pull: { savedRecipes: "64a8a52df9d790a4c41eb82d" } });
+        const response = await UserModel.findById("64b8b414728c545652098a55");
 
-        // const savedRecipes = await UserModel.find(
-        //     { _id: '64b8b414728c545652098a55' },
-        //     {
-        //         $pull: {
-        //             ObjectId: { '64a8df609956187032dcc2f4': { $in: savedRecipes } }
-        //         }
-        //     });
 
-        // await UserModel.updateOne({ _id: user }, { $pull: { savedRecipes: ObjectId(req.body.recipeID) } });
-        // const newArray = await UserModel.findById(ObjectId(req.body.userID));
-        // res.json({ savedRecipes: newArray });
-
-        await UserModel.updateOne({ _id: req.body.userID }, { $pull: { savedRecipes: req.body.recipeID } });
-        const response = await UserModel.findById(req.body.userID);
+        // await UserModel.updateOne({ _id: userID }, { $pull: { savedRecipes: recipeID } });
+        // const response = await UserModel.findById(userID);
         res.json(response);
     } catch (err) {
         res.json(err);
@@ -104,6 +92,6 @@ router.delete("/savedRecipes/delete", async (req, res) => {
 //     console.log(response);
 // }
 
-// deleteTest();
+deleteTest();
 
 export { router as recipesRouter };
