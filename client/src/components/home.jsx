@@ -242,11 +242,13 @@ export const Home = () => {
 					<ul>
 						{recipes.slice(0, 6).map((recipe) => (
 							<li className="recipeItem" key={recipe._id}>
-								<h2 className="underline">
-									<a href="#">{recipe.name}</a>
-								</h2>
 								{isRecipeSaved(recipe._id) ? (
-									<BsBookmarkCheckFill className="recipeItem-filledButton" />
+									<div>
+										<h2 className="underline">
+											<a href="#">{recipe.name}</a>
+										</h2>
+										<BsBookmarkCheckFill className="recipeItem-filledButton" />
+									</div>
 								) : (
 									<h2>
 										<a href="#" className="underline">

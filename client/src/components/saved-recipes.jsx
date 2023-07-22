@@ -33,7 +33,6 @@ export const SavedRecipes = () => {
 
 	const removeSavedRecipe = async (recipeID) => {
 		try {
-			console.log("recipeID" + recipeID);
 			const response = await axios.delete(
 				`${APIurl}/recipes/savedRecipes/delete`,
 				{
@@ -41,9 +40,8 @@ export const SavedRecipes = () => {
 					userID: userID,
 				}
 			);
-			console.log(response);
-			console.log(response.data);
-			// setSavedRecipes(response.data.savedRecipes);
+			console.log(response.savedRecipes);
+			// setSavedRecipes(response.savedRecipes);
 		} catch (err) {
 			console.error(err);
 		}

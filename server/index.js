@@ -22,4 +22,6 @@ mongoose.connect(
     `mongodb+srv://${mongoUsername}:${mongoPassword}@recipes.gtceo5q.mongodb.net/recipes?retryWrites=true&w=majority`
 );
 
+
+
 app.listen(3001, () => console.log("SERVER STARTED"));
