@@ -6,8 +6,10 @@ import axios from "axios";
 import { APIurl } from "../App";
 import "./user-create-recipes.css";
 import { BsBookmark, BsBookmarkCheckFill } from "react-icons/bs";
+import ScaleLoader from "react-spinners/ScaleLoader";
 
 export const UserCreatedRecipes = () => {
+	const [loading, setLoading] = useState(false);
 	const [recipes, setRecipes] = useState([]);
 	const [savedRecipes, setSavedRecipes] = useState([]);
 	const [cookies, _] = useCookies(["access_token"]);
@@ -15,6 +17,10 @@ export const UserCreatedRecipes = () => {
 	const userID = useGetUserID();
 
 	useEffect(() => {
+		setLoading(true);
+		setTimeout(() => {
+			setLoading(false);
+		}, 8000);
 		const fetchRecipe = async () => {
 			try {
 				const response = await axios.get(`${APIurl}/recipes`);
@@ -64,36 +70,49 @@ export const UserCreatedRecipes = () => {
 			<Navbar />
 			<div className="usersRecipes">
 				<h1>User Created Recipes</h1>
-				<ul>
-					{recipes.map((recipe) => (
-						<li className="recipeItem" key={recipe._id}>
-							{isRecipeSaved(recipe._id) ? (
-								<div>
+				{loading ? (
+					<ScaleLoader
+						className="loader"
+						color={"#fc4400"}
+						loading={loading}
+						size={40}
+					/>
+				) : (
+					<ul>
+						{recipes.map((recipe) => (
+							<li className="recipeItem" key={recipe._id}>
+								{isRecipeSaved(recipe._id) ? (
+									<div>
+										<h2 className="underline">
+											<a href="#">{recipe.name}</a>
+										</h2>
+										<BsBookmarkCheckFill className="recipeItem-filledButton" />
+									</div>
+								) : (
 									<h2 className="underline">
 										<a href="#">{recipe.name}</a>
+										<button
+											className="recipeItem-emptyButton"
+											onClick={() =>
+												saveRecipe(recipe._id)
+											}
+											disabled={isRecipeSaved(recipe._id)}
+										>
+											<BsBookmark />
+										</button>
 									</h2>
-									<BsBookmarkCheckFill className="recipeItem-filledButton" />
+								)}
+								<div>
+									<p>{recipe.instructions}</p>
 								</div>
-							) : (
-								<h2 className="underline">
-									<a href="#">{recipe.name}</a>
-									<button
-										className="recipeItem-emptyButton"
-										onClick={() => saveRecipe(recipe._id)}
-										disabled={isRecipeSaved(recipe._id)}
-									>
-										<BsBookmark />
-									</button>
-								</h2>
-							)}
-							<div>
-								<p>{recipe.instructions}</p>
-							</div>
-							<img src={recipe.imageUrl} alt={recipe.name} />
-							<p>Cooking Time: {recipe.cookingTime} (minutes)</p>
-						</li>
-					))}
-				</ul>
+								<img src={recipe.imageUrl} alt={recipe.name} />
+								<p>
+									Cooking Time: {recipe.cookingTime} (minutes)
+								</p>
+							</li>
+						))}
+					</ul>
+				)}
 			</div>
 		</div>
 	);

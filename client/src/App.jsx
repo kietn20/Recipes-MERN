@@ -16,7 +16,7 @@ function App() {
 		<div className="App">
 			<Router>
 				<Routes>
-					<Route path="/" element={<Home />}></Route>
+					<Route path="/*" element={<Home />}></Route>
 					<Route path="/auth" element={<Auth />}></Route>
 					<Route path="/login" element={<Login />}></Route>
 					<Route path="/register" element={<Register />}></Route>
@@ -33,7 +33,7 @@ function App() {
 						element={<CreateRecipes />}
 					></Route>
 					<Route
-						path="/saved-recipes"
+						path="/saved-recipes*"
 						element={<SavedRecipes />}
 					></Route>
 				</Routes>

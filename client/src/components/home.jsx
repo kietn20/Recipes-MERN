@@ -13,6 +13,7 @@ import mainCourse from "../api/mainCourse.json";
 import desserts from "../api/dessert.json";
 import { Footer } from "./footer";
 import { BsBookmark, BsBookmarkCheckFill } from "react-icons/bs";
+import ScaleLoader from "react-spinners/ScaleLoader";
 
 const APIkey = import.meta.env.VITE_SPOONKEY;
 
@@ -22,6 +23,8 @@ const mainCourseRecipes = mainCourse.results;
 const dessertRecipes = desserts.results;
 
 export const Home = () => {
+	const [loading, setLoading] = useState(false);
+
 	const [recipes, setRecipes] = useState([]);
 	const [savedRecipes, setSavedRecipes] = useState([]);
 	const [cookies, _] = useCookies(["access_token"]);
@@ -29,6 +32,11 @@ export const Home = () => {
 	const userID = useGetUserID();
 
 	useEffect(() => {
+		setLoading(true);
+		setTimeout(() => {
+			setLoading(false);
+		}, 8000);
+
 		const fetchRecipe = async () => {
 			try {
 				const response = await axios.get(`${APIurl}/recipes`);
@@ -37,7 +45,6 @@ export const Home = () => {
 				console.err(err);
 			}
 		};
-
 		const fetchSavedRecipe = async () => {
 			try {
 				const response = await axios.get(
@@ -234,40 +241,55 @@ export const Home = () => {
 				</div>
 				<div className="usersRecipes">
 					<h1>User Created Recipes</h1>
-					<ul>
-						{recipes.slice(0, 6).map((recipe) => (
-							<li className="recipeItem" key={recipe._id}>
-								{isRecipeSaved(recipe._id) ? (
-									<h2 className="underline">
-										<a href="#">{recipe.name}</a>
-										<BsBookmarkCheckFill className="recipeItem-filledButton" />
-									</h2>
-								) : (
-									<h2>
-										<a href="#" className="underline">
-											{recipe.name}
-										</a>
-										<button
-											className="recipeItem-emptyButton"
-											onClick={() =>
-												saveRecipe(recipe._id)
-											}
-											disabled={isRecipeSaved(recipe._id)}
-										>
-											<BsBookmark />
-										</button>
-									</h2>
-								)}
-								<div>
-									<p>{recipe.instructions}</p>
-								</div>
-								<img src={recipe.imageUrl} alt={recipe.name} />
-								<p>
-									Cooking Time: {recipe.cookingTime} (minutes)
-								</p>
-							</li>
-						))}
-					</ul>
+					{loading ? (
+						<ScaleLoader
+							className="loader"
+							color={"#fc4400"}
+							loading={loading}
+							size={40}
+						/>
+					) : (
+						<ul>
+							{recipes.slice(0, 6).map((recipe) => (
+								<li className="recipeItem" key={recipe._id}>
+									{isRecipeSaved(recipe._id) ? (
+										<h2 className="underline">
+											<a href="#">{recipe.name}</a>
+											<BsBookmarkCheckFill className="recipeItem-filledButton" />
+										</h2>
+									) : (
+										<h2>
+											<a href="#" className="underline">
+												{recipe.name}
+											</a>
+											<button
+												className="recipeItem-emptyButton"
+												onClick={() =>
+													saveRecipe(recipe._id)
+												}
+												disabled={isRecipeSaved(
+													recipe._id
+												)}
+											>
+												<BsBookmark />
+											</button>
+										</h2>
+									)}
+									<div>
+										<p>{recipe.instructions}</p>
+									</div>
+									<img
+										src={recipe.imageUrl}
+										alt={recipe.name}
+									/>
+									<p>
+										Cooking Time: {recipe.cookingTime}{" "}
+										(minutes)
+									</p>
+								</li>
+							))}
+						</ul>
+					)}
 				</div>
 				<Footer />
 			</div>
