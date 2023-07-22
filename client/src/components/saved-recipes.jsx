@@ -40,7 +40,7 @@ export const SavedRecipes = () => {
 					userID: userID,
 				}
 			);
-			console.log(response.data);
+			console.log(response);
 			// setSavedRecipes(response.savedRecipes);
 		} catch (err) {
 			console.error(err);
