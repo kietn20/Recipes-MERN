@@ -35,7 +35,6 @@ export const Home = () => {
 				setRecipes(response.data);
 			} catch (err) {
 				console.err(err);
-				console.err("useEffect error");
 			}
 		};
 
@@ -47,7 +46,6 @@ export const Home = () => {
 				setSavedRecipes(response.data.savedRecipes);
 			} catch (err) {
 				console.err(err);
-				console.err("fetchSavedRecipe error");
 			}
 		};
 
@@ -65,12 +63,9 @@ export const Home = () => {
 				},
 				{ headers: { authorization: cookies.access_token } }
 			);
-			console.log(response);
-			console.log(response.data);
 			setSavedRecipes(response.data.savedRecipes);
 		} catch (err) {
 			console.err(err);
-			console.err("!!!!!!!!!!!!!!!saveRecipe error");
 		}
 	};
 
@@ -137,9 +132,9 @@ export const Home = () => {
 						</div>
 					</div>
 				</div>
-				<div className="breakfast">
+				<div className="six-recipes-section">
 					<h1 className="title">Breakfast</h1>
-					<div className="breakfast-display">
+					<div className="six-recipes-section-display">
 						{Object.keys(breakfastRecipes.slice(0, 6)).map(
 							(key, i) => (
 								<a
@@ -147,12 +142,12 @@ export const Home = () => {
 									key={i}
 									target="_blank"
 								>
-									<div className="breakfast-item">
+									<div className="six-recipes-section-item">
 										<img
 											src={breakfastRecipes[key].image}
 											alt={breakfastRecipes[key].title}
 										/>
-										<div className="breakfast-description">
+										<div className="six-recipes-section-description">
 											<h4>
 												{breakfastRecipes[key].title}
 											</h4>
@@ -171,9 +166,9 @@ export const Home = () => {
 						)}
 					</div>
 				</div>
-				<div className="breakfast">
+				<div className="six-recipes-section">
 					<h1 className="title">Meals</h1>
-					<div className="breakfast-display">
+					<div className="six-recipes-section-display">
 						{Object.keys(mainCourseRecipes.slice(0, 6)).map(
 							(key, i) => (
 								<a
@@ -181,12 +176,12 @@ export const Home = () => {
 									key={i}
 									target="_blank"
 								>
-									<div className="breakfast-item">
+									<div className="six-recipes-section-item">
 										<img
 											src={mainCourseRecipes[key].image}
 											alt={mainCourseRecipes[key].title}
 										/>
-										<div className="breakfast-description">
+										<div className="six-recipes-section-description">
 											<h4>
 												{mainCourseRecipes[key].title}
 											</h4>
@@ -205,9 +200,9 @@ export const Home = () => {
 						)}
 					</div>
 				</div>
-				<div className="breakfast">
+				<div className="six-recipes-section">
 					<h1 className="title">Desserts</h1>
-					<div className="breakfast-display">
+					<div className="six-recipes-section-display">
 						{Object.keys(dessertRecipes.slice(0, 6)).map(
 							(key, i) => (
 								<a
@@ -215,12 +210,12 @@ export const Home = () => {
 									key={i}
 									target="_blank"
 								>
-									<div className="breakfast-item">
+									<div className="six-recipes-section-item">
 										<img
 											src={dessertRecipes[key].image}
 											alt={dessertRecipes[key].title}
 										/>
-										<div className="breakfast-description">
+										<div className="six-recipes-section-description">
 											<h4>{dessertRecipes[key].title}</h4>
 											<h5>
 												Ready in&nbsp;
@@ -243,12 +238,10 @@ export const Home = () => {
 						{recipes.slice(0, 6).map((recipe) => (
 							<li className="recipeItem" key={recipe._id}>
 								{isRecipeSaved(recipe._id) ? (
-									<div>
-										<h2 className="underline">
-											<a href="#">{recipe.name}</a>
-										</h2>
+									<h2 className="underline">
+										<a href="#">{recipe.name}</a>
 										<BsBookmarkCheckFill className="recipeItem-filledButton" />
-									</div>
+									</h2>
 								) : (
 									<h2>
 										<a href="#" className="underline">
