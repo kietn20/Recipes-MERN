@@ -74,7 +74,7 @@ router.delete("/savedRecipes/delete", async (req, res) => {
 
         // await UserModel.updateOne({ _id: userID }, { $pull: { savedRecipes: recipeID } });
         // const response = await UserModel.findById(userID);
-        res.response;
+        return response
     } catch (err) {
         res.json(err);
     }
