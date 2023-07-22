@@ -32,21 +32,18 @@ export const SavedRecipes = () => {
 	const isRecipeSaved = (id) => savedRecipes.includes(id);
 
 	const removeSavedRecipe = async (recipeID) => {
+		console.log("userID: " + userID);
 		try {
 			const response = await axios.delete(
-				`${APIurl}/recipes/savedRecipes/delete`,
-				{
-					recipeID: recipeID,
-					userID: userID,
-				}
+				`${APIurl}/recipes/savedRecipes/delete/${userID}/${recipeID}`
 			);
-			console.log(response);
+			console.log(response.data);
 			// setSavedRecipes(response.savedRecipes);
 		} catch (err) {
 			console.error(err);
 		}
 	};
-	
+
 	return (
 		<div className="savedRecipes-container">
 			<Navbar />

@@ -63,21 +63,22 @@ router.get("/savedRecipes/:userID", async (req, res) => {
 });
 
 
-router.delete("/savedRecipes/delete", async (req, res) => {
+router.delete("/savedRecipes/delete/:userID/:recipeID", async (req, res) => {
     try {
         // const clientRecipeID = req.body.recipeID.toString();
         // const clientUserID = req.body.userID.toString();
 
         // await UserModel.updateOne({ _id: clientUserID }, { $pull: { savedRecipes: clientRecipeID } });
         // // const response = await UserModel.findById(clientUserID);
-        const user = await UserModel.findById(req.body.userID);
+        // const user = await UserModel.findById(req.body.userID);
+        // const savedRecipes = await RecipeModel.find({
+        //     _id: { $in: user.savedRecipes },
+        // });
+
+        const user = await UserModel.findById(req.params.userID);
         const savedRecipes = await RecipeModel.find({
             _id: { $in: user.savedRecipes },
         });
-
-
-        // await UserModel.updateOne({ _id: userID }, { $pull: { savedRecipes: recipeID } });
-        // const response = await UserModel.findById(userID);
         res.json({ savedRecipes });
     } catch (err) {
         res.json(err);
