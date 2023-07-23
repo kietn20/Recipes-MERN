@@ -35,7 +35,7 @@ export const Home = () => {
 		setLoading(true);
 		setTimeout(() => {
 			setLoading(false);
-		}, 8000);
+		}, 0);
 
 		const fetchRecipe = async () => {
 			try {

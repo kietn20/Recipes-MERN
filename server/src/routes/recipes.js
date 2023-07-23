@@ -62,18 +62,8 @@ router.get("/savedRecipes/:userID", async (req, res) => {
     }
 });
 
-
 router.delete("/savedRecipes/delete/:userID/:recipeID", async (req, res) => {
     try {
-        // const clientRecipeID = req.body.recipeID.toString();
-        // const clientUserID = req.body.userID.toString();
-
-        // // const response = await UserModel.findById(clientUserID);
-        // const user = await UserModel.findById(req.body.userID);
-        // const savedRecipes = await RecipeModel.find({
-        //     _id: { $in: user.savedRecipes },
-        // });
-
         await UserModel.updateOne({ _id: req.params.userID }, { $pull: { savedRecipes: req.params.recipeID } });
         const user = await UserModel.findById(req.params.userID);
         const savedRecipes = await RecipeModel.find({
@@ -84,19 +74,5 @@ router.delete("/savedRecipes/delete/:userID/:recipeID", async (req, res) => {
         res.json(err);
     }
 });
-
-// const deleteTest = async () => {
-//     // const user = await UserModel.findById('64b8b414728c545652098a55');
-//     // await UserModel.updateOne({ _id: '64b8b414728c545652098a55' }, { $pull: { savedRecipes: '64a8cf5215d92ca66adbc26a' } });
-//     // await user.save();
-//     // const response = await UserModel.findById('64b8b414728c545652098a55');
-//     // console.log(response.savedRecipes[0]);
-
-//     await UserModel.updateOne({ _id: "64b8b414728c545652098a55" }, { $pull: { savedRecipes: "64a8cf5215d92ca66adbc26a" } });
-//     const response = await UserModel.findById("64b8b414728c545652098a55");
-//     console.log(response);
-// }
-
-// deleteTest();
 
 export { router as recipesRouter };
