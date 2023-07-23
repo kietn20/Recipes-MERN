@@ -1,5 +1,10 @@
 import "./App.css";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import {
+	BrowserRouter as Router,
+	Routes,
+	Route,
+	Navigate,
+} from "react-router-dom";
 import { Home } from "./components/home";
 import { Auth } from "./components/auth";
 import { Login } from "./components/login";
@@ -36,6 +41,7 @@ function App() {
 						path="/saved-recipes"
 						element={<SavedRecipes />}
 					></Route>
+					<Route path="/*" element={<Navigate to="/" />}></Route>
 				</Routes>
 			</Router>
 		</div>
