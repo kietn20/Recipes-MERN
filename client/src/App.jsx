@@ -4,6 +4,7 @@ import {
 	Routes,
 	Route,
 	Navigate,
+	HashRouter,
 } from "react-router-dom";
 import { Home } from "./components/home";
 import { Auth } from "./components/auth";
@@ -19,7 +20,7 @@ export const APIurl = "https://recipe-mern-server.onrender.com";
 function App() {
 	return (
 		<div className="App">
-			<Router>
+			<HashRouter>
 				<Routes>
 					<Route path="/*" element={<Home />}></Route>
 					<Route path="/auth" element={<Auth />}></Route>
@@ -43,7 +44,7 @@ function App() {
 					></Route>
 					<Route path="/*" element={<Navigate to="/" />}></Route>
 				</Routes>
-			</Router>
+			</HashRouter>
 		</div>
 	);
 }
