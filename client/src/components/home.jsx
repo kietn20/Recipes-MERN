@@ -23,11 +23,10 @@ const mainCourseRecipes = mainCourse.results;
 const dessertRecipes = desserts.results;
 
 export const Home = () => {
-	const [loading, setLoading] = useState(false);
-
 	const [recipes, setRecipes] = useState([]);
 	const [savedRecipes, setSavedRecipes] = useState([]);
 	const [cookies, _] = useCookies(["access_token"]);
+	const [loading, setLoading] = useState(false);
 
 	const userID = useGetUserID();
 
