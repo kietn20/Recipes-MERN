@@ -32,9 +32,9 @@ export const Home = () => {
 
 	useEffect(() => {
 		setLoading(true);
-		setTimeout(() => {
+		setInterval(() => {
 			setLoading(false);
-		}, 0);
+		}, 33000);
 
 		const fetchRecipe = async () => {
 			try {
