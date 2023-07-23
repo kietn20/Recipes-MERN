@@ -14,7 +14,7 @@ export const APIurl = "https://recipe-mern-server.onrender.com";
 function App() {
 	return (
 		<div className="App">
-			<Router basename="/Recipes-MERN">
+			<Router basename="/">
 				<Routes>
 					<Route path="/*" element={<Home />}></Route>
 					<Route path="/auth" element={<Auth />}></Route>
@@ -33,7 +33,7 @@ function App() {
 						element={<CreateRecipes />}
 					></Route>
 					<Route
-						path="/saved-recipes*"
+						path="/saved-recipes"
 						element={<SavedRecipes />}
 					></Route>
 				</Routes>
