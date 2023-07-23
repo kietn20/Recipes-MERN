@@ -18,9 +18,9 @@ export const UserCreatedRecipes = () => {
 
 	useEffect(() => {
 		setLoading(true);
-		setTimeout(() => {
+		setInterval(() => {
 			setLoading(false);
-		}, 8000);
+		}, 20000);
 		const fetchRecipe = async () => {
 			try {
 				const response = await axios.get(`${APIurl}/recipes`);
