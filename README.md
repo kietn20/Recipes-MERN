@@ -10,11 +10,15 @@ A recipe web application built with the MERN stack:
     R -  React.js (Frontend Framework)
     N - Node.js (Run-time environment for creating server-side web applications)
 
+Frontend: An interactive and responsive web application that relies on Spoonacular's food API for fetch recipes
+
+Backend: RESTful API that utilized CRUD operations for configuring data in MongoDB database. Can fetch data with URI HTTP requests. 
+
 ## Getting Started
 
 ### Dependencies
 
-#### Frontend/Client
+#### Frontend/Client ---
 
 dependencies: 
 * @emailjs/browser
@@ -38,9 +42,9 @@ devDependencies
 * vite
 
 
-#### Backend/Server
+#### Backend/Server ---
 
-dependencies
+dependencies:
 * bcrypt
 * cors
 * dotenv
@@ -48,17 +52,21 @@ dependencies
 * jsonwebtoken
 * mongodb
 * mongoose
-devDependencies
+
+devDependencies:
 * nodemon
 
 ### Installing
 
 * Download repository
+* 
 
 ### Executing program
 
 * Create a Mongodb connection/database
+* Use [Spoonacular](https://spoonacular.com/food-api) for fetching recipes APIs (Various pricing plans + rate limit) 
 * Make Models for Users and Recipes
+* Use axios for HTTP requests to backend API
 * Add, commit, and push to Github for deployment
 
 ### Using Vite
