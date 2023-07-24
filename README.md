@@ -20,7 +20,8 @@ Backend: RESTful API that utilized CRUD operations for configuring data in Mongo
 
 ### Dependencies
 
-#### Frontend/Client ---
+----------------------------------------------------------------------------
+#### Frontend/Client
 
 dependencies: 
 * @emailjs/browser
@@ -43,8 +44,8 @@ devDependencies
 * eslint-plugin-react-refresh
 * vite
 
-
-#### Backend/Server ---
+----------------------------------------------------------------------------
+#### Backend/Server
 
 dependencies:
 * bcrypt
