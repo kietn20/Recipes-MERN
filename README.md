@@ -17,7 +17,6 @@ Backend: RESTful API that utilized CRUD operations for configuring data in Mongo
 # Demo: https://cookedrecipes.vercel.app/
 
 ## Getting Started
-
 ### Dependencies
 
 ----------------------------------------------------------------------------
@@ -62,7 +61,6 @@ devDependencies:
 ### Installing
 
 * Download repository
-* 
 
 ### Executing program
 
