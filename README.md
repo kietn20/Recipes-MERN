@@ -5,10 +5,10 @@ Welcome to "Cooked" - a culinary haven where flavors come to life! At Cooked, we
 ## Description
 
 A recipe web application built with the MERN stack: 
-    M - MongoDB (Database)
-    E - Express (Framework for building RESTful APIs for Node.js)
-    R -  React.js (Frontend Framework)
-    N - Node.js (Run-time environment for creating server-side web applications)
+* M - MongoDB (Database)
+* E - Express (Framework for building RESTful APIs for Node.js)
+* R -  React.js (Frontend Framework)
+* N - Node.js (Run-time environment for creating server-side web applications)
 
 Frontend: An interactive and responsive web application that relies on Spoonacular's food API for fetch recipes
 
