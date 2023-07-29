@@ -20,52 +20,45 @@
 }
 
 .register-form {
-	/* background-color: rgb(228, 255, 228); */
 	display: flex;
 	flex-direction: column;
 	justify-content: start;
 	align-items: center;
-	/* background-color: white; */
-	/* border-radius: 5px; */
-	/* box-shadow: 0 1px 7px rgba(0, 0, 0, 0.3); */
 	margin: auto;
 	font-family: "Libre Baskerville", serif;
 	font-weight: 700;
-    width: 50vw;
+	width: 50vw;
 	height: 100vh;
-    position: relative;
+	position: relative;
 }
 
 .register-form form {
-    margin: auto;
+	margin: auto;
 }
 
 .register-form img {
-    /* left: 30px; */
-    align-items: start;
-    /* vertical-align: top; */
-    width: 100px;
-    /* border: 1px red solid; */
-    padding-top: 20px;
+	align-items: start;
+	width: 100px;
+	padding-top: 20px;
 }
 
 .register-form form h1 {
 	font-size: 3rem;
-    text-align: center;
+	text-align: center;
 }
 
 .form-group {
-    font-weight: 900;
-    font-size: 1rem;
-    display: flex;
-    flex-direction: column;
+	font-weight: 900;
+	font-size: 1rem;
+	display: flex;
+	flex-direction: column;
 }
 
 .form-group input {
-    height: 30px;
-    width: 400px;
-    border: 2px solid rgb(11, 4, 66);
-    margin-bottom: 1.5rem;
+	height: 30px;
+	width: 400px;
+	border: 2px solid rgb(11, 4, 66);
+	margin-bottom: 1.5rem;
 }
 
 /* .form-group input:: {
@@ -73,13 +66,13 @@
 } */
 
 .register-form form button {
-    display: flex;
-    margin: auto;
-    /* padding: 10px; */
-    font-weight: 700;
-    font-style: italic;
-    border: transparent;
-    /* border-radius: 10px; */
-    visibility: none;
-    background-color: white;
+	display: flex;
+	margin: auto;
+	/* padding: 10px; */
+	font-weight: 700;
+	font-style: italic;
+	border: transparent;
+	/* border-radius: 10px; */
+	visibility: none;
+	background-color: white;
 }
