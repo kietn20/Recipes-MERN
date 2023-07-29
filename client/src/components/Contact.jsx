@@ -57,3 +57,9 @@ export default function Contact() {
 		</div>
 	);
 }
+
+
+* M - MongoDB (Database)
+* E - Express (Framework for building RESTful APIs for Node.js)
+* R -  React.js (Frontend Framework)
+* N - Node.js (Run-time environment for creating server-side web applications)

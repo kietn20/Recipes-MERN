@@ -18,6 +18,10 @@ app.use(cors());
 app.use("/auth", userRouter)
 app.use("/recipes", recipesRouter)
 
+app.get("/", (req, res) => {
+    res.json({ test: true });
+})
+
 mongoose.connect(
     `mongodb+srv://${mongoUsername}:${mongoPassword}@recipes.gtceo5q.mongodb.net/recipes?retryWrites=true&w=majority`
 );
